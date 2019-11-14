@@ -4,10 +4,11 @@
 2. Entrar en la ruta del proyecto
 3. Cambiar el nombre del archivo **config.js.example** (ubicado dentro del directorio **public**) a **config.js**.
 4. Asignar el valor a las variables de configuración en el archivo de config.js
-5. Instalar los paquetes necesarios ejecutando: ```yarn``` o ```yarn install```
+5. Instalar los paquetes necesarios ejecutando: `yarn` o `yarn install`
 6. Para inicializar el servidor:
-```yarn start```
-------------
+   `yarn start`
+
+---
 
 ## Configuración
 
@@ -17,6 +18,8 @@ var config = {
   REACT_APP_TIENDA: "",
   // Corresponde al identificador de la app desarrollada por redsis para azure insight
   REACT_APP_CODAPP: "1",
+  // Corresponde a la URL base
+  REACT_APP_ENDPOINT: "",
   // ENDPOINT de consulta
   REACT_APP_URL_CONSULTAR: "",
   // ENDPOINT de actualizar
@@ -42,7 +45,7 @@ var config = {
 };
 ```
 
-------------
+---
 
 ## Realizar compilación
 
@@ -53,11 +56,10 @@ yard build
 ```
 
 2. Copiar los archivos generados dentro de la carpeta **build** a la POS
-------------
 
+---
 
 ## Gestion de paquetes
-
 
 Para instalar paquete siempre usar la herramienta yarn.
 

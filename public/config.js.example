@@ -3,6 +3,8 @@ var config = {
   REACT_APP_TIENDA: "",
   // Corresponde al identificador de la app desarrollada por redsis para azure insight
   REACT_APP_CODAPP: "1",
+  // Corresponde a la URL base
+  REACT_APP_ENDPOINT: "",
   // ENDPOINT de consulta
   REACT_APP_URL_CONSULTAR: "",
   // ENDPOINT de actualizar
