@@ -66,3 +66,29 @@ Para instalar paquete siempre usar la herramienta yarn.
 ```
 yard add nombre_paquete
 ```
+
+---
+## Biblioteca de terceros
+
+1. HTTP Client: 
+> [Axios](https://github.com/axios/axios)
+
+2. Framework CSS:
+> [ReactStrap](https://reactstrap.github.io/)
+
+3. Alertas y Modal:
+> [sweetalert2](https://sweetalert2.github.io/)
+
+4. Routing:
+> [react-router-dom](https://reacttraining.com/react-router/web/guides/quick-start)
+
+> [prop-types](https://es.reactjs.org/docs/typechecking-with-proptypes.html)
+
+5. Teclado:
+> [react-simple-keyboard](https://franciscohodge.com/projects/simple-keyboard/demo-showcase/)
+
+> [simple-keyboard-layouts](https://franciscohodge.com/projects/simple-keyboard/getting-started/)
+
+6. Pad Firma
+> [react-signature-pad-wrapper](https://github.com/szimek/signature_pad)
+
