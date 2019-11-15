@@ -1,0 +1,5607 @@
+﻿[
+	{
+		"IdMpio": "0",
+		"IdDpto": "0",
+		"NomMpio": "Seleccione... "
+	},
+	{
+		"IdMpio": "05002",
+		"IdDpto": "05",
+		"NomMpio": "ABEJORRAL "
+	},
+	{
+		"IdMpio": "54003",
+		"IdDpto": "54",
+		"NomMpio": "ABREGO "
+	},
+	{
+		"IdMpio": "05004",
+		"IdDpto": "05",
+		"NomMpio": "ABRIAQUI "
+	},
+	{
+		"IdMpio": "50006",
+		"IdDpto": "50",
+		"NomMpio": "ACACIAS "
+	},
+	{
+		"IdMpio": "27006",
+		"IdDpto": "27",
+		"NomMpio": "ACANDI "
+	},
+	{
+		"IdMpio": "41006",
+		"IdDpto": "41",
+		"NomMpio": "ACEVEDO "
+	},
+	{
+		"IdMpio": "13006",
+		"IdDpto": "13",
+		"NomMpio": "ACHI "
+	},
+	{
+		"IdMpio": "41013",
+		"IdDpto": "41",
+		"NomMpio": "AGRADO "
+	},
+	{
+		"IdMpio": "25001",
+		"IdDpto": "25",
+		"NomMpio": "AGUA DE DIOS "
+	},
+	{
+		"IdMpio": "20011",
+		"IdDpto": "20",
+		"NomMpio": "AGUACHICA "
+	},
+	{
+		"IdMpio": "68013",
+		"IdDpto": "68",
+		"NomMpio": "AGUADA "
+	},
+	{
+		"IdMpio": "17013",
+		"IdDpto": "17",
+		"NomMpio": "AGUADAS "
+	},
+	{
+		"IdMpio": "85010",
+		"IdDpto": "85",
+		"NomMpio": "AGUAZUL "
+	},
+	{
+		"IdMpio": "20013",
+		"IdDpto": "20",
+		"NomMpio": "AGUSTIN CODAZZI "
+	},
+	{
+		"IdMpio": "41016",
+		"IdDpto": "41",
+		"NomMpio": "AIPE "
+	},
+	{
+		"IdMpio": "25019",
+		"IdDpto": "25",
+		"NomMpio": "ALBAN "
+	},
+	{
+		"IdMpio": "52019",
+		"IdDpto": "52",
+		"NomMpio": "ALBAN "
+	},
+	{
+		"IdMpio": "18029",
+		"IdDpto": "18",
+		"NomMpio": "ALBANIA "
+	},
+	{
+		"IdMpio": "44035",
+		"IdDpto": "44",
+		"NomMpio": "ALBANIA "
+	},
+	{
+		"IdMpio": "68020",
+		"IdDpto": "68",
+		"NomMpio": "ALBANIA "
+	},
+	{
+		"IdMpio": "76020",
+		"IdDpto": "76",
+		"NomMpio": "ALCALA "
+	},
+	{
+		"IdMpio": "52022",
+		"IdDpto": "52",
+		"NomMpio": "ALDANA "
+	},
+	{
+		"IdMpio": "05021",
+		"IdDpto": "05",
+		"NomMpio": "ALEJANDRIA "
+	},
+	{
+		"IdMpio": "47030",
+		"IdDpto": "47",
+		"NomMpio": "ALGARROBO "
+	},
+	{
+		"IdMpio": "41020",
+		"IdDpto": "41",
+		"NomMpio": "ALGECIRAS "
+	},
+	{
+		"IdMpio": "19022",
+		"IdDpto": "19",
+		"NomMpio": "ALMAGUER "
+	},
+	{
+		"IdMpio": "15022",
+		"IdDpto": "15",
+		"NomMpio": "ALMEIDA "
+	},
+	{
+		"IdMpio": "73024",
+		"IdDpto": "73",
+		"NomMpio": "ALPUJARRA "
+	},
+	{
+		"IdMpio": "41026",
+		"IdDpto": "41",
+		"NomMpio": "ALTAMIRA "
+	},
+	{
+		"IdMpio": "27025",
+		"IdDpto": "27",
+		"NomMpio": "ALTO BAUDO "
+	},
+	{
+		"IdMpio": "13030",
+		"IdDpto": "13",
+		"NomMpio": "ALTOS DEL ROSARIO "
+	},
+	{
+		"IdMpio": "73026",
+		"IdDpto": "73",
+		"NomMpio": "ALVARADO "
+	},
+	{
+		"IdMpio": "05030",
+		"IdDpto": "05",
+		"NomMpio": "AMAGA "
+	},
+	{
+		"IdMpio": "05031",
+		"IdDpto": "05",
+		"NomMpio": "AMALFI "
+	},
+	{
+		"IdMpio": "73030",
+		"IdDpto": "73",
+		"NomMpio": "AMBALEMA "
+	},
+	{
+		"IdMpio": "25035",
+		"IdDpto": "25",
+		"NomMpio": "ANAPOIMA "
+	},
+	{
+		"IdMpio": "52036",
+		"IdDpto": "52",
+		"NomMpio": "ANCUYA "
+	},
+	{
+		"IdMpio": "76036",
+		"IdDpto": "76",
+		"NomMpio": "ANDALUCIA "
+	},
+	{
+		"IdMpio": "05034",
+		"IdDpto": "05",
+		"NomMpio": "ANDES "
+	},
+	{
+		"IdMpio": "05036",
+		"IdDpto": "05",
+		"NomMpio": "ANGELOPOLIS "
+	},
+	{
+		"IdMpio": "05038",
+		"IdDpto": "05",
+		"NomMpio": "ANGOSTURA "
+	},
+	{
+		"IdMpio": "25040",
+		"IdDpto": "25",
+		"NomMpio": "ANOLAIMA "
+	},
+	{
+		"IdMpio": "05040",
+		"IdDpto": "05",
+		"NomMpio": "ANORI "
+	},
+	{
+		"IdMpio": "17042",
+		"IdDpto": "17",
+		"NomMpio": "ANSERMA "
+	},
+	{
+		"IdMpio": "76041",
+		"IdDpto": "76",
+		"NomMpio": "ANSERMANUEVO "
+	},
+	{
+		"IdMpio": "05044",
+		"IdDpto": "05",
+		"NomMpio": "ANZA "
+	},
+	{
+		"IdMpio": "73043",
+		"IdDpto": "73",
+		"NomMpio": "ANZOATEGUI "
+	},
+	{
+		"IdMpio": "05045",
+		"IdDpto": "05",
+		"NomMpio": "APARTADO "
+	},
+	{
+		"IdMpio": "66045",
+		"IdDpto": "66",
+		"NomMpio": "APIA "
+	},
+	{
+		"IdMpio": "25599",
+		"IdDpto": "25",
+		"NomMpio": "APULO "
+	},
+	{
+		"IdMpio": "15047",
+		"IdDpto": "15",
+		"NomMpio": "AQUITANIA "
+	},
+	{
+		"IdMpio": "47053",
+		"IdDpto": "47",
+		"NomMpio": "ARACATACA "
+	},
+	{
+		"IdMpio": "17050",
+		"IdDpto": "17",
+		"NomMpio": "ARANZAZU "
+	},
+	{
+		"IdMpio": "68051",
+		"IdDpto": "68",
+		"NomMpio": "ARATOCA "
+	},
+	{
+		"IdMpio": "81001",
+		"IdDpto": "81",
+		"NomMpio": "ARAUCA "
+	},
+	{
+		"IdMpio": "81065",
+		"IdDpto": "81",
+		"NomMpio": "ARAUQUITA "
+	},
+	{
+		"IdMpio": "25053",
+		"IdDpto": "25",
+		"NomMpio": "ARBELAEZ "
+	},
+	{
+		"IdMpio": "52051",
+		"IdDpto": "52",
+		"NomMpio": "ARBOLEDA "
+	},
+	{
+		"IdMpio": "54051",
+		"IdDpto": "54",
+		"NomMpio": "ARBOLEDAS "
+	},
+	{
+		"IdMpio": "05051",
+		"IdDpto": "05",
+		"NomMpio": "ARBOLETES "
+	},
+	{
+		"IdMpio": "15051",
+		"IdDpto": "15",
+		"NomMpio": "ARCABUCO "
+	},
+	{
+		"IdMpio": "13042",
+		"IdDpto": "13",
+		"NomMpio": "ARENAL "
+	},
+	{
+		"IdMpio": "05055",
+		"IdDpto": "05",
+		"NomMpio": "ARGELIA "
+	},
+	{
+		"IdMpio": "19050",
+		"IdDpto": "19",
+		"NomMpio": "ARGELIA "
+	},
+	{
+		"IdMpio": "76054",
+		"IdDpto": "76",
+		"NomMpio": "ARGELIA "
+	},
+	{
+		"IdMpio": "47058",
+		"IdDpto": "47",
+		"NomMpio": "ARIGUANI "
+	},
+	{
+		"IdMpio": "13052",
+		"IdDpto": "13",
+		"NomMpio": "ARJONA "
+	},
+	{
+		"IdMpio": "05059",
+		"IdDpto": "05",
+		"NomMpio": "ARMENIA "
+	},
+	{
+		"IdMpio": "63001",
+		"IdDpto": "63",
+		"NomMpio": "ARMENIA "
+	},
+	{
+		"IdMpio": "73055",
+		"IdDpto": "73",
+		"NomMpio": "ARMERO "
+	},
+	{
+		"IdMpio": "13062",
+		"IdDpto": "13",
+		"NomMpio": "ARROYOHONDO "
+	},
+	{
+		"IdMpio": "20032",
+		"IdDpto": "20",
+		"NomMpio": "ASTREA "
+	},
+	{
+		"IdMpio": "73067",
+		"IdDpto": "73",
+		"NomMpio": "ATACO "
+	},
+	{
+		"IdMpio": "27050",
+		"IdDpto": "27",
+		"NomMpio": "ATRATO "
+	},
+	{
+		"IdMpio": "23068",
+		"IdDpto": "23",
+		"NomMpio": "AYAPEL "
+	},
+	{
+		"IdMpio": "27073",
+		"IdDpto": "27",
+		"NomMpio": "BAGADO "
+	},
+	{
+		"IdMpio": "27075",
+		"IdDpto": "27",
+		"NomMpio": "BAHIA SOLANO "
+	},
+	{
+		"IdMpio": "27077",
+		"IdDpto": "27",
+		"NomMpio": "BAJO BAUDO "
+	},
+	{
+		"IdMpio": "19075",
+		"IdDpto": "19",
+		"NomMpio": "BALBOA "
+	},
+	{
+		"IdMpio": "66075",
+		"IdDpto": "66",
+		"NomMpio": "BALBOA "
+	},
+	{
+		"IdMpio": "08078",
+		"IdDpto": "08",
+		"NomMpio": "BARANOA "
+	},
+	{
+		"IdMpio": "41078",
+		"IdDpto": "41",
+		"NomMpio": "BARAYA "
+	},
+	{
+		"IdMpio": "52079",
+		"IdDpto": "52",
+		"NomMpio": "BARBACOAS "
+	},
+	{
+		"IdMpio": "05079",
+		"IdDpto": "05",
+		"NomMpio": "BARBOSA  "
+	},
+	{
+		"IdMpio": "68077",
+		"IdDpto": "68",
+		"NomMpio": "BARBOSA "
+	},
+	{
+		"IdMpio": "68079",
+		"IdDpto": "68",
+		"NomMpio": "BARICHARA "
+	},
+	{
+		"IdMpio": "50110",
+		"IdDpto": "50",
+		"NomMpio": "BARRANCA DE UPIA "
+	},
+	{
+		"IdMpio": "68081",
+		"IdDpto": "68",
+		"NomMpio": "BARRANCABERMEJA "
+	},
+	{
+		"IdMpio": "44078",
+		"IdDpto": "44",
+		"NomMpio": "BARRANCAS "
+	},
+	{
+		"IdMpio": "13074",
+		"IdDpto": "13",
+		"NomMpio": "BARRANCO DE LOBA "
+	},
+	{
+		"IdMpio": "94343",
+		"IdDpto": "94",
+		"NomMpio": "BARRANCO MINAS "
+	},
+	{
+		"IdMpio": "08001",
+		"IdDpto": "08",
+		"NomMpio": "BARRANQUILLA "
+	},
+	{
+		"IdMpio": "20045",
+		"IdDpto": "20",
+		"NomMpio": "BECERRIL "
+	},
+	{
+		"IdMpio": "17088",
+		"IdDpto": "17",
+		"NomMpio": "BELALCAZAR "
+	},
+	{
+		"IdMpio": "15087",
+		"IdDpto": "15",
+		"NomMpio": "BELEN "
+	},
+	{
+		"IdMpio": "52083",
+		"IdDpto": "52",
+		"NomMpio": "BELEN "
+	},
+	{
+		"IdMpio": "18094",
+		"IdDpto": "18",
+		"NomMpio": "BELEN DE LOS ANDAQUIES "
+	},
+	{
+		"IdMpio": "66088",
+		"IdDpto": "66",
+		"NomMpio": "BELEN DE UMBRIA "
+	},
+	{
+		"IdMpio": "05088",
+		"IdDpto": "05",
+		"NomMpio": "BELLO "
+	},
+	{
+		"IdMpio": "05086",
+		"IdDpto": "05",
+		"NomMpio": "BELMIRA "
+	},
+	{
+		"IdMpio": "25086",
+		"IdDpto": "25",
+		"NomMpio": "BELTRAN "
+	},
+	{
+		"IdMpio": "15090",
+		"IdDpto": "15",
+		"NomMpio": "BERBEO "
+	},
+	{
+		"IdMpio": "05091",
+		"IdDpto": "05",
+		"NomMpio": "BETANIA "
+	},
+	{
+		"IdMpio": "15092",
+		"IdDpto": "15",
+		"NomMpio": "BETEITIVA "
+	},
+	{
+		"IdMpio": "05093",
+		"IdDpto": "05",
+		"NomMpio": "BETULIA "
+	},
+	{
+		"IdMpio": "68092",
+		"IdDpto": "68",
+		"NomMpio": "BETULIA "
+	},
+	{
+		"IdMpio": "25095",
+		"IdDpto": "25",
+		"NomMpio": "BITUIMA "
+	},
+	{
+		"IdMpio": "15097",
+		"IdDpto": "15",
+		"NomMpio": "BOAVITA "
+	},
+	{
+		"IdMpio": "54099",
+		"IdDpto": "54",
+		"NomMpio": "BOCHALEMA "
+	},
+	{
+		"IdMpio": "11001",
+		"IdDpto": "11",
+		"NomMpio": "BOGOTA"
+	},
+	{
+		"IdMpio": "25099",
+		"IdDpto": "25",
+		"NomMpio": "BOJACA "
+	},
+	{
+		"IdMpio": "27099",
+		"IdDpto": "27",
+		"NomMpio": "BOJAYA "
+	},
+	{
+		"IdMpio": "19100",
+		"IdDpto": "19",
+		"NomMpio": "BOLIVAR "
+	},
+	{
+		"IdMpio": "68101",
+		"IdDpto": "68",
+		"NomMpio": "BOLIVAR "
+	},
+	{
+		"IdMpio": "76100",
+		"IdDpto": "76",
+		"NomMpio": "BOLIVAR "
+	},
+	{
+		"IdMpio": "20060",
+		"IdDpto": "20",
+		"NomMpio": "BOSCONIA "
+	},
+	{
+		"IdMpio": "15104",
+		"IdDpto": "15",
+		"NomMpio": "BOYACA "
+	},
+	{
+		"IdMpio": "05107",
+		"IdDpto": "05",
+		"NomMpio": "BRICEÑO "
+	},
+	{
+		"IdMpio": "15106",
+		"IdDpto": "15",
+		"NomMpio": "BRICEÑO "
+	},
+	{
+		"IdMpio": "68001",
+		"IdDpto": "68",
+		"NomMpio": "BUCARAMANGA "
+	},
+	{
+		"IdMpio": "54109",
+		"IdDpto": "54",
+		"NomMpio": "BUCARASICA "
+	},
+	{
+		"IdMpio": "76109",
+		"IdDpto": "76",
+		"NomMpio": "BUENAVENTURA "
+	},
+	{
+		"IdMpio": "15109",
+		"IdDpto": "15",
+		"NomMpio": "BUENAVISTA "
+	},
+	{
+		"IdMpio": "23079",
+		"IdDpto": "23",
+		"NomMpio": "BUENAVISTA "
+	},
+	{
+		"IdMpio": "63111",
+		"IdDpto": "63",
+		"NomMpio": "BUENAVISTA "
+	},
+	{
+		"IdMpio": "70110",
+		"IdDpto": "70",
+		"NomMpio": "BUENAVISTA "
+	},
+	{
+		"IdMpio": "19110",
+		"IdDpto": "19",
+		"NomMpio": "BUENOS AIRES "
+	},
+	{
+		"IdMpio": "52110",
+		"IdDpto": "52",
+		"NomMpio": "BUESACO "
+	},
+	{
+		"IdMpio": "76113",
+		"IdDpto": "76",
+		"NomMpio": "BUGALAGRANDE "
+	},
+	{
+		"IdMpio": "05113",
+		"IdDpto": "05",
+		"NomMpio": "BURITICA "
+	},
+	{
+		"IdMpio": "15114",
+		"IdDpto": "15",
+		"NomMpio": "BUSBANZA "
+	},
+	{
+		"IdMpio": "25120",
+		"IdDpto": "25",
+		"NomMpio": "CABRERA "
+	},
+	{
+		"IdMpio": "68121",
+		"IdDpto": "68",
+		"NomMpio": "CABRERA "
+	},
+	{
+		"IdMpio": "50124",
+		"IdDpto": "50",
+		"NomMpio": "CABUYARO "
+	},
+	{
+		"IdMpio": "94886",
+		"IdDpto": "94",
+		"NomMpio": "CACAHUAL "
+	},
+	{
+		"IdMpio": "05120",
+		"IdDpto": "05",
+		"NomMpio": "CACERES "
+	},
+	{
+		"IdMpio": "25123",
+		"IdDpto": "25",
+		"NomMpio": "CACHIPAY "
+	},
+	{
+		"IdMpio": "54128",
+		"IdDpto": "54",
+		"NomMpio": "CACHIRA "
+	},
+	{
+		"IdMpio": "54125",
+		"IdDpto": "54",
+		"NomMpio": "CACOTA "
+	},
+	{
+		"IdMpio": "05125",
+		"IdDpto": "05",
+		"NomMpio": "CAICEDO "
+	},
+	{
+		"IdMpio": "76122",
+		"IdDpto": "76",
+		"NomMpio": "CAICEDONIA "
+	},
+	{
+		"IdMpio": "70124",
+		"IdDpto": "70",
+		"NomMpio": "CAIMITO "
+	},
+	{
+		"IdMpio": "73124",
+		"IdDpto": "73",
+		"NomMpio": "CAJAMARCA "
+	},
+	{
+		"IdMpio": "19130",
+		"IdDpto": "19",
+		"NomMpio": "CAJIBIO "
+	},
+	{
+		"IdMpio": "25126",
+		"IdDpto": "25",
+		"NomMpio": "CAJICA "
+	},
+	{
+		"IdMpio": "13140",
+		"IdDpto": "13",
+		"NomMpio": "CALAMAR "
+	},
+	{
+		"IdMpio": "95015",
+		"IdDpto": "95",
+		"NomMpio": "CALAMAR "
+	},
+	{
+		"IdMpio": "63130",
+		"IdDpto": "63",
+		"NomMpio": "CALARCA "
+	},
+	{
+		"IdMpio": "05129",
+		"IdDpto": "05",
+		"NomMpio": "CALDAS "
+	},
+	{
+		"IdMpio": "15131",
+		"IdDpto": "15",
+		"NomMpio": "CALDAS "
+	},
+	{
+		"IdMpio": "19137",
+		"IdDpto": "19",
+		"NomMpio": "CALDONO "
+	},
+	{
+		"IdMpio": "76001",
+		"IdDpto": "76",
+		"NomMpio": "CALI "
+	},
+	{
+		"IdMpio": "68132",
+		"IdDpto": "68",
+		"NomMpio": "CALIFORNIA "
+	},
+	{
+		"IdMpio": "76126",
+		"IdDpto": "76",
+		"NomMpio": "CALIMA "
+	},
+	{
+		"IdMpio": "19142",
+		"IdDpto": "19",
+		"NomMpio": "CALOTO "
+	},
+	{
+		"IdMpio": "05134",
+		"IdDpto": "05",
+		"NomMpio": "CAMPAMENTO "
+	},
+	{
+		"IdMpio": "08137",
+		"IdDpto": "08",
+		"NomMpio": "CAMPO DE LA CRUZ "
+	},
+	{
+		"IdMpio": "41132",
+		"IdDpto": "41",
+		"NomMpio": "CAMPOALEGRE "
+	},
+	{
+		"IdMpio": "15135",
+		"IdDpto": "15",
+		"NomMpio": "CAMPOHERMOSO "
+	},
+	{
+		"IdMpio": "23090",
+		"IdDpto": "23",
+		"NomMpio": "CANALETE "
+	},
+	{
+		"IdMpio": "08141",
+		"IdDpto": "08",
+		"NomMpio": "CANDELARIA "
+	},
+	{
+		"IdMpio": "76130",
+		"IdDpto": "76",
+		"NomMpio": "CANDELARIA "
+	},
+	{
+		"IdMpio": "13160",
+		"IdDpto": "13",
+		"NomMpio": "CANTAGALLO "
+	},
+	{
+		"IdMpio": "05138",
+		"IdDpto": "05",
+		"NomMpio": "CAÑASGORDAS "
+	},
+	{
+		"IdMpio": "25148",
+		"IdDpto": "25",
+		"NomMpio": "CAPARRAPI "
+	},
+	{
+		"IdMpio": "68147",
+		"IdDpto": "68",
+		"NomMpio": "CAPITANEJO "
+	},
+	{
+		"IdMpio": "25151",
+		"IdDpto": "25",
+		"NomMpio": "CAQUEZA "
+	},
+	{
+		"IdMpio": "05142",
+		"IdDpto": "05",
+		"NomMpio": "CARACOLI "
+	},
+	{
+		"IdMpio": "05145",
+		"IdDpto": "05",
+		"NomMpio": "CARAMANTA "
+	},
+	{
+		"IdMpio": "68152",
+		"IdDpto": "68",
+		"NomMpio": "CARCASI "
+	},
+	{
+		"IdMpio": "05147",
+		"IdDpto": "05",
+		"NomMpio": "CAREPA "
+	},
+	{
+		"IdMpio": "73148",
+		"IdDpto": "73",
+		"NomMpio": "CARMEN DE APICALA "
+	},
+	{
+		"IdMpio": "25154",
+		"IdDpto": "25",
+		"NomMpio": "CARMEN DE CARUPA "
+	},
+	{
+		"IdMpio": "27150",
+		"IdDpto": "27",
+		"NomMpio": "CARMEN DEL DARIEN "
+	},
+	{
+		"IdMpio": "05150",
+		"IdDpto": "05",
+		"NomMpio": "CAROLINA "
+	},
+	{
+		"IdMpio": "13001",
+		"IdDpto": "13",
+		"NomMpio": "CARTAGENA "
+	},
+	{
+		"IdMpio": "18150",
+		"IdDpto": "18",
+		"NomMpio": "CARTAGENA DEL CHAIRA "
+	},
+	{
+		"IdMpio": "76147",
+		"IdDpto": "76",
+		"NomMpio": "CARTAGO "
+	},
+	{
+		"IdMpio": "97161",
+		"IdDpto": "97",
+		"NomMpio": "CARURU "
+	},
+	{
+		"IdMpio": "73152",
+		"IdDpto": "73",
+		"NomMpio": "CASABIANCA "
+	},
+	{
+		"IdMpio": "50150",
+		"IdDpto": "50",
+		"NomMpio": "CASTILLA LA NUEVA "
+	},
+	{
+		"IdMpio": "05154",
+		"IdDpto": "05",
+		"NomMpio": "CAUCASIA "
+	},
+	{
+		"IdMpio": "68160",
+		"IdDpto": "68",
+		"NomMpio": "CEPITA "
+	},
+	{
+		"IdMpio": "23162",
+		"IdDpto": "23",
+		"NomMpio": "CERETE "
+	},
+	{
+		"IdMpio": "15162",
+		"IdDpto": "15",
+		"NomMpio": "CERINZA "
+	},
+	{
+		"IdMpio": "68162",
+		"IdDpto": "68",
+		"NomMpio": "CERRITO "
+	},
+	{
+		"IdMpio": "47161",
+		"IdDpto": "47",
+		"NomMpio": "CERRO SAN ANTONIO "
+	},
+	{
+		"IdMpio": "27160",
+		"IdDpto": "27",
+		"NomMpio": "CERTEGUI "
+	},
+	{
+		"IdMpio": "52240",
+		"IdDpto": "52",
+		"NomMpio": "CHACHAGsI "
+	},
+	{
+		"IdMpio": "25168",
+		"IdDpto": "25",
+		"NomMpio": "CHAGUANI "
+	},
+	{
+		"IdMpio": "70230",
+		"IdDpto": "70",
+		"NomMpio": "CHALAN "
+	},
+	{
+		"IdMpio": "85015",
+		"IdDpto": "85",
+		"NomMpio": "CHAMEZA "
+	},
+	{
+		"IdMpio": "73168",
+		"IdDpto": "73",
+		"NomMpio": "CHAPARRAL "
+	},
+	{
+		"IdMpio": "68167",
+		"IdDpto": "68",
+		"NomMpio": "CHARALA "
+	},
+	{
+		"IdMpio": "68169",
+		"IdDpto": "68",
+		"NomMpio": "CHARTA "
+	},
+	{
+		"IdMpio": "25175",
+		"IdDpto": "25",
+		"NomMpio": "CHIA "
+	},
+	{
+		"IdMpio": "47170",
+		"IdDpto": "47",
+		"NomMpio": "CHIBOLO "
+	},
+	{
+		"IdMpio": "05172",
+		"IdDpto": "05",
+		"NomMpio": "CHIGORODO "
+	},
+	{
+		"IdMpio": "23168",
+		"IdDpto": "23",
+		"NomMpio": "CHIMA "
+	},
+	{
+		"IdMpio": "68176",
+		"IdDpto": "68",
+		"NomMpio": "CHIMA "
+	},
+	{
+		"IdMpio": "20175",
+		"IdDpto": "20",
+		"NomMpio": "CHIMICHAGUA "
+	},
+	{
+		"IdMpio": "54172",
+		"IdDpto": "54",
+		"NomMpio": "CHINACOTA "
+	},
+	{
+		"IdMpio": "15172",
+		"IdDpto": "15",
+		"NomMpio": "CHINAVITA "
+	},
+	{
+		"IdMpio": "17174",
+		"IdDpto": "17",
+		"NomMpio": "CHINCHINA "
+	},
+	{
+		"IdMpio": "23182",
+		"IdDpto": "23",
+		"NomMpio": "CHINU "
+	},
+	{
+		"IdMpio": "25178",
+		"IdDpto": "25",
+		"NomMpio": "CHIPAQUE "
+	},
+	{
+		"IdMpio": "68179",
+		"IdDpto": "68",
+		"NomMpio": "CHIPATA "
+	},
+	{
+		"IdMpio": "15176",
+		"IdDpto": "15",
+		"NomMpio": "CHIQUINQUIRA "
+	},
+	{
+		"IdMpio": "15232",
+		"IdDpto": "15",
+		"NomMpio": "CHIQUIZA "
+	},
+	{
+		"IdMpio": "20178",
+		"IdDpto": "20",
+		"NomMpio": "CHIRIGUANA "
+	},
+	{
+		"IdMpio": "15180",
+		"IdDpto": "15",
+		"NomMpio": "CHISCAS "
+	},
+	{
+		"IdMpio": "15183",
+		"IdDpto": "15",
+		"NomMpio": "CHITA "
+	},
+	{
+		"IdMpio": "54174",
+		"IdDpto": "54",
+		"NomMpio": "CHITAGA "
+	},
+	{
+		"IdMpio": "15185",
+		"IdDpto": "15",
+		"NomMpio": "CHITARAQUE "
+	},
+	{
+		"IdMpio": "15187",
+		"IdDpto": "15",
+		"NomMpio": "CHIVATA  "
+	},
+	{
+		"IdMpio": "15236",
+		"IdDpto": "15",
+		"NomMpio": "CHIVOR "
+	},
+	{
+		"IdMpio": "25181",
+		"IdDpto": "25",
+		"NomMpio": "CHOACHI "
+	},
+	{
+		"IdMpio": "25183",
+		"IdDpto": "25",
+		"NomMpio": "CHOCONTA "
+	},
+	{
+		"IdMpio": "13188",
+		"IdDpto": "13",
+		"NomMpio": "CICUCO "
+	},
+	{
+		"IdMpio": "47189",
+		"IdDpto": "47",
+		"NomMpio": "CIENAGA "
+	},
+	{
+		"IdMpio": "23189",
+		"IdDpto": "23",
+		"NomMpio": "CIENAGA DE ORO "
+	},
+	{
+		"IdMpio": "15189",
+		"IdDpto": "15",
+		"NomMpio": "CIENEGA "
+	},
+	{
+		"IdMpio": "68190",
+		"IdDpto": "68",
+		"NomMpio": "CIMITARRA "
+	},
+	{
+		"IdMpio": "63190",
+		"IdDpto": "63",
+		"NomMpio": "CIRCASIA "
+	},
+	{
+		"IdMpio": "05190",
+		"IdDpto": "05",
+		"NomMpio": "CISNEROS "
+	},
+	{
+		"IdMpio": "05101",
+		"IdDpto": "05",
+		"NomMpio": "CIUDAD BOLIVAR "
+	},
+	{
+		"IdMpio": "13222",
+		"IdDpto": "13",
+		"NomMpio": "CLEMENCIA "
+	},
+	{
+		"IdMpio": "05197",
+		"IdDpto": "05",
+		"NomMpio": "COCORNA "
+	},
+	{
+		"IdMpio": "73200",
+		"IdDpto": "73",
+		"NomMpio": "COELLO "
+	},
+	{
+		"IdMpio": "25200",
+		"IdDpto": "25",
+		"NomMpio": "COGUA "
+	},
+	{
+		"IdMpio": "41206",
+		"IdDpto": "41",
+		"NomMpio": "COLOMBIA "
+	},
+	{
+		"IdMpio": "52203",
+		"IdDpto": "52",
+		"NomMpio": "COLON "
+	},
+	{
+		"IdMpio": "86219",
+		"IdDpto": "86",
+		"NomMpio": "COLON "
+	},
+	{
+		"IdMpio": "70204",
+		"IdDpto": "70",
+		"NomMpio": "COLOSO "
+	},
+	{
+		"IdMpio": "15204",
+		"IdDpto": "15",
+		"NomMpio": "COMBITA "
+	},
+	{
+		"IdMpio": "05206",
+		"IdDpto": "05",
+		"NomMpio": "CONCEPCION "
+	},
+	{
+		"IdMpio": "68207",
+		"IdDpto": "68",
+		"NomMpio": "CONCEPCION "
+	},
+	{
+		"IdMpio": "05209",
+		"IdDpto": "05",
+		"NomMpio": "CONCORDIA "
+	},
+	{
+		"IdMpio": "47205",
+		"IdDpto": "47",
+		"NomMpio": "CONCORDIA "
+	},
+	{
+		"IdMpio": "27205",
+		"IdDpto": "27",
+		"NomMpio": "CONDOTO "
+	},
+	{
+		"IdMpio": "68209",
+		"IdDpto": "68",
+		"NomMpio": "CONFINES "
+	},
+	{
+		"IdMpio": "52207",
+		"IdDpto": "52",
+		"NomMpio": "CONSACA "
+	},
+	{
+		"IdMpio": "52210",
+		"IdDpto": "52",
+		"NomMpio": "CONTADERO "
+	},
+	{
+		"IdMpio": "68211",
+		"IdDpto": "68",
+		"NomMpio": "CONTRATACION "
+	},
+	{
+		"IdMpio": "54206",
+		"IdDpto": "54",
+		"NomMpio": "CONVENCION "
+	},
+	{
+		"IdMpio": "05212",
+		"IdDpto": "05",
+		"NomMpio": "COPACABANA "
+	},
+	{
+		"IdMpio": "15212",
+		"IdDpto": "15",
+		"NomMpio": "COPER "
+	},
+	{
+		"IdMpio": "13212",
+		"IdDpto": "13",
+		"NomMpio": "CORDOBA "
+	},
+	{
+		"IdMpio": "52215",
+		"IdDpto": "52",
+		"NomMpio": "CORDOBA "
+	},
+	{
+		"IdMpio": "63212",
+		"IdDpto": "63",
+		"NomMpio": "CORDOBA "
+	},
+	{
+		"IdMpio": "19212",
+		"IdDpto": "19",
+		"NomMpio": "CORINTO "
+	},
+	{
+		"IdMpio": "68217",
+		"IdDpto": "68",
+		"NomMpio": "COROMORO "
+	},
+	{
+		"IdMpio": "70215",
+		"IdDpto": "70",
+		"NomMpio": "COROZAL "
+	},
+	{
+		"IdMpio": "15215",
+		"IdDpto": "15",
+		"NomMpio": "CORRALES "
+	},
+	{
+		"IdMpio": "25214",
+		"IdDpto": "25",
+		"NomMpio": "COTA "
+	},
+	{
+		"IdMpio": "23300",
+		"IdDpto": "23",
+		"NomMpio": "COTORRA "
+	},
+	{
+		"IdMpio": "15218",
+		"IdDpto": "15",
+		"NomMpio": "COVARACHIA "
+	},
+	{
+		"IdMpio": "70221",
+		"IdDpto": "70",
+		"NomMpio": "COVEÑAS "
+	},
+	{
+		"IdMpio": "73217",
+		"IdDpto": "73",
+		"NomMpio": "COYAIMA "
+	},
+	{
+		"IdMpio": "81220",
+		"IdDpto": "81",
+		"NomMpio": "CRAVO NORTE "
+	},
+	{
+		"IdMpio": "52224",
+		"IdDpto": "52",
+		"NomMpio": "CUASPUD "
+	},
+	{
+		"IdMpio": "15223",
+		"IdDpto": "15",
+		"NomMpio": "CUBARA "
+	},
+	{
+		"IdMpio": "50223",
+		"IdDpto": "50",
+		"NomMpio": "CUBARRAL "
+	},
+	{
+		"IdMpio": "15224",
+		"IdDpto": "15",
+		"NomMpio": "CUCAITA "
+	},
+	{
+		"IdMpio": "25224",
+		"IdDpto": "25",
+		"NomMpio": "CUCUNUBA "
+	},
+	{
+		"IdMpio": "54001",
+		"IdDpto": "54",
+		"NomMpio": "CUCUTA "
+	},
+	{
+		"IdMpio": "54223",
+		"IdDpto": "54",
+		"NomMpio": "CUCUTILLA "
+	},
+	{
+		"IdMpio": "15226",
+		"IdDpto": "15",
+		"NomMpio": "CUITIVA "
+	},
+	{
+		"IdMpio": "50226",
+		"IdDpto": "50",
+		"NomMpio": "CUMARAL "
+	},
+	{
+		"IdMpio": "99773",
+		"IdDpto": "99",
+		"NomMpio": "CUMARIBO "
+	},
+	{
+		"IdMpio": "52227",
+		"IdDpto": "52",
+		"NomMpio": "CUMBAL "
+	},
+	{
+		"IdMpio": "52233",
+		"IdDpto": "52",
+		"NomMpio": "CUMBITARA "
+	},
+	{
+		"IdMpio": "73226",
+		"IdDpto": "73",
+		"NomMpio": "CUNDAY "
+	},
+	{
+		"IdMpio": "18205",
+		"IdDpto": "18",
+		"NomMpio": "CURILLO "
+	},
+	{
+		"IdMpio": "68229",
+		"IdDpto": "68",
+		"NomMpio": "CURITI "
+	},
+	{
+		"IdMpio": "20228",
+		"IdDpto": "20",
+		"NomMpio": "CURUMANI "
+	},
+	{
+		"IdMpio": "05234",
+		"IdDpto": "05",
+		"NomMpio": "DABEIBA "
+	},
+	{
+		"IdMpio": "76233",
+		"IdDpto": "76",
+		"NomMpio": "DAGUA "
+	},
+	{
+		"IdMpio": "44090",
+		"IdDpto": "44",
+		"NomMpio": "DIBULLA "
+	},
+	{
+		"IdMpio": "44098",
+		"IdDpto": "44",
+		"NomMpio": "DISTRACCION "
+	},
+	{
+		"IdMpio": "73236",
+		"IdDpto": "73",
+		"NomMpio": "DOLORES "
+	},
+	{
+		"IdMpio": "05237",
+		"IdDpto": "05",
+		"NomMpio": "DON MATIAS "
+	},
+	{
+		"IdMpio": "66170",
+		"IdDpto": "66",
+		"NomMpio": "DOSQUEBRADAS "
+	},
+	{
+		"IdMpio": "15238",
+		"IdDpto": "15",
+		"NomMpio": "DUITAMA "
+	},
+	{
+		"IdMpio": "54239",
+		"IdDpto": "54",
+		"NomMpio": "DURANIA "
+	},
+	{
+		"IdMpio": "05240",
+		"IdDpto": "05",
+		"NomMpio": "EBEJICO "
+	},
+	{
+		"IdMpio": "76243",
+		"IdDpto": "76",
+		"NomMpio": "EL AGUILA "
+	},
+	{
+		"IdMpio": "05250",
+		"IdDpto": "05",
+		"NomMpio": "EL BAGRE "
+	},
+	{
+		"IdMpio": "47245",
+		"IdDpto": "47",
+		"NomMpio": "EL BANCO "
+	},
+	{
+		"IdMpio": "76246",
+		"IdDpto": "76",
+		"NomMpio": "EL CAIRO "
+	},
+	{
+		"IdMpio": "50245",
+		"IdDpto": "50",
+		"NomMpio": "EL CALVARIO "
+	},
+	{
+		"IdMpio": "27135",
+		"IdDpto": "27",
+		"NomMpio": "EL CANTON DEL SAN PABLO "
+	},
+	{
+		"IdMpio": "54245",
+		"IdDpto": "54",
+		"NomMpio": "EL CARMEN "
+	},
+	{
+		"IdMpio": "27245",
+		"IdDpto": "27",
+		"NomMpio": "EL CARMEN DE ATRATO "
+	},
+	{
+		"IdMpio": "13244",
+		"IdDpto": "13",
+		"NomMpio": "EL CARMEN DE BOLIVAR "
+	},
+	{
+		"IdMpio": "68235",
+		"IdDpto": "68",
+		"NomMpio": "EL CARMEN DE CHUCURI "
+	},
+	{
+		"IdMpio": "05148",
+		"IdDpto": "05",
+		"NomMpio": "EL CARMEN DE VIBORAL "
+	},
+	{
+		"IdMpio": "50251",
+		"IdDpto": "50",
+		"NomMpio": "EL CASTILLO "
+	},
+	{
+		"IdMpio": "76248",
+		"IdDpto": "76",
+		"NomMpio": "EL CERRITO "
+	},
+	{
+		"IdMpio": "52250",
+		"IdDpto": "52",
+		"NomMpio": "EL CHARCO "
+	},
+	{
+		"IdMpio": "15244",
+		"IdDpto": "15",
+		"NomMpio": "EL COCUY "
+	},
+	{
+		"IdMpio": "25245",
+		"IdDpto": "25",
+		"NomMpio": "EL COLEGIO "
+	},
+	{
+		"IdMpio": "20238",
+		"IdDpto": "20",
+		"NomMpio": "EL COPEY "
+	},
+	{
+		"IdMpio": "18247",
+		"IdDpto": "18",
+		"NomMpio": "EL DONCELLO "
+	},
+	{
+		"IdMpio": "50270",
+		"IdDpto": "50",
+		"NomMpio": "EL DORADO "
+	},
+	{
+		"IdMpio": "76250",
+		"IdDpto": "76",
+		"NomMpio": "EL DOVIO "
+	},
+	{
+		"IdMpio": "91263",
+		"IdDpto": "91",
+		"NomMpio": "EL ENCANTO "
+	},
+	{
+		"IdMpio": "15248",
+		"IdDpto": "15",
+		"NomMpio": "EL ESPINO "
+	},
+	{
+		"IdMpio": "68245",
+		"IdDpto": "68",
+		"NomMpio": "EL GUACAMAYO "
+	},
+	{
+		"IdMpio": "13248",
+		"IdDpto": "13",
+		"NomMpio": "EL GUAMO "
+	},
+	{
+		"IdMpio": "27250",
+		"IdDpto": "27",
+		"NomMpio": "EL LITORAL DEL SAN JUAN "
+	},
+	{
+		"IdMpio": "44110",
+		"IdDpto": "44",
+		"NomMpio": "EL MOLINO "
+	},
+	{
+		"IdMpio": "20250",
+		"IdDpto": "20",
+		"NomMpio": "EL PASO "
+	},
+	{
+		"IdMpio": "18256",
+		"IdDpto": "18",
+		"NomMpio": "EL PAUJIL "
+	},
+	{
+		"IdMpio": "52254",
+		"IdDpto": "52",
+		"NomMpio": "EL PEÑOL "
+	},
+	{
+		"IdMpio": "13268",
+		"IdDpto": "13",
+		"NomMpio": "EL PEÑON "
+	},
+	{
+		"IdMpio": "25258",
+		"IdDpto": "25",
+		"NomMpio": "EL PEÑON "
+	},
+	{
+		"IdMpio": "68250",
+		"IdDpto": "68",
+		"NomMpio": "EL PEÑON "
+	},
+	{
+		"IdMpio": "47258",
+		"IdDpto": "47",
+		"NomMpio": "EL PIÑON "
+	},
+	{
+		"IdMpio": "68255",
+		"IdDpto": "68",
+		"NomMpio": "EL PLAYON  "
+	},
+	{
+		"IdMpio": "47268",
+		"IdDpto": "47",
+		"NomMpio": "EL RETEN "
+	},
+	{
+		"IdMpio": "95025",
+		"IdDpto": "95",
+		"NomMpio": "EL RETORNO "
+	},
+	{
+		"IdMpio": "70233",
+		"IdDpto": "70",
+		"NomMpio": "EL ROBLE "
+	},
+	{
+		"IdMpio": "25260",
+		"IdDpto": "25",
+		"NomMpio": "EL ROSAL "
+	},
+	{
+		"IdMpio": "52256",
+		"IdDpto": "52",
+		"NomMpio": "EL ROSARIO "
+	},
+	{
+		"IdMpio": "05697",
+		"IdDpto": "05",
+		"NomMpio": "EL SANTUARIO "
+	},
+	{
+		"IdMpio": "52258",
+		"IdDpto": "52",
+		"NomMpio": "EL TABLON DE GOMEZ "
+	},
+	{
+		"IdMpio": "19256",
+		"IdDpto": "19",
+		"NomMpio": "EL TAMBO "
+	},
+	{
+		"IdMpio": "52260",
+		"IdDpto": "52",
+		"NomMpio": "EL TAMBO "
+	},
+	{
+		"IdMpio": "54250",
+		"IdDpto": "54",
+		"NomMpio": "EL TARRA "
+	},
+	{
+		"IdMpio": "54261",
+		"IdDpto": "54",
+		"NomMpio": "EL ZULIA "
+	},
+	{
+		"IdMpio": "41244",
+		"IdDpto": "41",
+		"NomMpio": "ELIAS "
+	},
+	{
+		"IdMpio": "68264",
+		"IdDpto": "68",
+		"NomMpio": "ENCINO "
+	},
+	{
+		"IdMpio": "68266",
+		"IdDpto": "68",
+		"NomMpio": "ENCISO "
+	},
+	{
+		"IdMpio": "05264",
+		"IdDpto": "05",
+		"NomMpio": "ENTRERRIOS "
+	},
+	{
+		"IdMpio": "05266",
+		"IdDpto": "05",
+		"NomMpio": "ENVIGADO "
+	},
+	{
+		"IdMpio": "73268",
+		"IdDpto": "73",
+		"NomMpio": "ESPINAL "
+	},
+	{
+		"IdMpio": "25269",
+		"IdDpto": "25",
+		"NomMpio": "FACATATIVA "
+	},
+	{
+		"IdMpio": "73270",
+		"IdDpto": "73",
+		"NomMpio": "FALAN "
+	},
+	{
+		"IdMpio": "17272",
+		"IdDpto": "17",
+		"NomMpio": "FILADELFIA "
+	},
+	{
+		"IdMpio": "63272",
+		"IdDpto": "63",
+		"NomMpio": "FILANDIA "
+	},
+	{
+		"IdMpio": "15272",
+		"IdDpto": "15",
+		"NomMpio": "FIRAVITOBA "
+	},
+	{
+		"IdMpio": "73275",
+		"IdDpto": "73",
+		"NomMpio": "FLANDES "
+	},
+	{
+		"IdMpio": "18001",
+		"IdDpto": "18",
+		"NomMpio": "FLORENCIA "
+	},
+	{
+		"IdMpio": "19290",
+		"IdDpto": "19",
+		"NomMpio": "FLORENCIA "
+	},
+	{
+		"IdMpio": "15276",
+		"IdDpto": "15",
+		"NomMpio": "FLORESTA "
+	},
+	{
+		"IdMpio": "68271",
+		"IdDpto": "68",
+		"NomMpio": "FLORIAN "
+	},
+	{
+		"IdMpio": "76275",
+		"IdDpto": "76",
+		"NomMpio": "FLORIDA "
+	},
+	{
+		"IdMpio": "68276",
+		"IdDpto": "68",
+		"NomMpio": "FLORIDABLANCA "
+	},
+	{
+		"IdMpio": "25279",
+		"IdDpto": "25",
+		"NomMpio": "FOMEQUE "
+	},
+	{
+		"IdMpio": "44279",
+		"IdDpto": "44",
+		"NomMpio": "FONSECA "
+	},
+	{
+		"IdMpio": "81300",
+		"IdDpto": "81",
+		"NomMpio": "FORTUL "
+	},
+	{
+		"IdMpio": "25281",
+		"IdDpto": "25",
+		"NomMpio": "FOSCA "
+	},
+	{
+		"IdMpio": "52520",
+		"IdDpto": "52",
+		"NomMpio": "FRANCISCO PIZARRO "
+	},
+	{
+		"IdMpio": "05282",
+		"IdDpto": "05",
+		"NomMpio": "FREDONIA "
+	},
+	{
+		"IdMpio": "73283",
+		"IdDpto": "73",
+		"NomMpio": "FRESNO "
+	},
+	{
+		"IdMpio": "05284",
+		"IdDpto": "05",
+		"NomMpio": "FRONTINO "
+	},
+	{
+		"IdMpio": "50287",
+		"IdDpto": "50",
+		"NomMpio": "FUENTE DE ORO "
+	},
+	{
+		"IdMpio": "47288",
+		"IdDpto": "47",
+		"NomMpio": "FUNDACION "
+	},
+	{
+		"IdMpio": "52287",
+		"IdDpto": "52",
+		"NomMpio": "FUNES "
+	},
+	{
+		"IdMpio": "25286",
+		"IdDpto": "25",
+		"NomMpio": "FUNZA "
+	},
+	{
+		"IdMpio": "25288",
+		"IdDpto": "25",
+		"NomMpio": "FUQUENE "
+	},
+	{
+		"IdMpio": "25290",
+		"IdDpto": "25",
+		"NomMpio": "FUSAGASUGA "
+	},
+	{
+		"IdMpio": "25293",
+		"IdDpto": "25",
+		"NomMpio": "GACHALA "
+	},
+	{
+		"IdMpio": "25295",
+		"IdDpto": "25",
+		"NomMpio": "GACHANCIPA "
+	},
+	{
+		"IdMpio": "15293",
+		"IdDpto": "15",
+		"NomMpio": "GACHANTIVA "
+	},
+	{
+		"IdMpio": "25297",
+		"IdDpto": "25",
+		"NomMpio": "GACHETA "
+	},
+	{
+		"IdMpio": "68296",
+		"IdDpto": "68",
+		"NomMpio": "GALAN "
+	},
+	{
+		"IdMpio": "08296",
+		"IdDpto": "08",
+		"NomMpio": "GALAPA "
+	},
+	{
+		"IdMpio": "70235",
+		"IdDpto": "70",
+		"NomMpio": "GALERAS "
+	},
+	{
+		"IdMpio": "25299",
+		"IdDpto": "25",
+		"NomMpio": "GAMA "
+	},
+	{
+		"IdMpio": "20295",
+		"IdDpto": "20",
+		"NomMpio": "GAMARRA "
+	},
+	{
+		"IdMpio": "68298",
+		"IdDpto": "68",
+		"NomMpio": "GAMBITA "
+	},
+	{
+		"IdMpio": "15296",
+		"IdDpto": "15",
+		"NomMpio": "GAMEZA "
+	},
+	{
+		"IdMpio": "15299",
+		"IdDpto": "15",
+		"NomMpio": "GARAGOA "
+	},
+	{
+		"IdMpio": "41298",
+		"IdDpto": "41",
+		"NomMpio": "GARZON "
+	},
+	{
+		"IdMpio": "63302",
+		"IdDpto": "63",
+		"NomMpio": "GENOVA "
+	},
+	{
+		"IdMpio": "41306",
+		"IdDpto": "41",
+		"NomMpio": "GIGANTE "
+	},
+	{
+		"IdMpio": "76306",
+		"IdDpto": "76",
+		"NomMpio": "GINEBRA "
+	},
+	{
+		"IdMpio": "05306",
+		"IdDpto": "05",
+		"NomMpio": "GIRALDO "
+	},
+	{
+		"IdMpio": "25307",
+		"IdDpto": "25",
+		"NomMpio": "GIRARDOT "
+	},
+	{
+		"IdMpio": "05308",
+		"IdDpto": "05",
+		"NomMpio": "GIRARDOTA "
+	},
+	{
+		"IdMpio": "68307",
+		"IdDpto": "68",
+		"NomMpio": "GIRON "
+	},
+	{
+		"IdMpio": "05310",
+		"IdDpto": "05",
+		"NomMpio": "GOMEZ PLATA "
+	},
+	{
+		"IdMpio": "20310",
+		"IdDpto": "20",
+		"NomMpio": "GONZALEZ "
+	},
+	{
+		"IdMpio": "54313",
+		"IdDpto": "54",
+		"NomMpio": "GRAMALOTE "
+	},
+	{
+		"IdMpio": "05313",
+		"IdDpto": "05",
+		"NomMpio": "GRANADA "
+	},
+	{
+		"IdMpio": "25312",
+		"IdDpto": "25",
+		"NomMpio": "GRANADA "
+	},
+	{
+		"IdMpio": "50313",
+		"IdDpto": "50",
+		"NomMpio": "GRANADA "
+	},
+	{
+		"IdMpio": "68327",
+		"IdDpto": "68",
+		"NomMpio": "GsEPSA "
+	},
+	{
+		"IdMpio": "15332",
+		"IdDpto": "15",
+		"NomMpio": "GsICAN "
+	},
+	{
+		"IdMpio": "68318",
+		"IdDpto": "68",
+		"NomMpio": "GUACA "
+	},
+	{
+		"IdMpio": "15317",
+		"IdDpto": "15",
+		"NomMpio": "GUACAMAYAS "
+	},
+	{
+		"IdMpio": "76318",
+		"IdDpto": "76",
+		"NomMpio": "GUACARI "
+	},
+	{
+		"IdMpio": "19300",
+		"IdDpto": "19",
+		"NomMpio": "GUACHENE "
+	},
+	{
+		"IdMpio": "25317",
+		"IdDpto": "25",
+		"NomMpio": "GUACHETA "
+	},
+	{
+		"IdMpio": "52317",
+		"IdDpto": "52",
+		"NomMpio": "GUACHUCAL "
+	},
+	{
+		"IdMpio": "76111",
+		"IdDpto": "76",
+		"NomMpio": "GUADALAJARA DE BUGA "
+	},
+	{
+		"IdMpio": "05315",
+		"IdDpto": "05",
+		"NomMpio": "GUADALUPE  "
+	},
+	{
+		"IdMpio": "41319",
+		"IdDpto": "41",
+		"NomMpio": "GUADALUPE "
+	},
+	{
+		"IdMpio": "68320",
+		"IdDpto": "68",
+		"NomMpio": "GUADALUPE "
+	},
+	{
+		"IdMpio": "25320",
+		"IdDpto": "25",
+		"NomMpio": "GUADUAS "
+	},
+	{
+		"IdMpio": "52320",
+		"IdDpto": "52",
+		"NomMpio": "GUAITARILLA "
+	},
+	{
+		"IdMpio": "52323",
+		"IdDpto": "52",
+		"NomMpio": "GUALMATAN "
+	},
+	{
+		"IdMpio": "47318",
+		"IdDpto": "47",
+		"NomMpio": "GUAMAL "
+	},
+	{
+		"IdMpio": "50318",
+		"IdDpto": "50",
+		"NomMpio": "GUAMAL "
+	},
+	{
+		"IdMpio": "73319",
+		"IdDpto": "73",
+		"NomMpio": "GUAMO "
+	},
+	{
+		"IdMpio": "19318",
+		"IdDpto": "19",
+		"NomMpio": "GUAPI "
+	},
+	{
+		"IdMpio": "68322",
+		"IdDpto": "68",
+		"NomMpio": "GUAPOTA "
+	},
+	{
+		"IdMpio": "70265",
+		"IdDpto": "70",
+		"NomMpio": "GUARANDA "
+	},
+	{
+		"IdMpio": "05318",
+		"IdDpto": "05",
+		"NomMpio": "GUARNE "
+	},
+	{
+		"IdMpio": "25322",
+		"IdDpto": "25",
+		"NomMpio": "GUASCA "
+	},
+	{
+		"IdMpio": "05321",
+		"IdDpto": "05",
+		"NomMpio": "GUATAPE "
+	},
+	{
+		"IdMpio": "25324",
+		"IdDpto": "25",
+		"NomMpio": "GUATAQUI "
+	},
+	{
+		"IdMpio": "25326",
+		"IdDpto": "25",
+		"NomMpio": "GUATAVITA "
+	},
+	{
+		"IdMpio": "15322",
+		"IdDpto": "15",
+		"NomMpio": "GUATEQUE "
+	},
+	{
+		"IdMpio": "66318",
+		"IdDpto": "66",
+		"NomMpio": "GUATICA "
+	},
+	{
+		"IdMpio": "68324",
+		"IdDpto": "68",
+		"NomMpio": "GUAVATA "
+	},
+	{
+		"IdMpio": "25328",
+		"IdDpto": "25",
+		"NomMpio": "GUAYABAL DE SIQUIMA "
+	},
+	{
+		"IdMpio": "25335",
+		"IdDpto": "25",
+		"NomMpio": "GUAYABETAL "
+	},
+	{
+		"IdMpio": "15325",
+		"IdDpto": "15",
+		"NomMpio": "GUAYATA "
+	},
+	{
+		"IdMpio": "25339",
+		"IdDpto": "25",
+		"NomMpio": "GUTIERREZ "
+	},
+	{
+		"IdMpio": "54344",
+		"IdDpto": "54",
+		"NomMpio": "HACARI "
+	},
+	{
+		"IdMpio": "13300",
+		"IdDpto": "13",
+		"NomMpio": "HATILLO DE LOBA "
+	},
+	{
+		"IdMpio": "68344",
+		"IdDpto": "68",
+		"NomMpio": "HATO "
+	},
+	{
+		"IdMpio": "85125",
+		"IdDpto": "85",
+		"NomMpio": "HATO COROZAL "
+	},
+	{
+		"IdMpio": "44378",
+		"IdDpto": "44",
+		"NomMpio": "HATONUEVO "
+	},
+	{
+		"IdMpio": "05347",
+		"IdDpto": "05",
+		"NomMpio": "HELICONIA "
+	},
+	{
+		"IdMpio": "54347",
+		"IdDpto": "54",
+		"NomMpio": "HERRAN "
+	},
+	{
+		"IdMpio": "73347",
+		"IdDpto": "73",
+		"NomMpio": "HERVEO "
+	},
+	{
+		"IdMpio": "05353",
+		"IdDpto": "05",
+		"NomMpio": "HISPANIA "
+	},
+	{
+		"IdMpio": "41349",
+		"IdDpto": "41",
+		"NomMpio": "HOBO "
+	},
+	{
+		"IdMpio": "73349",
+		"IdDpto": "73",
+		"NomMpio": "HONDA "
+	},
+	{
+		"IdMpio": "73001",
+		"IdDpto": "73",
+		"NomMpio": "IBAGUE "
+	},
+	{
+		"IdMpio": "73352",
+		"IdDpto": "73",
+		"NomMpio": "ICONONZO "
+	},
+	{
+		"IdMpio": "52352",
+		"IdDpto": "52",
+		"NomMpio": "ILES "
+	},
+	{
+		"IdMpio": "52354",
+		"IdDpto": "52",
+		"NomMpio": "IMUES "
+	},
+	{
+		"IdMpio": "94001",
+		"IdDpto": "94",
+		"NomMpio": "INIRIDA "
+	},
+	{
+		"IdMpio": "19355",
+		"IdDpto": "19",
+		"NomMpio": "INZA "
+	},
+	{
+		"IdMpio": "52356",
+		"IdDpto": "52",
+		"NomMpio": "IPIALES "
+	},
+	{
+		"IdMpio": "41357",
+		"IdDpto": "41",
+		"NomMpio": "IQUIRA "
+	},
+	{
+		"IdMpio": "41359",
+		"IdDpto": "41",
+		"NomMpio": "ISNOS "
+	},
+	{
+		"IdMpio": "27361",
+		"IdDpto": "27",
+		"NomMpio": "ISTMINA "
+	},
+	{
+		"IdMpio": "05360",
+		"IdDpto": "05",
+		"NomMpio": "ITAGUI "
+	},
+	{
+		"IdMpio": "05361",
+		"IdDpto": "05",
+		"NomMpio": "ITUANGO "
+	},
+	{
+		"IdMpio": "15362",
+		"IdDpto": "15",
+		"NomMpio": "IZA "
+	},
+	{
+		"IdMpio": "19364",
+		"IdDpto": "19",
+		"NomMpio": "JAMBALO "
+	},
+	{
+		"IdMpio": "76364",
+		"IdDpto": "76",
+		"NomMpio": "JAMUNDI "
+	},
+	{
+		"IdMpio": "05364",
+		"IdDpto": "05",
+		"NomMpio": "JARDIN "
+	},
+	{
+		"IdMpio": "15367",
+		"IdDpto": "15",
+		"NomMpio": "JENESANO "
+	},
+	{
+		"IdMpio": "05368",
+		"IdDpto": "05",
+		"NomMpio": "JERICO "
+	},
+	{
+		"IdMpio": "15368",
+		"IdDpto": "15",
+		"NomMpio": "JERICO "
+	},
+	{
+		"IdMpio": "25368",
+		"IdDpto": "25",
+		"NomMpio": "JERUSALEN "
+	},
+	{
+		"IdMpio": "68368",
+		"IdDpto": "68",
+		"NomMpio": "JESUS MARIA "
+	},
+	{
+		"IdMpio": "68370",
+		"IdDpto": "68",
+		"NomMpio": "JORDAN "
+	},
+	{
+		"IdMpio": "08372",
+		"IdDpto": "08",
+		"NomMpio": "JUAN DE ACOSTA "
+	},
+	{
+		"IdMpio": "25372",
+		"IdDpto": "25",
+		"NomMpio": "JUNIN "
+	},
+	{
+		"IdMpio": "27372",
+		"IdDpto": "27",
+		"NomMpio": "JURADO "
+	},
+	{
+		"IdMpio": "23350",
+		"IdDpto": "23",
+		"NomMpio": "LA APARTADA "
+	},
+	{
+		"IdMpio": "41378",
+		"IdDpto": "41",
+		"NomMpio": "LA ARGENTINA "
+	},
+	{
+		"IdMpio": "68377",
+		"IdDpto": "68",
+		"NomMpio": "LA BELLEZA "
+	},
+	{
+		"IdMpio": "25377",
+		"IdDpto": "25",
+		"NomMpio": "LA CALERA "
+	},
+	{
+		"IdMpio": "15380",
+		"IdDpto": "15",
+		"NomMpio": "LA CAPILLA "
+	},
+	{
+		"IdMpio": "05376",
+		"IdDpto": "05",
+		"NomMpio": "LA CEJA "
+	},
+	{
+		"IdMpio": "66383",
+		"IdDpto": "66",
+		"NomMpio": "LA CELIA "
+	},
+	{
+		"IdMpio": "91405",
+		"IdDpto": "91",
+		"NomMpio": "LA CHORRERA "
+	},
+	{
+		"IdMpio": "52378",
+		"IdDpto": "52",
+		"NomMpio": "LA CRUZ "
+	},
+	{
+		"IdMpio": "76377",
+		"IdDpto": "76",
+		"NomMpio": "LA CUMBRE "
+	},
+	{
+		"IdMpio": "17380",
+		"IdDpto": "17",
+		"NomMpio": "LA DORADA "
+	},
+	{
+		"IdMpio": "54385",
+		"IdDpto": "54",
+		"NomMpio": "LA ESPERANZA "
+	},
+	{
+		"IdMpio": "05380",
+		"IdDpto": "05",
+		"NomMpio": "LA ESTRELLA "
+	},
+	{
+		"IdMpio": "52381",
+		"IdDpto": "52",
+		"NomMpio": "LA FLORIDA "
+	},
+	{
+		"IdMpio": "20383",
+		"IdDpto": "20",
+		"NomMpio": "LA GLORIA "
+	},
+	{
+		"IdMpio": "94885",
+		"IdDpto": "94",
+		"NomMpio": "LA GUADALUPE "
+	},
+	{
+		"IdMpio": "20400",
+		"IdDpto": "20",
+		"NomMpio": "LA JAGUA DE IBIRICO "
+	},
+	{
+		"IdMpio": "44420",
+		"IdDpto": "44",
+		"NomMpio": "LA JAGUA DEL PILAR "
+	},
+	{
+		"IdMpio": "52385",
+		"IdDpto": "52",
+		"NomMpio": "LA LLANADA "
+	},
+	{
+		"IdMpio": "50350",
+		"IdDpto": "50",
+		"NomMpio": "LA MACARENA "
+	},
+	{
+		"IdMpio": "17388",
+		"IdDpto": "17",
+		"NomMpio": "LA MERCED "
+	},
+	{
+		"IdMpio": "25386",
+		"IdDpto": "25",
+		"NomMpio": "LA MESA "
+	},
+	{
+		"IdMpio": "18410",
+		"IdDpto": "18",
+		"NomMpio": "LA MONTAÑITA "
+	},
+	{
+		"IdMpio": "25394",
+		"IdDpto": "25",
+		"NomMpio": "LA PALMA "
+	},
+	{
+		"IdMpio": "20621",
+		"IdDpto": "20",
+		"NomMpio": "LA PAZ "
+	},
+	{
+		"IdMpio": "68397",
+		"IdDpto": "68",
+		"NomMpio": "LA PAZ "
+	},
+	{
+		"IdMpio": "91407",
+		"IdDpto": "91",
+		"NomMpio": "LA PEDRERA "
+	},
+	{
+		"IdMpio": "25398",
+		"IdDpto": "25",
+		"NomMpio": "LA PEÑA "
+	},
+	{
+		"IdMpio": "05390",
+		"IdDpto": "05",
+		"NomMpio": "LA PINTADA "
+	},
+	{
+		"IdMpio": "41396",
+		"IdDpto": "41",
+		"NomMpio": "LA PLATA "
+	},
+	{
+		"IdMpio": "54398",
+		"IdDpto": "54",
+		"NomMpio": "LA PLAYA "
+	},
+	{
+		"IdMpio": "99524",
+		"IdDpto": "99",
+		"NomMpio": "LA PRIMAVERA "
+	},
+	{
+		"IdMpio": "85136",
+		"IdDpto": "85",
+		"NomMpio": "LA SALINA "
+	},
+	{
+		"IdMpio": "19392",
+		"IdDpto": "19",
+		"NomMpio": "LA SIERRA "
+	},
+	{
+		"IdMpio": "63401",
+		"IdDpto": "63",
+		"NomMpio": "LA TEBAIDA "
+	},
+	{
+		"IdMpio": "52390",
+		"IdDpto": "52",
+		"NomMpio": "LA TOLA "
+	},
+	{
+		"IdMpio": "05400",
+		"IdDpto": "05",
+		"NomMpio": "LA UNION "
+	},
+	{
+		"IdMpio": "52399",
+		"IdDpto": "52",
+		"NomMpio": "LA UNION "
+	},
+	{
+		"IdMpio": "70400",
+		"IdDpto": "70",
+		"NomMpio": "LA UNION "
+	},
+	{
+		"IdMpio": "76400",
+		"IdDpto": "76",
+		"NomMpio": "LA UNION "
+	},
+	{
+		"IdMpio": "15403",
+		"IdDpto": "15",
+		"NomMpio": "LA UVITA "
+	},
+	{
+		"IdMpio": "19397",
+		"IdDpto": "19",
+		"NomMpio": "LA VEGA "
+	},
+	{
+		"IdMpio": "25402",
+		"IdDpto": "25",
+		"NomMpio": "LA VEGA "
+	},
+	{
+		"IdMpio": "15401",
+		"IdDpto": "15",
+		"NomMpio": "LA VICTORIA "
+	},
+	{
+		"IdMpio": "76403",
+		"IdDpto": "76",
+		"NomMpio": "LA VICTORIA "
+	},
+	{
+		"IdMpio": "91430",
+		"IdDpto": "91",
+		"NomMpio": "LA VICTORIA  "
+	},
+	{
+		"IdMpio": "66400",
+		"IdDpto": "66",
+		"NomMpio": "LA VIRGINIA "
+	},
+	{
+		"IdMpio": "54377",
+		"IdDpto": "54",
+		"NomMpio": "LABATECA "
+	},
+	{
+		"IdMpio": "15377",
+		"IdDpto": "15",
+		"NomMpio": "LABRANZAGRANDE "
+	},
+	{
+		"IdMpio": "68385",
+		"IdDpto": "68",
+		"NomMpio": "LANDAZURI "
+	},
+	{
+		"IdMpio": "68406",
+		"IdDpto": "68",
+		"NomMpio": "LEBRIJA "
+	},
+	{
+		"IdMpio": "86573",
+		"IdDpto": "86",
+		"NomMpio": "LEGUIZAMO "
+	},
+	{
+		"IdMpio": "52405",
+		"IdDpto": "52",
+		"NomMpio": "LEIVA "
+	},
+	{
+		"IdMpio": "50400",
+		"IdDpto": "50",
+		"NomMpio": "LEJANIAS "
+	},
+	{
+		"IdMpio": "25407",
+		"IdDpto": "25",
+		"NomMpio": "LENGUAZAQUE "
+	},
+	{
+		"IdMpio": "73408",
+		"IdDpto": "73",
+		"NomMpio": "LERIDA "
+	},
+	{
+		"IdMpio": "91001",
+		"IdDpto": "91",
+		"NomMpio": "LETICIA "
+	},
+	{
+		"IdMpio": "73411",
+		"IdDpto": "73",
+		"NomMpio": "LIBANO "
+	},
+	{
+		"IdMpio": "05411",
+		"IdDpto": "05",
+		"NomMpio": "LIBORINA "
+	},
+	{
+		"IdMpio": "52411",
+		"IdDpto": "52",
+		"NomMpio": "LINARES "
+	},
+	{
+		"IdMpio": "27413",
+		"IdDpto": "27",
+		"NomMpio": "LLORO "
+	},
+	{
+		"IdMpio": "19418",
+		"IdDpto": "19",
+		"NomMpio": "LOPEZ "
+	},
+	{
+		"IdMpio": "23417",
+		"IdDpto": "23",
+		"NomMpio": "LORICA "
+	},
+	{
+		"IdMpio": "52418",
+		"IdDpto": "52",
+		"NomMpio": "LOS ANDES "
+	},
+	{
+		"IdMpio": "23419",
+		"IdDpto": "23",
+		"NomMpio": "LOS CORDOBAS "
+	},
+	{
+		"IdMpio": "70418",
+		"IdDpto": "70",
+		"NomMpio": "LOS PALMITOS "
+	},
+	{
+		"IdMpio": "54405",
+		"IdDpto": "54",
+		"NomMpio": "LOS PATIOS "
+	},
+	{
+		"IdMpio": "68418",
+		"IdDpto": "68",
+		"NomMpio": "LOS SANTOS "
+	},
+	{
+		"IdMpio": "54418",
+		"IdDpto": "54",
+		"NomMpio": "LOURDES "
+	},
+	{
+		"IdMpio": "08421",
+		"IdDpto": "08",
+		"NomMpio": "LURUACO "
+	},
+	{
+		"IdMpio": "15425",
+		"IdDpto": "15",
+		"NomMpio": "MACANAL "
+	},
+	{
+		"IdMpio": "68425",
+		"IdDpto": "68",
+		"NomMpio": "MACARAVITA "
+	},
+	{
+		"IdMpio": "05425",
+		"IdDpto": "05",
+		"NomMpio": "MACEO "
+	},
+	{
+		"IdMpio": "25426",
+		"IdDpto": "25",
+		"NomMpio": "MACHETA "
+	},
+	{
+		"IdMpio": "25430",
+		"IdDpto": "25",
+		"NomMpio": "MADRID "
+	},
+	{
+		"IdMpio": "13430",
+		"IdDpto": "13",
+		"NomMpio": "MAGANGUE "
+	},
+	{
+		"IdMpio": "52427",
+		"IdDpto": "52",
+		"NomMpio": "MAGsI "
+	},
+	{
+		"IdMpio": "13433",
+		"IdDpto": "13",
+		"NomMpio": "MAHATES "
+	},
+	{
+		"IdMpio": "44430",
+		"IdDpto": "44",
+		"NomMpio": "MAICAO "
+	},
+	{
+		"IdMpio": "70429",
+		"IdDpto": "70",
+		"NomMpio": "MAJAGUAL "
+	},
+	{
+		"IdMpio": "68432",
+		"IdDpto": "68",
+		"NomMpio": "MALAGA "
+	},
+	{
+		"IdMpio": "08433",
+		"IdDpto": "08",
+		"NomMpio": "MALAMBO "
+	},
+	{
+		"IdMpio": "52435",
+		"IdDpto": "52",
+		"NomMpio": "MALLAMA "
+	},
+	{
+		"IdMpio": "08436",
+		"IdDpto": "08",
+		"NomMpio": "MANATI "
+	},
+	{
+		"IdMpio": "20443",
+		"IdDpto": "20",
+		"NomMpio": "MANAURE "
+	},
+	{
+		"IdMpio": "44560",
+		"IdDpto": "44",
+		"NomMpio": "MANAURE "
+	},
+	{
+		"IdMpio": "85139",
+		"IdDpto": "85",
+		"NomMpio": "MANI "
+	},
+	{
+		"IdMpio": "17001",
+		"IdDpto": "17",
+		"NomMpio": "MANIZALES "
+	},
+	{
+		"IdMpio": "25436",
+		"IdDpto": "25",
+		"NomMpio": "MANTA "
+	},
+	{
+		"IdMpio": "17433",
+		"IdDpto": "17",
+		"NomMpio": "MANZANARES "
+	},
+	{
+		"IdMpio": "50325",
+		"IdDpto": "50",
+		"NomMpio": "MAPIRIPAN "
+	},
+	{
+		"IdMpio": "94663",
+		"IdDpto": "94",
+		"NomMpio": "MAPIRIPANA "
+	},
+	{
+		"IdMpio": "13440",
+		"IdDpto": "13",
+		"NomMpio": "MARGARITA "
+	},
+	{
+		"IdMpio": "13442",
+		"IdDpto": "13",
+		"NomMpio": "MARIA LA BAJA "
+	},
+	{
+		"IdMpio": "05440",
+		"IdDpto": "05",
+		"NomMpio": "MARINILLA "
+	},
+	{
+		"IdMpio": "15442",
+		"IdDpto": "15",
+		"NomMpio": "MARIPI "
+	},
+	{
+		"IdMpio": "73443",
+		"IdDpto": "73",
+		"NomMpio": "MARIQUITA "
+	},
+	{
+		"IdMpio": "17442",
+		"IdDpto": "17",
+		"NomMpio": "MARMATO "
+	},
+	{
+		"IdMpio": "17444",
+		"IdDpto": "17",
+		"NomMpio": "MARQUETALIA "
+	},
+	{
+		"IdMpio": "66440",
+		"IdDpto": "66",
+		"NomMpio": "MARSELLA "
+	},
+	{
+		"IdMpio": "17446",
+		"IdDpto": "17",
+		"NomMpio": "MARULANDA "
+	},
+	{
+		"IdMpio": "68444",
+		"IdDpto": "68",
+		"NomMpio": "MATANZA "
+	},
+	{
+		"IdMpio": "05001",
+		"IdDpto": "05",
+		"NomMpio": "MEDELLIN "
+	},
+	{
+		"IdMpio": "25438",
+		"IdDpto": "25",
+		"NomMpio": "MEDINA "
+	},
+	{
+		"IdMpio": "27425",
+		"IdDpto": "27",
+		"NomMpio": "MEDIO ATRATO "
+	},
+	{
+		"IdMpio": "27430",
+		"IdDpto": "27",
+		"NomMpio": "MEDIO BAUDO "
+	},
+	{
+		"IdMpio": "27450",
+		"IdDpto": "27",
+		"NomMpio": "MEDIO SAN JUAN "
+	},
+	{
+		"IdMpio": "73449",
+		"IdDpto": "73",
+		"NomMpio": "MELGAR "
+	},
+	{
+		"IdMpio": "19450",
+		"IdDpto": "19",
+		"NomMpio": "MERCADERES "
+	},
+	{
+		"IdMpio": "50330",
+		"IdDpto": "50",
+		"NomMpio": "MESETAS "
+	},
+	{
+		"IdMpio": "18460",
+		"IdDpto": "18",
+		"NomMpio": "MILAN "
+	},
+	{
+		"IdMpio": "15455",
+		"IdDpto": "15",
+		"NomMpio": "MIRAFLORES "
+	},
+	{
+		"IdMpio": "95200",
+		"IdDpto": "95",
+		"NomMpio": "MIRAFLORES "
+	},
+	{
+		"IdMpio": "19455",
+		"IdDpto": "19",
+		"NomMpio": "MIRANDA "
+	},
+	{
+		"IdMpio": "91460",
+		"IdDpto": "91",
+		"NomMpio": "MIRITI - PARANA "
+	},
+	{
+		"IdMpio": "66456",
+		"IdDpto": "66",
+		"NomMpio": "MISTRATO "
+	},
+	{
+		"IdMpio": "97001",
+		"IdDpto": "97",
+		"NomMpio": "MITU "
+	},
+	{
+		"IdMpio": "86001",
+		"IdDpto": "86",
+		"NomMpio": "MOCOA "
+	},
+	{
+		"IdMpio": "68464",
+		"IdDpto": "68",
+		"NomMpio": "MOGOTES "
+	},
+	{
+		"IdMpio": "68468",
+		"IdDpto": "68",
+		"NomMpio": "MOLAGAVITA "
+	},
+	{
+		"IdMpio": "23464",
+		"IdDpto": "23",
+		"NomMpio": "MOMIL "
+	},
+	{
+		"IdMpio": "13468",
+		"IdDpto": "13",
+		"NomMpio": "MOMPOS "
+	},
+	{
+		"IdMpio": "15464",
+		"IdDpto": "15",
+		"NomMpio": "MONGUA "
+	},
+	{
+		"IdMpio": "15466",
+		"IdDpto": "15",
+		"NomMpio": "MONGUI "
+	},
+	{
+		"IdMpio": "15469",
+		"IdDpto": "15",
+		"NomMpio": "MONIQUIRA "
+	},
+	{
+		"IdMpio": "05467",
+		"IdDpto": "05",
+		"NomMpio": "MONTEBELLO "
+	},
+	{
+		"IdMpio": "13458",
+		"IdDpto": "13",
+		"NomMpio": "MONTECRISTO "
+	},
+	{
+		"IdMpio": "23466",
+		"IdDpto": "23",
+		"NomMpio": "MONTELIBANO "
+	},
+	{
+		"IdMpio": "63470",
+		"IdDpto": "63",
+		"NomMpio": "MONTENEGRO "
+	},
+	{
+		"IdMpio": "23001",
+		"IdDpto": "23",
+		"NomMpio": "MONTERIA "
+	},
+	{
+		"IdMpio": "85162",
+		"IdDpto": "85",
+		"NomMpio": "MONTERREY "
+	},
+	{
+		"IdMpio": "23500",
+		"IdDpto": "23",
+		"NomMpio": "MOÑITOS "
+	},
+	{
+		"IdMpio": "13473",
+		"IdDpto": "13",
+		"NomMpio": "MORALES "
+	},
+	{
+		"IdMpio": "19473",
+		"IdDpto": "19",
+		"NomMpio": "MORALES "
+	},
+	{
+		"IdMpio": "18479",
+		"IdDpto": "18",
+		"NomMpio": "MORELIA "
+	},
+	{
+		"IdMpio": "94888",
+		"IdDpto": "94",
+		"NomMpio": "MORICHAL "
+	},
+	{
+		"IdMpio": "70473",
+		"IdDpto": "70",
+		"NomMpio": "MORROA "
+	},
+	{
+		"IdMpio": "25473",
+		"IdDpto": "25",
+		"NomMpio": "MOSQUERA "
+	},
+	{
+		"IdMpio": "52473",
+		"IdDpto": "52",
+		"NomMpio": "MOSQUERA "
+	},
+	{
+		"IdMpio": "15476",
+		"IdDpto": "15",
+		"NomMpio": "MOTAVITA "
+	},
+	{
+		"IdMpio": "73461",
+		"IdDpto": "73",
+		"NomMpio": "MURILLO "
+	},
+	{
+		"IdMpio": "05475",
+		"IdDpto": "05",
+		"NomMpio": "MURINDO "
+	},
+	{
+		"IdMpio": "05480",
+		"IdDpto": "05",
+		"NomMpio": "MUTATA "
+	},
+	{
+		"IdMpio": "54480",
+		"IdDpto": "54",
+		"NomMpio": "MUTISCUA "
+	},
+	{
+		"IdMpio": "15480",
+		"IdDpto": "15",
+		"NomMpio": "MUZO "
+	},
+	{
+		"IdMpio": "05483",
+		"IdDpto": "05",
+		"NomMpio": "NARIÑO "
+	},
+	{
+		"IdMpio": "25483",
+		"IdDpto": "25",
+		"NomMpio": "NARIÑO "
+	},
+	{
+		"IdMpio": "52480",
+		"IdDpto": "52",
+		"NomMpio": "NARIÑO "
+	},
+	{
+		"IdMpio": "41483",
+		"IdDpto": "41",
+		"NomMpio": "NATAGA "
+	},
+	{
+		"IdMpio": "73483",
+		"IdDpto": "73",
+		"NomMpio": "NATAGAIMA "
+	},
+	{
+		"IdMpio": "05495",
+		"IdDpto": "05",
+		"NomMpio": "NECHI  "
+	},
+	{
+		"IdMpio": "05490",
+		"IdDpto": "05",
+		"NomMpio": "NECOCLI "
+	},
+	{
+		"IdMpio": "17486",
+		"IdDpto": "17",
+		"NomMpio": "NEIRA "
+	},
+	{
+		"IdMpio": "41001",
+		"IdDpto": "41",
+		"NomMpio": "NEIVA "
+	},
+	{
+		"IdMpio": "25486",
+		"IdDpto": "25",
+		"NomMpio": "NEMOCON "
+	},
+	{
+		"IdMpio": "25488",
+		"IdDpto": "25",
+		"NomMpio": "NILO "
+	},
+	{
+		"IdMpio": "25489",
+		"IdDpto": "25",
+		"NomMpio": "NIMAIMA "
+	},
+	{
+		"IdMpio": "15491",
+		"IdDpto": "15",
+		"NomMpio": "NOBSA "
+	},
+	{
+		"IdMpio": "25491",
+		"IdDpto": "25",
+		"NomMpio": "NOCAIMA "
+	},
+	{
+		"IdMpio": "17495",
+		"IdDpto": "17",
+		"NomMpio": "NORCASIA "
+	},
+	{
+		"IdMpio": "13490",
+		"IdDpto": "13",
+		"NomMpio": "NOROSI "
+	},
+	{
+		"IdMpio": "27491",
+		"IdDpto": "27",
+		"NomMpio": "NOVITA "
+	},
+	{
+		"IdMpio": "47460",
+		"IdDpto": "47",
+		"NomMpio": "NUEVA GRANADA "
+	},
+	{
+		"IdMpio": "15494",
+		"IdDpto": "15",
+		"NomMpio": "NUEVO COLON "
+	},
+	{
+		"IdMpio": "85225",
+		"IdDpto": "85",
+		"NomMpio": "NUNCHIA "
+	},
+	{
+		"IdMpio": "27495",
+		"IdDpto": "27",
+		"NomMpio": "NUQUI "
+	},
+	{
+		"IdMpio": "76497",
+		"IdDpto": "76",
+		"NomMpio": "OBANDO "
+	},
+	{
+		"IdMpio": "68498",
+		"IdDpto": "68",
+		"NomMpio": "OCAMONTE "
+	},
+	{
+		"IdMpio": "54498",
+		"IdDpto": "54",
+		"NomMpio": "OCAÑA "
+	},
+	{
+		"IdMpio": "68500",
+		"IdDpto": "68",
+		"NomMpio": "OIBA "
+	},
+	{
+		"IdMpio": "15500",
+		"IdDpto": "15",
+		"NomMpio": "OICATA "
+	},
+	{
+		"IdMpio": "05501",
+		"IdDpto": "05",
+		"NomMpio": "OLAYA "
+	},
+	{
+		"IdMpio": "52490",
+		"IdDpto": "52",
+		"NomMpio": "OLAYA HERRERA "
+	},
+	{
+		"IdMpio": "68502",
+		"IdDpto": "68",
+		"NomMpio": "ONZAGA "
+	},
+	{
+		"IdMpio": "41503",
+		"IdDpto": "41",
+		"NomMpio": "OPORAPA "
+	},
+	{
+		"IdMpio": "86320",
+		"IdDpto": "86",
+		"NomMpio": "ORITO "
+	},
+	{
+		"IdMpio": "85230",
+		"IdDpto": "85",
+		"NomMpio": "OROCUE "
+	},
+	{
+		"IdMpio": "73504",
+		"IdDpto": "73",
+		"NomMpio": "ORTEGA "
+	},
+	{
+		"IdMpio": "52506",
+		"IdDpto": "52",
+		"NomMpio": "OSPINA "
+	},
+	{
+		"IdMpio": "15507",
+		"IdDpto": "15",
+		"NomMpio": "OTANCHE "
+	},
+	{
+		"IdMpio": "70508",
+		"IdDpto": "70",
+		"NomMpio": "OVEJAS "
+	},
+	{
+		"IdMpio": "15511",
+		"IdDpto": "15",
+		"NomMpio": "PACHAVITA "
+	},
+	{
+		"IdMpio": "25513",
+		"IdDpto": "25",
+		"NomMpio": "PACHO "
+	},
+	{
+		"IdMpio": "97511",
+		"IdDpto": "97",
+		"NomMpio": "PACOA "
+	},
+	{
+		"IdMpio": "17513",
+		"IdDpto": "17",
+		"NomMpio": "PACORA "
+	},
+	{
+		"IdMpio": "19513",
+		"IdDpto": "19",
+		"NomMpio": "PADILLA "
+	},
+	{
+		"IdMpio": "15514",
+		"IdDpto": "15",
+		"NomMpio": "PAEZ "
+	},
+	{
+		"IdMpio": "19517",
+		"IdDpto": "19",
+		"NomMpio": "PAEZ "
+	},
+	{
+		"IdMpio": "41518",
+		"IdDpto": "41",
+		"NomMpio": "PAICOL "
+	},
+	{
+		"IdMpio": "20517",
+		"IdDpto": "20",
+		"NomMpio": "PAILITAS "
+	},
+	{
+		"IdMpio": "25518",
+		"IdDpto": "25",
+		"NomMpio": "PAIME "
+	},
+	{
+		"IdMpio": "15516",
+		"IdDpto": "15",
+		"NomMpio": "PAIPA "
+	},
+	{
+		"IdMpio": "15518",
+		"IdDpto": "15",
+		"NomMpio": "PAJARITO "
+	},
+	{
+		"IdMpio": "41524",
+		"IdDpto": "41",
+		"NomMpio": "PALERMO "
+	},
+	{
+		"IdMpio": "17524",
+		"IdDpto": "17",
+		"NomMpio": "PALESTINA "
+	},
+	{
+		"IdMpio": "41530",
+		"IdDpto": "41",
+		"NomMpio": "PALESTINA "
+	},
+	{
+		"IdMpio": "68522",
+		"IdDpto": "68",
+		"NomMpio": "PALMAR "
+	},
+	{
+		"IdMpio": "08520",
+		"IdDpto": "08",
+		"NomMpio": "PALMAR DE VARELA "
+	},
+	{
+		"IdMpio": "68524",
+		"IdDpto": "68",
+		"NomMpio": "PALMAS DEL SOCORRO "
+	},
+	{
+		"IdMpio": "76520",
+		"IdDpto": "76",
+		"NomMpio": "PALMIRA "
+	},
+	{
+		"IdMpio": "70523",
+		"IdDpto": "70",
+		"NomMpio": "PALMITO "
+	},
+	{
+		"IdMpio": "73520",
+		"IdDpto": "73",
+		"NomMpio": "PALOCABILDO "
+	},
+	{
+		"IdMpio": "54518",
+		"IdDpto": "54",
+		"NomMpio": "PAMPLONA "
+	},
+	{
+		"IdMpio": "54520",
+		"IdDpto": "54",
+		"NomMpio": "PAMPLONITA "
+	},
+	{
+		"IdMpio": "94887",
+		"IdDpto": "94",
+		"NomMpio": "PANA PANA "
+	},
+	{
+		"IdMpio": "25524",
+		"IdDpto": "25",
+		"NomMpio": "PANDI "
+	},
+	{
+		"IdMpio": "15522",
+		"IdDpto": "15",
+		"NomMpio": "PANQUEBA "
+	},
+	{
+		"IdMpio": "97777",
+		"IdDpto": "97",
+		"NomMpio": "PAPUNAUA "
+	},
+	{
+		"IdMpio": "68533",
+		"IdDpto": "68",
+		"NomMpio": "PARAMO "
+	},
+	{
+		"IdMpio": "25530",
+		"IdDpto": "25",
+		"NomMpio": "PARATEBUENO "
+	},
+	{
+		"IdMpio": "25535",
+		"IdDpto": "25",
+		"NomMpio": "PASCA "
+	},
+	{
+		"IdMpio": "52001",
+		"IdDpto": "52",
+		"NomMpio": "PASTO "
+	},
+	{
+		"IdMpio": "19532",
+		"IdDpto": "19",
+		"NomMpio": "PATIA "
+	},
+	{
+		"IdMpio": "15531",
+		"IdDpto": "15",
+		"NomMpio": "PAUNA "
+	},
+	{
+		"IdMpio": "15533",
+		"IdDpto": "15",
+		"NomMpio": "PAYA "
+	},
+	{
+		"IdMpio": "85250",
+		"IdDpto": "85",
+		"NomMpio": "PAZ DE ARIPORO "
+	},
+	{
+		"IdMpio": "15537",
+		"IdDpto": "15",
+		"NomMpio": "PAZ DE RIO "
+	},
+	{
+		"IdMpio": "05541",
+		"IdDpto": "05",
+		"NomMpio": "PEÐOL "
+	},
+	{
+		"IdMpio": "47541",
+		"IdDpto": "47",
+		"NomMpio": "PEDRAZA "
+	},
+	{
+		"IdMpio": "20550",
+		"IdDpto": "20",
+		"NomMpio": "PELAYA "
+	},
+	{
+		"IdMpio": "17541",
+		"IdDpto": "17",
+		"NomMpio": "PENSILVANIA "
+	},
+	{
+		"IdMpio": "05543",
+		"IdDpto": "05",
+		"NomMpio": "PEQUE "
+	},
+	{
+		"IdMpio": "66001",
+		"IdDpto": "66",
+		"NomMpio": "PEREIRA "
+	},
+	{
+		"IdMpio": "15542",
+		"IdDpto": "15",
+		"NomMpio": "PESCA "
+	},
+	{
+		"IdMpio": "19533",
+		"IdDpto": "19",
+		"NomMpio": "PIAMONTE "
+	},
+	{
+		"IdMpio": "68547",
+		"IdDpto": "68",
+		"NomMpio": "PIEDECUESTA "
+	},
+	{
+		"IdMpio": "73547",
+		"IdDpto": "73",
+		"NomMpio": "PIEDRAS "
+	},
+	{
+		"IdMpio": "19548",
+		"IdDpto": "19",
+		"NomMpio": "PIENDAMO "
+	},
+	{
+		"IdMpio": "63548",
+		"IdDpto": "63",
+		"NomMpio": "PIJAO "
+	},
+	{
+		"IdMpio": "47545",
+		"IdDpto": "47",
+		"NomMpio": "PIJIÑO DEL CARMEN "
+	},
+	{
+		"IdMpio": "68549",
+		"IdDpto": "68",
+		"NomMpio": "PINCHOTE "
+	},
+	{
+		"IdMpio": "13549",
+		"IdDpto": "13",
+		"NomMpio": "PINILLOS "
+	},
+	{
+		"IdMpio": "08549",
+		"IdDpto": "08",
+		"NomMpio": "PIOJO "
+	},
+	{
+		"IdMpio": "15550",
+		"IdDpto": "15",
+		"NomMpio": "PISBA "
+	},
+	{
+		"IdMpio": "41548",
+		"IdDpto": "41",
+		"NomMpio": "PITAL "
+	},
+	{
+		"IdMpio": "41551",
+		"IdDpto": "41",
+		"NomMpio": "PITALITO "
+	},
+	{
+		"IdMpio": "47551",
+		"IdDpto": "47",
+		"NomMpio": "PIVIJAY "
+	},
+	{
+		"IdMpio": "73555",
+		"IdDpto": "73",
+		"NomMpio": "PLANADAS "
+	},
+	{
+		"IdMpio": "23555",
+		"IdDpto": "23",
+		"NomMpio": "PLANETA RICA "
+	},
+	{
+		"IdMpio": "47555",
+		"IdDpto": "47",
+		"NomMpio": "PLATO "
+	},
+	{
+		"IdMpio": "52540",
+		"IdDpto": "52",
+		"NomMpio": "POLICARPA "
+	},
+	{
+		"IdMpio": "08558",
+		"IdDpto": "08",
+		"NomMpio": "POLONUEVO "
+	},
+	{
+		"IdMpio": "08560",
+		"IdDpto": "08",
+		"NomMpio": "PONEDERA "
+	},
+	{
+		"IdMpio": "19001",
+		"IdDpto": "19",
+		"NomMpio": "POPAYAN "
+	},
+	{
+		"IdMpio": "85263",
+		"IdDpto": "85",
+		"NomMpio": "PORE "
+	},
+	{
+		"IdMpio": "52560",
+		"IdDpto": "52",
+		"NomMpio": "POTOSI "
+	},
+	{
+		"IdMpio": "76563",
+		"IdDpto": "76",
+		"NomMpio": "PRADERA "
+	},
+	{
+		"IdMpio": "73563",
+		"IdDpto": "73",
+		"NomMpio": "PRADO "
+	},
+	{
+		"IdMpio": "52565",
+		"IdDpto": "52",
+		"NomMpio": "PROVIDENCIA "
+	},
+	{
+		"IdMpio": "88564",
+		"IdDpto": "88",
+		"NomMpio": "PROVIDENCIA "
+	},
+	{
+		"IdMpio": "20570",
+		"IdDpto": "20",
+		"NomMpio": "PUEBLO BELLO "
+	},
+	{
+		"IdMpio": "23570",
+		"IdDpto": "23",
+		"NomMpio": "PUEBLO NUEVO "
+	},
+	{
+		"IdMpio": "66572",
+		"IdDpto": "66",
+		"NomMpio": "PUEBLO RICO "
+	},
+	{
+		"IdMpio": "05576",
+		"IdDpto": "05",
+		"NomMpio": "PUEBLORRICO "
+	},
+	{
+		"IdMpio": "47570",
+		"IdDpto": "47",
+		"NomMpio": "PUEBLOVIEJO "
+	},
+	{
+		"IdMpio": "68572",
+		"IdDpto": "68",
+		"NomMpio": "PUENTE NACIONAL "
+	},
+	{
+		"IdMpio": "52573",
+		"IdDpto": "52",
+		"NomMpio": "PUERRES "
+	},
+	{
+		"IdMpio": "91530",
+		"IdDpto": "91",
+		"NomMpio": "PUERTO ALEGRIA "
+	},
+	{
+		"IdMpio": "91536",
+		"IdDpto": "91",
+		"NomMpio": "PUERTO ARICA "
+	},
+	{
+		"IdMpio": "86568",
+		"IdDpto": "86",
+		"NomMpio": "PUERTO ASIS "
+	},
+	{
+		"IdMpio": "05579",
+		"IdDpto": "05",
+		"NomMpio": "PUERTO BERRIO "
+	},
+	{
+		"IdMpio": "15572",
+		"IdDpto": "15",
+		"NomMpio": "PUERTO BOYACA "
+	},
+	{
+		"IdMpio": "86569",
+		"IdDpto": "86",
+		"NomMpio": "PUERTO CAICEDO "
+	},
+	{
+		"IdMpio": "99001",
+		"IdDpto": "99",
+		"NomMpio": "PUERTO CARREÑO "
+	},
+	{
+		"IdMpio": "08573",
+		"IdDpto": "08",
+		"NomMpio": "PUERTO COLOMBIA "
+	},
+	{
+		"IdMpio": "94884",
+		"IdDpto": "94",
+		"NomMpio": "PUERTO COLOMBIA "
+	},
+	{
+		"IdMpio": "50450",
+		"IdDpto": "50",
+		"NomMpio": "PUERTO CONCORDIA "
+	},
+	{
+		"IdMpio": "23574",
+		"IdDpto": "23",
+		"NomMpio": "PUERTO ESCONDIDO "
+	},
+	{
+		"IdMpio": "50568",
+		"IdDpto": "50",
+		"NomMpio": "PUERTO GAITAN "
+	},
+	{
+		"IdMpio": "86571",
+		"IdDpto": "86",
+		"NomMpio": "PUERTO GUZMAN "
+	},
+	{
+		"IdMpio": "23580",
+		"IdDpto": "23",
+		"NomMpio": "PUERTO LIBERTADOR "
+	},
+	{
+		"IdMpio": "50577",
+		"IdDpto": "50",
+		"NomMpio": "PUERTO LLERAS "
+	},
+	{
+		"IdMpio": "50573",
+		"IdDpto": "50",
+		"NomMpio": "PUERTO LOPEZ "
+	},
+	{
+		"IdMpio": "05585",
+		"IdDpto": "05",
+		"NomMpio": "PUERTO NARE "
+	},
+	{
+		"IdMpio": "91540",
+		"IdDpto": "91",
+		"NomMpio": "PUERTO NARIÑO "
+	},
+	{
+		"IdMpio": "68573",
+		"IdDpto": "68",
+		"NomMpio": "PUERTO PARRA "
+	},
+	{
+		"IdMpio": "18592",
+		"IdDpto": "18",
+		"NomMpio": "PUERTO RICO "
+	},
+	{
+		"IdMpio": "50590",
+		"IdDpto": "50",
+		"NomMpio": "PUERTO RICO "
+	},
+	{
+		"IdMpio": "81591",
+		"IdDpto": "81",
+		"NomMpio": "PUERTO RONDON "
+	},
+	{
+		"IdMpio": "25572",
+		"IdDpto": "25",
+		"NomMpio": "PUERTO SALGAR "
+	},
+	{
+		"IdMpio": "54553",
+		"IdDpto": "54",
+		"NomMpio": "PUERTO SANTANDER "
+	},
+	{
+		"IdMpio": "91669",
+		"IdDpto": "91",
+		"NomMpio": "PUERTO SANTANDER "
+	},
+	{
+		"IdMpio": "19573",
+		"IdDpto": "19",
+		"NomMpio": "PUERTO TEJADA "
+	},
+	{
+		"IdMpio": "05591",
+		"IdDpto": "05",
+		"NomMpio": "PUERTO TRIUNFO "
+	},
+	{
+		"IdMpio": "68575",
+		"IdDpto": "68",
+		"NomMpio": "PUERTO WILCHES "
+	},
+	{
+		"IdMpio": "25580",
+		"IdDpto": "25",
+		"NomMpio": "PULI "
+	},
+	{
+		"IdMpio": "52585",
+		"IdDpto": "52",
+		"NomMpio": "PUPIALES "
+	},
+	{
+		"IdMpio": "19585",
+		"IdDpto": "19",
+		"NomMpio": "PURACE "
+	},
+	{
+		"IdMpio": "73585",
+		"IdDpto": "73",
+		"NomMpio": "PURIFICACION "
+	},
+	{
+		"IdMpio": "23586",
+		"IdDpto": "23",
+		"NomMpio": "PURISIMA "
+	},
+	{
+		"IdMpio": "25592",
+		"IdDpto": "25",
+		"NomMpio": "QUEBRADANEGRA "
+	},
+	{
+		"IdMpio": "25594",
+		"IdDpto": "25",
+		"NomMpio": "QUETAME "
+	},
+	{
+		"IdMpio": "27001",
+		"IdDpto": "27",
+		"NomMpio": "QUIBDO "
+	},
+	{
+		"IdMpio": "63594",
+		"IdDpto": "63",
+		"NomMpio": "QUIMBAYA "
+	},
+	{
+		"IdMpio": "66594",
+		"IdDpto": "66",
+		"NomMpio": "QUINCHIA "
+	},
+	{
+		"IdMpio": "15580",
+		"IdDpto": "15",
+		"NomMpio": "QUIPAMA "
+	},
+	{
+		"IdMpio": "25596",
+		"IdDpto": "25",
+		"NomMpio": "QUIPILE "
+	},
+	{
+		"IdMpio": "54599",
+		"IdDpto": "54",
+		"NomMpio": "RAGONVALIA "
+	},
+	{
+		"IdMpio": "15599",
+		"IdDpto": "15",
+		"NomMpio": "RAMIRIQUI "
+	},
+	{
+		"IdMpio": "15600",
+		"IdDpto": "15",
+		"NomMpio": "RAQUIRA "
+	},
+	{
+		"IdMpio": "85279",
+		"IdDpto": "85",
+		"NomMpio": "RECETOR "
+	},
+	{
+		"IdMpio": "13580",
+		"IdDpto": "13",
+		"NomMpio": "REGIDOR "
+	},
+	{
+		"IdMpio": "05604",
+		"IdDpto": "05",
+		"NomMpio": "REMEDIOS "
+	},
+	{
+		"IdMpio": "47605",
+		"IdDpto": "47",
+		"NomMpio": "REMOLINO "
+	},
+	{
+		"IdMpio": "08606",
+		"IdDpto": "08",
+		"NomMpio": "REPELON "
+	},
+	{
+		"IdMpio": "50606",
+		"IdDpto": "50",
+		"NomMpio": "RESTREPO "
+	},
+	{
+		"IdMpio": "76606",
+		"IdDpto": "76",
+		"NomMpio": "RESTREPO "
+	},
+	{
+		"IdMpio": "05607",
+		"IdDpto": "05",
+		"NomMpio": "RETIRO "
+	},
+	{
+		"IdMpio": "25612",
+		"IdDpto": "25",
+		"NomMpio": "RICAURTE "
+	},
+	{
+		"IdMpio": "52612",
+		"IdDpto": "52",
+		"NomMpio": "RICAURTE "
+	},
+	{
+		"IdMpio": "20614",
+		"IdDpto": "20",
+		"NomMpio": "RIO DE ORO "
+	},
+	{
+		"IdMpio": "27580",
+		"IdDpto": "27",
+		"NomMpio": "RIO IRO "
+	},
+	{
+		"IdMpio": "27600",
+		"IdDpto": "27",
+		"NomMpio": "RIO QUITO "
+	},
+	{
+		"IdMpio": "13600",
+		"IdDpto": "13",
+		"NomMpio": "RIO VIEJO "
+	},
+	{
+		"IdMpio": "73616",
+		"IdDpto": "73",
+		"NomMpio": "RIOBLANCO "
+	},
+	{
+		"IdMpio": "76616",
+		"IdDpto": "76",
+		"NomMpio": "RIOFRIO "
+	},
+	{
+		"IdMpio": "44001",
+		"IdDpto": "44",
+		"NomMpio": "RIOHACHA "
+	},
+	{
+		"IdMpio": "05615",
+		"IdDpto": "05",
+		"NomMpio": "RIONEGRO "
+	},
+	{
+		"IdMpio": "68615",
+		"IdDpto": "68",
+		"NomMpio": "RIONEGRO "
+	},
+	{
+		"IdMpio": "17614",
+		"IdDpto": "17",
+		"NomMpio": "RIOSUCIO "
+	},
+	{
+		"IdMpio": "27615",
+		"IdDpto": "27",
+		"NomMpio": "RIOSUCIO "
+	},
+	{
+		"IdMpio": "17616",
+		"IdDpto": "17",
+		"NomMpio": "RISARALDA "
+	},
+	{
+		"IdMpio": "41615",
+		"IdDpto": "41",
+		"NomMpio": "RIVERA "
+	},
+	{
+		"IdMpio": "52621",
+		"IdDpto": "52",
+		"NomMpio": "ROBERTO PAYAN "
+	},
+	{
+		"IdMpio": "76622",
+		"IdDpto": "76",
+		"NomMpio": "ROLDANILLO "
+	},
+	{
+		"IdMpio": "73622",
+		"IdDpto": "73",
+		"NomMpio": "RONCESVALLES "
+	},
+	{
+		"IdMpio": "15621",
+		"IdDpto": "15",
+		"NomMpio": "RONDON "
+	},
+	{
+		"IdMpio": "19622",
+		"IdDpto": "19",
+		"NomMpio": "ROSAS "
+	},
+	{
+		"IdMpio": "73624",
+		"IdDpto": "73",
+		"NomMpio": "ROVIRA "
+	},
+	{
+		"IdMpio": "68655",
+		"IdDpto": "68",
+		"NomMpio": "SABANA DE TORRES "
+	},
+	{
+		"IdMpio": "08634",
+		"IdDpto": "08",
+		"NomMpio": "SABANAGRANDE "
+	},
+	{
+		"IdMpio": "05628",
+		"IdDpto": "05",
+		"NomMpio": "SABANALARGA "
+	},
+	{
+		"IdMpio": "08638",
+		"IdDpto": "08",
+		"NomMpio": "SABANALARGA "
+	},
+	{
+		"IdMpio": "85300",
+		"IdDpto": "85",
+		"NomMpio": "SABANALARGA "
+	},
+	{
+		"IdMpio": "47660",
+		"IdDpto": "47",
+		"NomMpio": "SABANAS DE SAN ANGEL "
+	},
+	{
+		"IdMpio": "05631",
+		"IdDpto": "05",
+		"NomMpio": "SABANETA "
+	},
+	{
+		"IdMpio": "15632",
+		"IdDpto": "15",
+		"NomMpio": "SABOYA "
+	},
+	{
+		"IdMpio": "85315",
+		"IdDpto": "85",
+		"NomMpio": "SACAMA "
+	},
+	{
+		"IdMpio": "15638",
+		"IdDpto": "15",
+		"NomMpio": "SACHICA "
+	},
+	{
+		"IdMpio": "23660",
+		"IdDpto": "23",
+		"NomMpio": "SAHAGUN "
+	},
+	{
+		"IdMpio": "41660",
+		"IdDpto": "41",
+		"NomMpio": "SALADOBLANCO "
+	},
+	{
+		"IdMpio": "17653",
+		"IdDpto": "17",
+		"NomMpio": "SALAMINA "
+	},
+	{
+		"IdMpio": "47675",
+		"IdDpto": "47",
+		"NomMpio": "SALAMINA "
+	},
+	{
+		"IdMpio": "54660",
+		"IdDpto": "54",
+		"NomMpio": "SALAZAR "
+	},
+	{
+		"IdMpio": "73671",
+		"IdDpto": "73",
+		"NomMpio": "SALDAÑA "
+	},
+	{
+		"IdMpio": "63690",
+		"IdDpto": "63",
+		"NomMpio": "SALENTO "
+	},
+	{
+		"IdMpio": "05642",
+		"IdDpto": "05",
+		"NomMpio": "SALGAR "
+	},
+	{
+		"IdMpio": "15646",
+		"IdDpto": "15",
+		"NomMpio": "SAMACA "
+	},
+	{
+		"IdMpio": "17662",
+		"IdDpto": "17",
+		"NomMpio": "SAMANA "
+	},
+	{
+		"IdMpio": "52678",
+		"IdDpto": "52",
+		"NomMpio": "SAMANIEGO "
+	},
+	{
+		"IdMpio": "70670",
+		"IdDpto": "70",
+		"NomMpio": "SAMPUES "
+	},
+	{
+		"IdMpio": "41668",
+		"IdDpto": "41",
+		"NomMpio": "SAN AGUSTIN "
+	},
+	{
+		"IdMpio": "20710",
+		"IdDpto": "20",
+		"NomMpio": "SAN ALBERTO "
+	},
+	{
+		"IdMpio": "68669",
+		"IdDpto": "68",
+		"NomMpio": "SAN ANDRES "
+	},
+	{
+		"IdMpio": "88001",
+		"IdDpto": "88",
+		"NomMpio": "SAN ANDRES "
+	},
+	{
+		"IdMpio": "05647",
+		"IdDpto": "05",
+		"NomMpio": "SAN ANDRES DE CUERQUIA "
+	},
+	{
+		"IdMpio": "52835",
+		"IdDpto": "52",
+		"NomMpio": "SAN ANDRES DE TUMACO "
+	},
+	{
+		"IdMpio": "23670",
+		"IdDpto": "23",
+		"NomMpio": "SAN ANDRES SOTAVENTO "
+	},
+	{
+		"IdMpio": "23672",
+		"IdDpto": "23",
+		"NomMpio": "SAN ANTERO "
+	},
+	{
+		"IdMpio": "73675",
+		"IdDpto": "73",
+		"NomMpio": "SAN ANTONIO "
+	},
+	{
+		"IdMpio": "25645",
+		"IdDpto": "25",
+		"NomMpio": "SAN ANTONIO DEL TEQUENDAMA "
+	},
+	{
+		"IdMpio": "68673",
+		"IdDpto": "68",
+		"NomMpio": "SAN BENITO "
+	},
+	{
+		"IdMpio": "70678",
+		"IdDpto": "70",
+		"NomMpio": "SAN BENITO ABAD "
+	},
+	{
+		"IdMpio": "25649",
+		"IdDpto": "25",
+		"NomMpio": "SAN BERNARDO "
+	},
+	{
+		"IdMpio": "52685",
+		"IdDpto": "52",
+		"NomMpio": "SAN BERNARDO "
+	},
+	{
+		"IdMpio": "23675",
+		"IdDpto": "23",
+		"NomMpio": "SAN BERNARDO DEL VIENTO "
+	},
+	{
+		"IdMpio": "54670",
+		"IdDpto": "54",
+		"NomMpio": "SAN CALIXTO "
+	},
+	{
+		"IdMpio": "05649",
+		"IdDpto": "05",
+		"NomMpio": "SAN CARLOS "
+	},
+	{
+		"IdMpio": "23678",
+		"IdDpto": "23",
+		"NomMpio": "SAN CARLOS "
+	},
+	{
+		"IdMpio": "50680",
+		"IdDpto": "50",
+		"NomMpio": "SAN CARLOS DE GUAROA "
+	},
+	{
+		"IdMpio": "25653",
+		"IdDpto": "25",
+		"NomMpio": "SAN CAYETANO "
+	},
+	{
+		"IdMpio": "54673",
+		"IdDpto": "54",
+		"NomMpio": "SAN CAYETANO "
+	},
+	{
+		"IdMpio": "13620",
+		"IdDpto": "13",
+		"NomMpio": "SAN CRISTOBAL "
+	},
+	{
+		"IdMpio": "20750",
+		"IdDpto": "20",
+		"NomMpio": "SAN DIEGO "
+	},
+	{
+		"IdMpio": "15660",
+		"IdDpto": "15",
+		"NomMpio": "SAN EDUARDO "
+	},
+	{
+		"IdMpio": "13647",
+		"IdDpto": "13",
+		"NomMpio": "SAN ESTANISLAO "
+	},
+	{
+		"IdMpio": "94883",
+		"IdDpto": "94",
+		"NomMpio": "SAN FELIPE "
+	},
+	{
+		"IdMpio": "13650",
+		"IdDpto": "13",
+		"NomMpio": "SAN FERNANDO "
+	},
+	{
+		"IdMpio": "05652",
+		"IdDpto": "05",
+		"NomMpio": "SAN FRANCISCO "
+	},
+	{
+		"IdMpio": "25658",
+		"IdDpto": "25",
+		"NomMpio": "SAN FRANCISCO "
+	},
+	{
+		"IdMpio": "86755",
+		"IdDpto": "86",
+		"NomMpio": "SAN FRANCISCO "
+	},
+	{
+		"IdMpio": "68679",
+		"IdDpto": "68",
+		"NomMpio": "SAN GIL "
+	},
+	{
+		"IdMpio": "13654",
+		"IdDpto": "13",
+		"NomMpio": "SAN JACINTO "
+	},
+	{
+		"IdMpio": "13655",
+		"IdDpto": "13",
+		"NomMpio": "SAN JACINTO DEL CAUCA "
+	},
+	{
+		"IdMpio": "05656",
+		"IdDpto": "05",
+		"NomMpio": "SAN JERONIMO "
+	},
+	{
+		"IdMpio": "68682",
+		"IdDpto": "68",
+		"NomMpio": "SAN JOAQUIN "
+	},
+	{
+		"IdMpio": "17665",
+		"IdDpto": "17",
+		"NomMpio": "SAN JOSE "
+	},
+	{
+		"IdMpio": "05658",
+		"IdDpto": "05",
+		"NomMpio": "SAN JOSE DE LA MONTAÑA "
+	},
+	{
+		"IdMpio": "68684",
+		"IdDpto": "68",
+		"NomMpio": "SAN JOSE DE MIRANDA "
+	},
+	{
+		"IdMpio": "15664",
+		"IdDpto": "15",
+		"NomMpio": "SAN JOSE DE PARE "
+	},
+	{
+		"IdMpio": "18610",
+		"IdDpto": "18",
+		"NomMpio": "SAN JOSE DEL FRAGUA "
+	},
+	{
+		"IdMpio": "95001",
+		"IdDpto": "95",
+		"NomMpio": "SAN JOSE DEL GUAVIARE "
+	},
+	{
+		"IdMpio": "27660",
+		"IdDpto": "27",
+		"NomMpio": "SAN JOSE DEL PALMAR "
+	},
+	{
+		"IdMpio": "50683",
+		"IdDpto": "50",
+		"NomMpio": "SAN JUAN DE ARAMA "
+	},
+	{
+		"IdMpio": "70702",
+		"IdDpto": "70",
+		"NomMpio": "SAN JUAN DE BETULIA "
+	},
+	{
+		"IdMpio": "25662",
+		"IdDpto": "25",
+		"NomMpio": "SAN JUAN DE RIO SECO "
+	},
+	{
+		"IdMpio": "05659",
+		"IdDpto": "05",
+		"NomMpio": "SAN JUAN DE URABA "
+	},
+	{
+		"IdMpio": "44650",
+		"IdDpto": "44",
+		"NomMpio": "SAN JUAN DEL CESAR "
+	},
+	{
+		"IdMpio": "13657",
+		"IdDpto": "13",
+		"NomMpio": "SAN JUAN NEPOMUCENO "
+	},
+	{
+		"IdMpio": "50686",
+		"IdDpto": "50",
+		"NomMpio": "SAN JUANITO "
+	},
+	{
+		"IdMpio": "52687",
+		"IdDpto": "52",
+		"NomMpio": "SAN LORENZO "
+	},
+	{
+		"IdMpio": "05660",
+		"IdDpto": "05",
+		"NomMpio": "SAN LUIS "
+	},
+	{
+		"IdMpio": "73678",
+		"IdDpto": "73",
+		"NomMpio": "SAN LUIS "
+	},
+	{
+		"IdMpio": "15667",
+		"IdDpto": "15",
+		"NomMpio": "SAN LUIS DE GACENO "
+	},
+	{
+		"IdMpio": "85325",
+		"IdDpto": "85",
+		"NomMpio": "SAN LUIS DE PALENQUE "
+	},
+	{
+		"IdMpio": "70742",
+		"IdDpto": "70",
+		"NomMpio": "SAN LUIS DE SINCE "
+	},
+	{
+		"IdMpio": "70708",
+		"IdDpto": "70",
+		"NomMpio": "SAN MARCOS "
+	},
+	{
+		"IdMpio": "20770",
+		"IdDpto": "20",
+		"NomMpio": "SAN MARTIN "
+	},
+	{
+		"IdMpio": "50689",
+		"IdDpto": "50",
+		"NomMpio": "SAN MARTIN "
+	},
+	{
+		"IdMpio": "13667",
+		"IdDpto": "13",
+		"NomMpio": "SAN MARTIN DE LOBA "
+	},
+	{
+		"IdMpio": "15673",
+		"IdDpto": "15",
+		"NomMpio": "SAN MATEO "
+	},
+	{
+		"IdMpio": "68686",
+		"IdDpto": "68",
+		"NomMpio": "SAN MIGUEL "
+	},
+	{
+		"IdMpio": "86757",
+		"IdDpto": "86",
+		"NomMpio": "SAN MIGUEL "
+	},
+	{
+		"IdMpio": "15676",
+		"IdDpto": "15",
+		"NomMpio": "SAN MIGUEL DE SEMA "
+	},
+	{
+		"IdMpio": "70713",
+		"IdDpto": "70",
+		"NomMpio": "SAN ONOFRE "
+	},
+	{
+		"IdMpio": "13670",
+		"IdDpto": "13",
+		"NomMpio": "SAN PABLO "
+	},
+	{
+		"IdMpio": "52693",
+		"IdDpto": "52",
+		"NomMpio": "SAN PABLO "
+	},
+	{
+		"IdMpio": "15681",
+		"IdDpto": "15",
+		"NomMpio": "SAN PABLO DE BORBUR "
+	},
+	{
+		"IdMpio": "05664",
+		"IdDpto": "05",
+		"NomMpio": "SAN PEDRO "
+	},
+	{
+		"IdMpio": "70717",
+		"IdDpto": "70",
+		"NomMpio": "SAN PEDRO "
+	},
+	{
+		"IdMpio": "76670",
+		"IdDpto": "76",
+		"NomMpio": "SAN PEDRO "
+	},
+	{
+		"IdMpio": "52694",
+		"IdDpto": "52",
+		"NomMpio": "SAN PEDRO DE CARTAGO "
+	},
+	{
+		"IdMpio": "05665",
+		"IdDpto": "05",
+		"NomMpio": "SAN PEDRO DE URABA "
+	},
+	{
+		"IdMpio": "23686",
+		"IdDpto": "23",
+		"NomMpio": "SAN PELAYO "
+	},
+	{
+		"IdMpio": "05667",
+		"IdDpto": "05",
+		"NomMpio": "SAN RAFAEL "
+	},
+	{
+		"IdMpio": "05670",
+		"IdDpto": "05",
+		"NomMpio": "SAN ROQUE "
+	},
+	{
+		"IdMpio": "19693",
+		"IdDpto": "19",
+		"NomMpio": "SAN SEBASTIAN "
+	},
+	{
+		"IdMpio": "47692",
+		"IdDpto": "47",
+		"NomMpio": "SAN SEBASTIAN DE BUENAVISTA "
+	},
+	{
+		"IdMpio": "05674",
+		"IdDpto": "05",
+		"NomMpio": "SAN VICENTE "
+	},
+	{
+		"IdMpio": "68689",
+		"IdDpto": "68",
+		"NomMpio": "SAN VICENTE DE CHUCURI "
+	},
+	{
+		"IdMpio": "18753",
+		"IdDpto": "18",
+		"NomMpio": "SAN VICENTE DEL CAGUAN "
+	},
+	{
+		"IdMpio": "47703",
+		"IdDpto": "47",
+		"NomMpio": "SAN ZENON "
+	},
+	{
+		"IdMpio": "52683",
+		"IdDpto": "52",
+		"NomMpio": "SANDONA "
+	},
+	{
+		"IdMpio": "47707",
+		"IdDpto": "47",
+		"NomMpio": "SANTA ANA "
+	},
+	{
+		"IdMpio": "05679",
+		"IdDpto": "05",
+		"NomMpio": "SANTA BARBARA "
+	},
+	{
+		"IdMpio": "52696",
+		"IdDpto": "52",
+		"NomMpio": "SANTA BARBARA "
+	},
+	{
+		"IdMpio": "68705",
+		"IdDpto": "68",
+		"NomMpio": "SANTA BARBARA "
+	},
+	{
+		"IdMpio": "47720",
+		"IdDpto": "47",
+		"NomMpio": "SANTA BARBARA DE PINTO "
+	},
+	{
+		"IdMpio": "13673",
+		"IdDpto": "13",
+		"NomMpio": "SANTA CATALINA "
+	},
+	{
+		"IdMpio": "68720",
+		"IdDpto": "68",
+		"NomMpio": "SANTA HELENA DEL OPON "
+	},
+	{
+		"IdMpio": "73686",
+		"IdDpto": "73",
+		"NomMpio": "SANTA ISABEL "
+	},
+	{
+		"IdMpio": "08675",
+		"IdDpto": "08",
+		"NomMpio": "SANTA LUCIA "
+	},
+	{
+		"IdMpio": "15690",
+		"IdDpto": "15",
+		"NomMpio": "SANTA MARIA "
+	},
+	{
+		"IdMpio": "41676",
+		"IdDpto": "41",
+		"NomMpio": "SANTA MARIA "
+	},
+	{
+		"IdMpio": "47001",
+		"IdDpto": "47",
+		"NomMpio": "SANTA MARTA "
+	},
+	{
+		"IdMpio": "13683",
+		"IdDpto": "13",
+		"NomMpio": "SANTA ROSA "
+	},
+	{
+		"IdMpio": "19701",
+		"IdDpto": "19",
+		"NomMpio": "SANTA ROSA "
+	},
+	{
+		"IdMpio": "66682",
+		"IdDpto": "66",
+		"NomMpio": "SANTA ROSA DE CABAL "
+	},
+	{
+		"IdMpio": "05686",
+		"IdDpto": "05",
+		"NomMpio": "SANTA ROSA DE OSOS "
+	},
+	{
+		"IdMpio": "15693",
+		"IdDpto": "15",
+		"NomMpio": "SANTA ROSA DE VITERBO "
+	},
+	{
+		"IdMpio": "13688",
+		"IdDpto": "13",
+		"NomMpio": "SANTA ROSA DEL SUR "
+	},
+	{
+		"IdMpio": "99624",
+		"IdDpto": "99",
+		"NomMpio": "SANTA ROSALIA "
+	},
+	{
+		"IdMpio": "15696",
+		"IdDpto": "15",
+		"NomMpio": "SANTA SOFIA "
+	},
+	{
+		"IdMpio": "52699",
+		"IdDpto": "52",
+		"NomMpio": "SANTACRUZ "
+	},
+	{
+		"IdMpio": "05042",
+		"IdDpto": "05",
+		"NomMpio": "SANTAFE DE ANTIOQUIA "
+	},
+	{
+		"IdMpio": "15686",
+		"IdDpto": "15",
+		"NomMpio": "SANTANA "
+	},
+	{
+		"IdMpio": "19698",
+		"IdDpto": "19",
+		"NomMpio": "SANTANDER DE QUILICHAO "
+	},
+	{
+		"IdMpio": "54680",
+		"IdDpto": "54",
+		"NomMpio": "SANTIAGO "
+	},
+	{
+		"IdMpio": "86760",
+		"IdDpto": "86",
+		"NomMpio": "SANTIAGO "
+	},
+	{
+		"IdMpio": "70820",
+		"IdDpto": "70",
+		"NomMpio": "SANTIAGO DE TOLU "
+	},
+	{
+		"IdMpio": "05690",
+		"IdDpto": "05",
+		"NomMpio": "SANTO DOMINGO "
+	},
+	{
+		"IdMpio": "08685",
+		"IdDpto": "08",
+		"NomMpio": "SANTO TOMAS "
+	},
+	{
+		"IdMpio": "66687",
+		"IdDpto": "66",
+		"NomMpio": "SANTUARIO "
+	},
+	{
+		"IdMpio": "52720",
+		"IdDpto": "52",
+		"NomMpio": "SAPUYES "
+	},
+	{
+		"IdMpio": "81736",
+		"IdDpto": "81",
+		"NomMpio": "SARAVENA "
+	},
+	{
+		"IdMpio": "54720",
+		"IdDpto": "54",
+		"NomMpio": "SARDINATA  "
+	},
+	{
+		"IdMpio": "25718",
+		"IdDpto": "25",
+		"NomMpio": "SASAIMA "
+	},
+	{
+		"IdMpio": "15720",
+		"IdDpto": "15",
+		"NomMpio": "SATIVANORTE "
+	},
+	{
+		"IdMpio": "15723",
+		"IdDpto": "15",
+		"NomMpio": "SATIVASUR "
+	},
+	{
+		"IdMpio": "05736",
+		"IdDpto": "05",
+		"NomMpio": "SEGOVIA "
+	},
+	{
+		"IdMpio": "25736",
+		"IdDpto": "25",
+		"NomMpio": "SESQUILE "
+	},
+	{
+		"IdMpio": "76736",
+		"IdDpto": "76",
+		"NomMpio": "SEVILLA "
+	},
+	{
+		"IdMpio": "15740",
+		"IdDpto": "15",
+		"NomMpio": "SIACHOQUE "
+	},
+	{
+		"IdMpio": "25740",
+		"IdDpto": "25",
+		"NomMpio": "SIBATE "
+	},
+	{
+		"IdMpio": "86749",
+		"IdDpto": "86",
+		"NomMpio": "SIBUNDOY "
+	},
+	{
+		"IdMpio": "54743",
+		"IdDpto": "54",
+		"NomMpio": "SILOS "
+	},
+	{
+		"IdMpio": "25743",
+		"IdDpto": "25",
+		"NomMpio": "SILVANIA "
+	},
+	{
+		"IdMpio": "19743",
+		"IdDpto": "19",
+		"NomMpio": "SILVIA "
+	},
+	{
+		"IdMpio": "68745",
+		"IdDpto": "68",
+		"NomMpio": "SIMACOTA "
+	},
+	{
+		"IdMpio": "25745",
+		"IdDpto": "25",
+		"NomMpio": "SIMIJACA "
+	},
+	{
+		"IdMpio": "13744",
+		"IdDpto": "13",
+		"NomMpio": "SIMITI "
+	},
+	{
+		"IdMpio": "70001",
+		"IdDpto": "70",
+		"NomMpio": "SINCELEJO "
+	},
+	{
+		"IdMpio": "27745",
+		"IdDpto": "27",
+		"NomMpio": "SIPI "
+	},
+	{
+		"IdMpio": "47745",
+		"IdDpto": "47",
+		"NomMpio": "SITIONUEVO "
+	},
+	{
+		"IdMpio": "25754",
+		"IdDpto": "25",
+		"NomMpio": "SOACHA "
+	},
+	{
+		"IdMpio": "15753",
+		"IdDpto": "15",
+		"NomMpio": "SOATA "
+	},
+	{
+		"IdMpio": "15757",
+		"IdDpto": "15",
+		"NomMpio": "SOCHA "
+	},
+	{
+		"IdMpio": "68755",
+		"IdDpto": "68",
+		"NomMpio": "SOCORRO "
+	},
+	{
+		"IdMpio": "15755",
+		"IdDpto": "15",
+		"NomMpio": "SOCOTA "
+	},
+	{
+		"IdMpio": "15759",
+		"IdDpto": "15",
+		"NomMpio": "SOGAMOSO "
+	},
+	{
+		"IdMpio": "18756",
+		"IdDpto": "18",
+		"NomMpio": "SOLANO "
+	},
+	{
+		"IdMpio": "08758",
+		"IdDpto": "08",
+		"NomMpio": "SOLEDAD "
+	},
+	{
+		"IdMpio": "18785",
+		"IdDpto": "18",
+		"NomMpio": "SOLITA "
+	},
+	{
+		"IdMpio": "15761",
+		"IdDpto": "15",
+		"NomMpio": "SOMONDOCO "
+	},
+	{
+		"IdMpio": "05756",
+		"IdDpto": "05",
+		"NomMpio": "SONSON "
+	},
+	{
+		"IdMpio": "05761",
+		"IdDpto": "05",
+		"NomMpio": "SOPETRAN "
+	},
+	{
+		"IdMpio": "13760",
+		"IdDpto": "13",
+		"NomMpio": "SOPLAVIENTO "
+	},
+	{
+		"IdMpio": "25758",
+		"IdDpto": "25",
+		"NomMpio": "SOPO "
+	},
+	{
+		"IdMpio": "15762",
+		"IdDpto": "15",
+		"NomMpio": "SORA "
+	},
+	{
+		"IdMpio": "15764",
+		"IdDpto": "15",
+		"NomMpio": "SORACA "
+	},
+	{
+		"IdMpio": "15763",
+		"IdDpto": "15",
+		"NomMpio": "SOTAQUIRA "
+	},
+	{
+		"IdMpio": "19760",
+		"IdDpto": "19",
+		"NomMpio": "SOTARA "
+	},
+	{
+		"IdMpio": "68770",
+		"IdDpto": "68",
+		"NomMpio": "SUAITA "
+	},
+	{
+		"IdMpio": "08770",
+		"IdDpto": "08",
+		"NomMpio": "SUAN "
+	},
+	{
+		"IdMpio": "19780",
+		"IdDpto": "19",
+		"NomMpio": "SUAREZ "
+	},
+	{
+		"IdMpio": "73770",
+		"IdDpto": "73",
+		"NomMpio": "SUAREZ "
+	},
+	{
+		"IdMpio": "41770",
+		"IdDpto": "41",
+		"NomMpio": "SUAZA "
+	},
+	{
+		"IdMpio": "25769",
+		"IdDpto": "25",
+		"NomMpio": "SUBACHOQUE "
+	},
+	{
+		"IdMpio": "19785",
+		"IdDpto": "19",
+		"NomMpio": "SUCRE "
+	},
+	{
+		"IdMpio": "68773",
+		"IdDpto": "68",
+		"NomMpio": "SUCRE "
+	},
+	{
+		"IdMpio": "70771",
+		"IdDpto": "70",
+		"NomMpio": "SUCRE "
+	},
+	{
+		"IdMpio": "25772",
+		"IdDpto": "25",
+		"NomMpio": "SUESCA "
+	},
+	{
+		"IdMpio": "25777",
+		"IdDpto": "25",
+		"NomMpio": "SUPATA "
+	},
+	{
+		"IdMpio": "17777",
+		"IdDpto": "17",
+		"NomMpio": "SUPIA "
+	},
+	{
+		"IdMpio": "68780",
+		"IdDpto": "68",
+		"NomMpio": "SURATA "
+	},
+	{
+		"IdMpio": "25779",
+		"IdDpto": "25",
+		"NomMpio": "SUSA "
+	},
+	{
+		"IdMpio": "15774",
+		"IdDpto": "15",
+		"NomMpio": "SUSACON "
+	},
+	{
+		"IdMpio": "15776",
+		"IdDpto": "15",
+		"NomMpio": "SUTAMARCHAN "
+	},
+	{
+		"IdMpio": "25781",
+		"IdDpto": "25",
+		"NomMpio": "SUTATAUSA "
+	},
+	{
+		"IdMpio": "15778",
+		"IdDpto": "15",
+		"NomMpio": "SUTATENZA "
+	},
+	{
+		"IdMpio": "25785",
+		"IdDpto": "25",
+		"NomMpio": "TABIO "
+	},
+	{
+		"IdMpio": "27787",
+		"IdDpto": "27",
+		"NomMpio": "TADO "
+	},
+	{
+		"IdMpio": "13780",
+		"IdDpto": "13",
+		"NomMpio": "TALAIGUA NUEVO "
+	},
+	{
+		"IdMpio": "20787",
+		"IdDpto": "20",
+		"NomMpio": "TAMALAMEQUE "
+	},
+	{
+		"IdMpio": "85400",
+		"IdDpto": "85",
+		"NomMpio": "TAMARA "
+	},
+	{
+		"IdMpio": "81794",
+		"IdDpto": "81",
+		"NomMpio": "TAME "
+	},
+	{
+		"IdMpio": "05789",
+		"IdDpto": "05",
+		"NomMpio": "TAMESIS "
+	},
+	{
+		"IdMpio": "52786",
+		"IdDpto": "52",
+		"NomMpio": "TAMINANGO "
+	},
+	{
+		"IdMpio": "52788",
+		"IdDpto": "52",
+		"NomMpio": "TANGUA "
+	},
+	{
+		"IdMpio": "97666",
+		"IdDpto": "97",
+		"NomMpio": "TARAIRA "
+	},
+	{
+		"IdMpio": "91798",
+		"IdDpto": "91",
+		"NomMpio": "TARAPACA "
+	},
+	{
+		"IdMpio": "05790",
+		"IdDpto": "05",
+		"NomMpio": "TARAZA "
+	},
+	{
+		"IdMpio": "41791",
+		"IdDpto": "41",
+		"NomMpio": "TARQUI "
+	},
+	{
+		"IdMpio": "05792",
+		"IdDpto": "05",
+		"NomMpio": "TARSO "
+	},
+	{
+		"IdMpio": "15790",
+		"IdDpto": "15",
+		"NomMpio": "TASCO "
+	},
+	{
+		"IdMpio": "85410",
+		"IdDpto": "85",
+		"NomMpio": "TAURAMENA "
+	},
+	{
+		"IdMpio": "25793",
+		"IdDpto": "25",
+		"NomMpio": "TAUSA "
+	},
+	{
+		"IdMpio": "41799",
+		"IdDpto": "41",
+		"NomMpio": "TELLO "
+	},
+	{
+		"IdMpio": "25797",
+		"IdDpto": "25",
+		"NomMpio": "TENA "
+	},
+	{
+		"IdMpio": "47798",
+		"IdDpto": "47",
+		"NomMpio": "TENERIFE "
+	},
+	{
+		"IdMpio": "25799",
+		"IdDpto": "25",
+		"NomMpio": "TENJO "
+	},
+	{
+		"IdMpio": "15798",
+		"IdDpto": "15",
+		"NomMpio": "TENZA "
+	},
+	{
+		"IdMpio": "54800",
+		"IdDpto": "54",
+		"NomMpio": "TEORAMA "
+	},
+	{
+		"IdMpio": "41801",
+		"IdDpto": "41",
+		"NomMpio": "TERUEL "
+	},
+	{
+		"IdMpio": "41797",
+		"IdDpto": "41",
+		"NomMpio": "TESALIA "
+	},
+	{
+		"IdMpio": "25805",
+		"IdDpto": "25",
+		"NomMpio": "TIBACUY "
+	},
+	{
+		"IdMpio": "15804",
+		"IdDpto": "15",
+		"NomMpio": "TIBANA "
+	},
+	{
+		"IdMpio": "15806",
+		"IdDpto": "15",
+		"NomMpio": "TIBASOSA "
+	},
+	{
+		"IdMpio": "25807",
+		"IdDpto": "25",
+		"NomMpio": "TIBIRITA "
+	},
+	{
+		"IdMpio": "54810",
+		"IdDpto": "54",
+		"NomMpio": "TIBU "
+	},
+	{
+		"IdMpio": "23807",
+		"IdDpto": "23",
+		"NomMpio": "TIERRALTA "
+	},
+	{
+		"IdMpio": "41807",
+		"IdDpto": "41",
+		"NomMpio": "TIMANA "
+	},
+	{
+		"IdMpio": "19807",
+		"IdDpto": "19",
+		"NomMpio": "TIMBIO "
+	},
+	{
+		"IdMpio": "19809",
+		"IdDpto": "19",
+		"NomMpio": "TIMBIQUI "
+	},
+	{
+		"IdMpio": "15808",
+		"IdDpto": "15",
+		"NomMpio": "TINJACA "
+	},
+	{
+		"IdMpio": "15810",
+		"IdDpto": "15",
+		"NomMpio": "TIPACOQUE "
+	},
+	{
+		"IdMpio": "13810",
+		"IdDpto": "13",
+		"NomMpio": "TIQUISIO "
+	},
+	{
+		"IdMpio": "05809",
+		"IdDpto": "05",
+		"NomMpio": "TITIRIBI "
+	},
+	{
+		"IdMpio": "15814",
+		"IdDpto": "15",
+		"NomMpio": "TOCA "
+	},
+	{
+		"IdMpio": "25815",
+		"IdDpto": "25",
+		"NomMpio": "TOCAIMA "
+	},
+	{
+		"IdMpio": "25817",
+		"IdDpto": "25",
+		"NomMpio": "TOCANCIPA "
+	},
+	{
+		"IdMpio": "15816",
+		"IdDpto": "15",
+		"NomMpio": "TOGsI "
+	},
+	{
+		"IdMpio": "05819",
+		"IdDpto": "05",
+		"NomMpio": "TOLEDO "
+	},
+	{
+		"IdMpio": "54820",
+		"IdDpto": "54",
+		"NomMpio": "TOLEDO "
+	},
+	{
+		"IdMpio": "70823",
+		"IdDpto": "70",
+		"NomMpio": "TOLU VIEJO "
+	},
+	{
+		"IdMpio": "68820",
+		"IdDpto": "68",
+		"NomMpio": "TONA "
+	},
+	{
+		"IdMpio": "15820",
+		"IdDpto": "15",
+		"NomMpio": "TOPAGA "
+	},
+	{
+		"IdMpio": "25823",
+		"IdDpto": "25",
+		"NomMpio": "TOPAIPI "
+	},
+	{
+		"IdMpio": "19821",
+		"IdDpto": "19",
+		"NomMpio": "TORIBIO "
+	},
+	{
+		"IdMpio": "76823",
+		"IdDpto": "76",
+		"NomMpio": "TORO "
+	},
+	{
+		"IdMpio": "15822",
+		"IdDpto": "15",
+		"NomMpio": "TOTA  "
+	},
+	{
+		"IdMpio": "19824",
+		"IdDpto": "19",
+		"NomMpio": "TOTORO "
+	},
+	{
+		"IdMpio": "85430",
+		"IdDpto": "85",
+		"NomMpio": "TRINIDAD "
+	},
+	{
+		"IdMpio": "76828",
+		"IdDpto": "76",
+		"NomMpio": "TRUJILLO "
+	},
+	{
+		"IdMpio": "08832",
+		"IdDpto": "08",
+		"NomMpio": "TUBARA "
+	},
+	{
+		"IdMpio": "76834",
+		"IdDpto": "76",
+		"NomMpio": "TULUA "
+	},
+	{
+		"IdMpio": "15001",
+		"IdDpto": "15",
+		"NomMpio": "TUNJA "
+	},
+	{
+		"IdMpio": "15832",
+		"IdDpto": "15",
+		"NomMpio": "TUNUNGUA "
+	},
+	{
+		"IdMpio": "52838",
+		"IdDpto": "52",
+		"NomMpio": "TUQUERRES "
+	},
+	{
+		"IdMpio": "13836",
+		"IdDpto": "13",
+		"NomMpio": "TURBACO "
+	},
+	{
+		"IdMpio": "13838",
+		"IdDpto": "13",
+		"NomMpio": "TURBANA "
+	},
+	{
+		"IdMpio": "05837",
+		"IdDpto": "05",
+		"NomMpio": "TURBO "
+	},
+	{
+		"IdMpio": "15835",
+		"IdDpto": "15",
+		"NomMpio": "TURMEQUE "
+	},
+	{
+		"IdMpio": "15837",
+		"IdDpto": "15",
+		"NomMpio": "TUTA "
+	},
+	{
+		"IdMpio": "15839",
+		"IdDpto": "15",
+		"NomMpio": "TUTAZA "
+	},
+	{
+		"IdMpio": "25839",
+		"IdDpto": "25",
+		"NomMpio": "UBALA "
+	},
+	{
+		"IdMpio": "25841",
+		"IdDpto": "25",
+		"NomMpio": "UBAQUE "
+	},
+	{
+		"IdMpio": "76845",
+		"IdDpto": "76",
+		"NomMpio": "ULLOA "
+	},
+	{
+		"IdMpio": "15842",
+		"IdDpto": "15",
+		"NomMpio": "UMBITA "
+	},
+	{
+		"IdMpio": "25845",
+		"IdDpto": "25",
+		"NomMpio": "UNE "
+	},
+	{
+		"IdMpio": "27800",
+		"IdDpto": "27",
+		"NomMpio": "UNGUIA "
+	},
+	{
+		"IdMpio": "27810",
+		"IdDpto": "27",
+		"NomMpio": "UNION PANAMERICANA "
+	},
+	{
+		"IdMpio": "05842",
+		"IdDpto": "05",
+		"NomMpio": "URAMITA "
+	},
+	{
+		"IdMpio": "50370",
+		"IdDpto": "50",
+		"NomMpio": "URIBE "
+	},
+	{
+		"IdMpio": "44847",
+		"IdDpto": "44",
+		"NomMpio": "URIBIA "
+	},
+	{
+		"IdMpio": "05847",
+		"IdDpto": "05",
+		"NomMpio": "URRAO "
+	},
+	{
+		"IdMpio": "44855",
+		"IdDpto": "44",
+		"NomMpio": "URUMITA "
+	},
+	{
+		"IdMpio": "08849",
+		"IdDpto": "08",
+		"NomMpio": "USIACURI "
+	},
+	{
+		"IdMpio": "25851",
+		"IdDpto": "25",
+		"NomMpio": "UTICA "
+	},
+	{
+		"IdMpio": "05854",
+		"IdDpto": "05",
+		"NomMpio": "VALDIVIA "
+	},
+	{
+		"IdMpio": "23855",
+		"IdDpto": "23",
+		"NomMpio": "VALENCIA "
+	},
+	{
+		"IdMpio": "68855",
+		"IdDpto": "68",
+		"NomMpio": "VALLE DE SAN JOSE "
+	},
+	{
+		"IdMpio": "73854",
+		"IdDpto": "73",
+		"NomMpio": "VALLE DE SAN JUAN "
+	},
+	{
+		"IdMpio": "86865",
+		"IdDpto": "86",
+		"NomMpio": "VALLE DEL GUAMUEZ "
+	},
+	{
+		"IdMpio": "20001",
+		"IdDpto": "20",
+		"NomMpio": "VALLEDUPAR "
+	},
+	{
+		"IdMpio": "05856",
+		"IdDpto": "05",
+		"NomMpio": "VALPARAISO "
+	},
+	{
+		"IdMpio": "18860",
+		"IdDpto": "18",
+		"NomMpio": "VALPARAISO "
+	},
+	{
+		"IdMpio": "05858",
+		"IdDpto": "05",
+		"NomMpio": "VEGACHI "
+	},
+	{
+		"IdMpio": "68861",
+		"IdDpto": "68",
+		"NomMpio": "VELEZ "
+	},
+	{
+		"IdMpio": "73861",
+		"IdDpto": "73",
+		"NomMpio": "VENADILLO "
+	},
+	{
+		"IdMpio": "05861",
+		"IdDpto": "05",
+		"NomMpio": "VENECIA "
+	},
+	{
+		"IdMpio": "25506",
+		"IdDpto": "25",
+		"NomMpio": "VENECIA "
+	},
+	{
+		"IdMpio": "15861",
+		"IdDpto": "15",
+		"NomMpio": "VENTAQUEMADA "
+	},
+	{
+		"IdMpio": "25862",
+		"IdDpto": "25",
+		"NomMpio": "VERGARA "
+	},
+	{
+		"IdMpio": "76863",
+		"IdDpto": "76",
+		"NomMpio": "VERSALLES "
+	},
+	{
+		"IdMpio": "68867",
+		"IdDpto": "68",
+		"NomMpio": "VETAS "
+	},
+	{
+		"IdMpio": "25867",
+		"IdDpto": "25",
+		"NomMpio": "VIANI "
+	},
+	{
+		"IdMpio": "17867",
+		"IdDpto": "17",
+		"NomMpio": "VICTORIA "
+	},
+	{
+		"IdMpio": "05873",
+		"IdDpto": "05",
+		"NomMpio": "VIGIA DEL FUERTE "
+	},
+	{
+		"IdMpio": "76869",
+		"IdDpto": "76",
+		"NomMpio": "VIJES "
+	},
+	{
+		"IdMpio": "54871",
+		"IdDpto": "54",
+		"NomMpio": "VILLA CARO "
+	},
+	{
+		"IdMpio": "15407",
+		"IdDpto": "15",
+		"NomMpio": "VILLA DE LEYVA "
+	},
+	{
+		"IdMpio": "25843",
+		"IdDpto": "25",
+		"NomMpio": "VILLA DE SAN DIEGO DE UBATE "
+	},
+	{
+		"IdMpio": "54874",
+		"IdDpto": "54",
+		"NomMpio": "VILLA DEL ROSARIO "
+	},
+	{
+		"IdMpio": "19845",
+		"IdDpto": "19",
+		"NomMpio": "VILLA RICA "
+	},
+	{
+		"IdMpio": "86885",
+		"IdDpto": "86",
+		"NomMpio": "VILLAGARZON "
+	},
+	{
+		"IdMpio": "25871",
+		"IdDpto": "25",
+		"NomMpio": "VILLAGOMEZ "
+	},
+	{
+		"IdMpio": "73870",
+		"IdDpto": "73",
+		"NomMpio": "VILLAHERMOSA "
+	},
+	{
+		"IdMpio": "17873",
+		"IdDpto": "17",
+		"NomMpio": "VILLAMARIA "
+	},
+	{
+		"IdMpio": "13873",
+		"IdDpto": "13",
+		"NomMpio": "VILLANUEVA "
+	},
+	{
+		"IdMpio": "44874",
+		"IdDpto": "44",
+		"NomMpio": "VILLANUEVA "
+	},
+	{
+		"IdMpio": "68872",
+		"IdDpto": "68",
+		"NomMpio": "VILLANUEVA "
+	},
+	{
+		"IdMpio": "85440",
+		"IdDpto": "85",
+		"NomMpio": "VILLANUEVA "
+	},
+	{
+		"IdMpio": "25873",
+		"IdDpto": "25",
+		"NomMpio": "VILLAPINZON "
+	},
+	{
+		"IdMpio": "73873",
+		"IdDpto": "73",
+		"NomMpio": "VILLARRICA "
+	},
+	{
+		"IdMpio": "50001",
+		"IdDpto": "50",
+		"NomMpio": "VILLAVICENCIO "
+	},
+	{
+		"IdMpio": "41872",
+		"IdDpto": "41",
+		"NomMpio": "VILLAVIEJA "
+	},
+	{
+		"IdMpio": "25875",
+		"IdDpto": "25",
+		"NomMpio": "VILLETA "
+	},
+	{
+		"IdMpio": "25878",
+		"IdDpto": "25",
+		"NomMpio": "VIOTA "
+	},
+	{
+		"IdMpio": "15879",
+		"IdDpto": "15",
+		"NomMpio": "VIRACACHA "
+	},
+	{
+		"IdMpio": "50711",
+		"IdDpto": "50",
+		"NomMpio": "VISTAHERMOSA "
+	},
+	{
+		"IdMpio": "17877",
+		"IdDpto": "17",
+		"NomMpio": "VITERBO "
+	},
+	{
+		"IdMpio": "25885",
+		"IdDpto": "25",
+		"NomMpio": "YACOPI "
+	},
+	{
+		"IdMpio": "52885",
+		"IdDpto": "52",
+		"NomMpio": "YACUANQUER "
+	},
+	{
+		"IdMpio": "41885",
+		"IdDpto": "41",
+		"NomMpio": "YAGUARA "
+	},
+	{
+		"IdMpio": "05885",
+		"IdDpto": "05",
+		"NomMpio": "YALI "
+	},
+	{
+		"IdMpio": "05887",
+		"IdDpto": "05",
+		"NomMpio": "YARUMAL "
+	},
+	{
+		"IdMpio": "97889",
+		"IdDpto": "97",
+		"NomMpio": "YAVARATE "
+	},
+	{
+		"IdMpio": "05890",
+		"IdDpto": "05",
+		"NomMpio": "YOLOMBO "
+	},
+	{
+		"IdMpio": "05893",
+		"IdDpto": "05",
+		"NomMpio": "YONDO "
+	},
+	{
+		"IdMpio": "85001",
+		"IdDpto": "85",
+		"NomMpio": "YOPAL "
+	},
+	{
+		"IdMpio": "76890",
+		"IdDpto": "76",
+		"NomMpio": "YOTOCO "
+	},
+	{
+		"IdMpio": "76892",
+		"IdDpto": "76",
+		"NomMpio": "YUMBO "
+	},
+	{
+		"IdMpio": "13894",
+		"IdDpto": "13",
+		"NomMpio": "ZAMBRANO "
+	},
+	{
+		"IdMpio": "68895",
+		"IdDpto": "68",
+		"NomMpio": "ZAPATOCA "
+	},
+	{
+		"IdMpio": "47960",
+		"IdDpto": "47",
+		"NomMpio": "ZAPAYAN "
+	},
+	{
+		"IdMpio": "05895",
+		"IdDpto": "05",
+		"NomMpio": "ZARAGOZA "
+	},
+	{
+		"IdMpio": "76895",
+		"IdDpto": "76",
+		"NomMpio": "ZARZAL "
+	},
+	{
+		"IdMpio": "15897",
+		"IdDpto": "15",
+		"NomMpio": "ZETAQUIRA "
+	},
+	{
+		"IdMpio": "25898",
+		"IdDpto": "25",
+		"NomMpio": "ZIPACON "
+	},
+	{
+		"IdMpio": "25899",
+		"IdDpto": "25",
+		"NomMpio": "ZIPAQUIRA "
+	},
+	{
+		"IdMpio": "47980",
+		"IdDpto": "47",
+		"NomMpio": "ZONA BANANERA "
+	}
+]
