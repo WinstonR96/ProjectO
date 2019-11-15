@@ -15,7 +15,8 @@
     "react-signature-pad-wrapper": "^1.2.6",
     "react-simple-keyboard": "^2.1.7",
     "reactstrap": "^8.1.1",
-    "simple-keyboard-layouts": "^1.9.29"
+    "simple-keyboard-layouts": "^1.9.29",
+    "sweetalert2": "^9.3.8"
   },
   "scripts": {
     "start": "react-scripts start",
