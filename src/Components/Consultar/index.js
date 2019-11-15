@@ -12,6 +12,7 @@ import "./../../App.css";
 import Keyboard from "react-simple-keyboard";
 import "react-simple-keyboard/build/css/index.css";
 import Service from "./../../Services/Service";
+import Utils from "./../../Helpers/Utils";
 
 class Consultar extends Component {
   constructor(props) {
@@ -27,20 +28,29 @@ class Consultar extends Component {
   //Funciones
   consultarDatos = () => {
     let NumeroDocumento = this.state.input["numCedula"];
-    console.log("Valor capturado", NumeroDocumento);
     if (NumeroDocumento === undefined || NumeroDocumento === "") {
-      console.log("No esta definido");
-      //TODO: lanzar error
+      Utils.AlertaDatosIncompletos();
     } else {
       let urlConsultar = window.config.REACT_APP_URL_CONSULTAR;
       let data = {
         tipoDocumento: "ced",
         numeroDocumento: NumeroDocumento
       };
+      // Se hace la peticion al Servicio Web
       Service.post(urlConsultar, data)
-        .then(response => console.log(response))
-        .catch(err => console.error(err));
-      this.irActualizar(data);
+        .then(response => {
+          // Si se encuentra el usuario se pasa a actualizar
+          if (response.data.codigoRespuesta === "000") {
+            this.irActualizar(response.data.data);
+          }
+          // Si no se encuentra, se muestra el modal de información
+          if (response.data.codigoRespuesta === "001") {
+            Utils.AlertaUsuarioNoEncontrado();
+          }
+        })
+        .catch(error => {
+          Utils.AlertaOcurrioUnError(error);
+        });
     }
   };
 
