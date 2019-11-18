@@ -13,6 +13,7 @@ import Keyboard from "react-simple-keyboard";
 import "react-simple-keyboard/build/css/index.css";
 import Service from "./../../Services/Service";
 import Utils from "./../../Helpers/Utils";
+import Header from "./../Global/Header";
 
 class Consultar extends Component {
   constructor(props) {
@@ -97,15 +98,16 @@ class Consultar extends Component {
   render() {
     return (
       <div>
+        <Header/>
         <Container>
           <Row>
             <Col>
-              <h3>Actualización de datos personales</h3>
+              <h3 className={"title"}>Actualización de datos personales</h3>
             </Col>
           </Row>
           <Row>
             <Col>
-              <FormGroup>
+              <FormGroup className={"formgroup"}>
                 <Label for="numCedula">NÚMERO DE CÉDULA</Label>
                 <Input
                   type="number"
@@ -115,19 +117,16 @@ class Consultar extends Component {
                   value={this.state.input["numCedula"] || ""}
                   onChange={e => this.onChangeInput(e)}
                 />
+                <Button className="btnConsultar" onClick={this.consultarDatos}>
+                  Entrar
+                </Button>
               </FormGroup>
             </Col>
           </Row>
           <Row>
-            <Col>
-              <Button className="btnConsultar" onClick={this.consultarDatos}>
-                Entrar
-              </Button>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
+            <Col sm="12" md={{ size: 6, offset: 3 }}>
               <Keyboard
+                className={"teclado-numerico"}
                 mergeDisplay={true}
                 keyboardRef={r => (this.keyboard = r)}
                 inputName={this.state.inputName}
