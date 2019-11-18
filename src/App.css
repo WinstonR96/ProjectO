@@ -3,6 +3,12 @@ body {
   overflow-y: hidden;
 }
 
+.leyenda-firma {
+  text-align: center;
+  color: #999999;
+  font-weight: 500;
+}
+
 .header {
   width: 100%;
   height: 50px;
@@ -128,4 +134,17 @@ label {
 
 .link {
   color: #3509d3;
+}
+
+canvas{
+  background-image: url("./mano.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.contenedor-firma {
+  border: 1px solid #999999;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
 }

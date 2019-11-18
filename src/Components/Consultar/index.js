@@ -35,7 +35,8 @@ class Consultar extends Component {
       let urlConsultar = window.config.REACT_APP_URL_CONSULTAR;
       let data = {
         tipoDocumento: "ced",
-        numeroDocumento: NumeroDocumento
+        numeroDocumento: NumeroDocumento,
+        token: "khj<dhjdfklfdsf"
       };
       // Se hace la peticion al Servicio Web
       Service.post(urlConsultar, data)
@@ -50,6 +51,7 @@ class Consultar extends Component {
           }
         })
         .catch(error => {
+          console.log(error);
           Utils.AlertaOcurrioUnError(error);
         });
     }
