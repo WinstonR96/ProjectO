@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import TipoA from "./Tipo/TipoA";
 import TipoB from "./Tipo/TipoB";
+import Header from "./../Global/Header";
 
 class Actualizar extends Component {
   componentDidMount = () => {
@@ -11,7 +12,8 @@ class Actualizar extends Component {
   render() {
     return (
       <div>
-        <h3>Actualización de datos personales</h3>
+        <Header/>
+        <h3 className={"title"}>Actualización de datos personales</h3>
         {window.config.REACT_APP_TIPOFORM === "a" ? (
           <TipoA datos={""} />
         ) : (

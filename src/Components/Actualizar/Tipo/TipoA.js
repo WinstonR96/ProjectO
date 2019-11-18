@@ -54,7 +54,6 @@ class TipoA extends Component {
 
   // Modales
   toggleModalAviso = () => {
-    console.log("Avidso");
     this.setState({
       isOpenAvisoPrivacidad: true
     });
@@ -101,25 +100,25 @@ class TipoA extends Component {
     );
     const { codigoCiudad } = this.state;
     return (
-      <div>
+      <div className={"contenedor-tipoa"}>
         <AvisoPrivacidad isOpen={this.state.isOpenAvisoPrivacidad} />
         <Container>
           <Row>
             <Col xs="6" sm="4">
-              <FormGroup>
-                <Label for="numCedula">NÚMERO DE CÉDULA</Label>
+              <FormGroup className={"formgroup"}>
+                <Label for="numeroCedula">NÚMERO DE CÉDULA</Label>
                 <Input
                   type="number"
-                  name="numCedula"
-                  id="numCedula"
-                  onFocus={() => this.setActiveInput("numCedula")}
-                  value={this.state.input["numCedula"] || ""}
+                  name="numeroCedula"
+                  id="numeroCedula"
+                  onFocus={() => this.setActiveInput("numeroCedula")}
+                  value={this.state.input["numeroCedula"] || ""}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
             </Col>
             <Col xs="6" sm="4">
-              <FormGroup>
+              <FormGroup className={"formgroup"}>
                 <Label for="nombres">NOMBRES</Label>
                 <Input
                   type="text"
@@ -132,7 +131,7 @@ class TipoA extends Component {
               </FormGroup>
             </Col>
             <Col sm="4">
-              <FormGroup>
+              <FormGroup className={"formgroup"}>
                 <Label for="primerApellido">PRIMER APELLIDO</Label>
                 <Input
                   type="text"
@@ -147,7 +146,7 @@ class TipoA extends Component {
           </Row>
           <Row>
             <Col xs="6" sm="4">
-              <FormGroup>
+              <FormGroup className={"formgroup"}>
                 <Label for="segundoApellido">SEGUNDO APELLIDO</Label>
                 <Input
                   type="text"
@@ -160,7 +159,7 @@ class TipoA extends Component {
               </FormGroup>
             </Col>
             <Col xs="6" sm="4">
-              <FormGroup>
+              <FormGroup className={"formgroup"}>
                 <Label for="genero">GENERO</Label>
                 <Input
                   defaultValue={""}
@@ -177,7 +176,7 @@ class TipoA extends Component {
               </FormGroup>
             </Col>
             <Col sm="4">
-              <FormGroup>
+              <FormGroup className={"formgroup"}>
                 <Label for="ciudad">CIUDAD</Label>
                 <Input
                   value={codigoCiudad}
@@ -193,7 +192,7 @@ class TipoA extends Component {
           </Row>
           <Row>
             <Col xs="6" sm="4">
-              <FormGroup>
+              <FormGroup className={"formgroup"}>
                 <Label for="direccion">DIRECCIÓN</Label>
                 <Input
                   type="text"
@@ -206,7 +205,7 @@ class TipoA extends Component {
               </FormGroup>
             </Col>
             <Col xs="6" sm="4">
-              <FormGroup>
+              <FormGroup className={"formgroup"}>
                 <Label for="celular">CELULAR</Label>
                 <Input
                   type="number"
@@ -219,7 +218,7 @@ class TipoA extends Component {
               </FormGroup>
             </Col>
             <Col sm="4">
-              <FormGroup>
+              <FormGroup className={"formgroup"}>
                 <Label for="telefono">TELEFONO</Label>
                 <Input
                   type="number"
@@ -235,7 +234,7 @@ class TipoA extends Component {
           <Row>
             <Col xs="6" sm="4"></Col>
             <Col xs="6" sm="4">
-              <FormGroup>
+              <FormGroup className={"formgroup"}>
                 <Label for="correo">CORREO</Label>
                 <Input
                   type="email"
@@ -252,7 +251,7 @@ class TipoA extends Component {
           <Row>
             <Col xs="6" sm="4"></Col>
             <Col xs="6" sm="4">
-              <FormGroup check>
+              <FormGroup check className={"formgroup"}>
                 <Label check>
                   <Input
                     onChange={e =>
@@ -280,19 +279,13 @@ class TipoA extends Component {
                     politica de privacidad
                   </span>
                 </Label>
-              </FormGroup>
-            </Col>
-            <Col sm="4"></Col>
-          </Row>
-          <Row>
-            <Col xs="6" sm="4"></Col>
-            <Col xs="6" sm="4">
-              {this.state.checkAviso && this.state.checkPolitica ? (
-                <Button color="success">Guardar</Button>
+                {this.state.checkAviso && this.state.checkPolitica ? (
+                <Button className={"btn-actualizar"} color="success">Guardar</Button>
               ) : (
-                <Button color="secondary">Guardar</Button>
+                <Button className={"btn-actualizar"} color="secondary">Guardar</Button>
               )}{" "}
-              <Button color="secondary">Cancelar</Button>{" "}
+              <Button className={"btn-actualizar"} color="secondary">Cancelar</Button>{" "}
+              </FormGroup>
             </Col>
             <Col sm="4"></Col>
           </Row>
