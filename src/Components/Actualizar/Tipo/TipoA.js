@@ -21,6 +21,8 @@ class TipoA extends Component {
 
     this.state = {
       ciudades: [],
+      data:[],
+      NumeroDocumento: "",
       codigoCiudad: "",
       codigoGenero: "",
       inputName: "nombres",
@@ -33,9 +35,12 @@ class TipoA extends Component {
   }
 
   componentDidMount = () => {
+    const { data, NumeroDocumento } = this.props;
     this.setState({
       ciudades,
-      codigoCiudad: this.props.datos.ciudad
+      codigoCiudad: data.ciudad,
+      data,
+      NumeroDocumento
     });
   };
 
@@ -98,7 +103,7 @@ class TipoA extends Component {
         </option>
       )
     );
-    const { codigoCiudad } = this.state;
+    const { NumeroDocumento, data: { nombres, primerApellido, segundoApellido, sexo, ciudad, direccion, celular, telefono, email } } = this.state;
     return (
       <div className={"contenedor-tipoa"}>
         <AvisoPrivacidad isOpen={this.state.isOpenAvisoPrivacidad} />
@@ -112,8 +117,9 @@ class TipoA extends Component {
                   name="numeroCedula"
                   id="numeroCedula"
                   onFocus={() => this.setActiveInput("numeroCedula")}
-                  value={this.state.input["numeroCedula"] || ""}
+                  value={NumeroDocumento}
                   onChange={e => this.onChangeInput(e)}
+                  disabled
                 />
               </FormGroup>
             </Col>
@@ -125,7 +131,7 @@ class TipoA extends Component {
                   name="nombres"
                   id="nombres"
                   onFocus={() => this.setActiveInput("nombres")}
-                  value={this.state.input["nombres"] || ""}
+                  value={this.state.input["nombres"] || nombres}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
@@ -138,7 +144,7 @@ class TipoA extends Component {
                   name="primerApellido"
                   id="primerApellido"
                   onFocus={() => this.setActiveInput("primerApellido")}
-                  value={this.state.input["primerApellido"] || ""}
+                  value={this.state.input["primerApellido"] || primerApellido}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
@@ -153,7 +159,7 @@ class TipoA extends Component {
                   name="segundoApellido"
                   id="segundoApellido"
                   onFocus={() => this.setActiveInput("segundoApellido")}
-                  value={this.state.input["segundoApellido"] || ""}
+                  value={this.state.input["segundoApellido"] || segundoApellido}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
@@ -162,7 +168,7 @@ class TipoA extends Component {
               <FormGroup className={"formgroup"}>
                 <Label for="genero">GENERO</Label>
                 <Input
-                  defaultValue={""}
+                  value={sexo}
                   type="select"
                   name="genero"
                   id="genero"
@@ -179,7 +185,7 @@ class TipoA extends Component {
               <FormGroup className={"formgroup"}>
                 <Label for="ciudad">CIUDAD</Label>
                 <Input
-                  value={codigoCiudad}
+                  value={ciudad}
                   type="select"
                   name="ciudad"
                   id="ciudad"
@@ -199,7 +205,7 @@ class TipoA extends Component {
                   name="direccion"
                   id="direccion"
                   onFocus={() => this.setActiveInput("direccion")}
-                  value={this.state.input["direccion"] || ""}
+                  value={this.state.input["direccion"] || direccion}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
@@ -212,7 +218,7 @@ class TipoA extends Component {
                   name="celular"
                   id="celular"
                   onFocus={() => this.setActiveInput("celular")}
-                  value={this.state.input["celular"] || ""}
+                  value={this.state.input["celular"] || celular}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
@@ -225,7 +231,7 @@ class TipoA extends Component {
                   name="telefono"
                   id="telefono"
                   onFocus={() => this.setActiveInput("telefono")}
-                  value={this.state.input["telefono"] || ""}
+                  value={this.state.input["telefono"] || telefono}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
@@ -241,7 +247,7 @@ class TipoA extends Component {
                   name="correo"
                   id="correo"
                   onFocus={() => this.setActiveInput("correo")}
-                  value={this.state.input["correo"] || ""}
+                  value={this.state.input["correo"] || email}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>

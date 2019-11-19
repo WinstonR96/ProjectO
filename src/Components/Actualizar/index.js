@@ -4,20 +4,17 @@ import TipoB from "./Tipo/TipoB";
 import Header from "./../Global/Header";
 
 class Actualizar extends Component {
-  componentDidMount = () => {
-    //let data = this.props.location.state.data.numeroDocumento;
-    //console.log("data en actualizar", data);
-  };
-
   render() {
+    let data = this.props.location.state.data[0];
+    let NumeroDocumento = this.props.location.state.NumeroDocumento;
     return (
       <div>
         <Header/>
         <h3 className={"title"}>Actualización de datos personales</h3>
         {window.config.REACT_APP_TIPOFORM === "a" ? (
-          <TipoA datos={""} />
+          <TipoA data={data} NumeroDocumento={NumeroDocumento} />
         ) : (
-          <TipoB datos={""} />
+          <TipoB data={data} NumeroDocumento={NumeroDocumento} />
         )}
       </div>
     );

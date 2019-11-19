@@ -42,11 +42,11 @@ class Consultar extends Component {
       Service.post(urlConsultar, data)
         .then(response => {
           // Si se encuentra el usuario se pasa a actualizar
-          if (response.data.codigoRespuesta === "000") {
-            this.irActualizar(response.data.data);
+          if (response.codigoRespuesta === "000") {
+            this.irActualizar(NumeroDocumento,response.data);
           }
           // Si no se encuentra, se muestra el modal de información
-          if (response.data.codigoRespuesta === "001") {
+          if (response.codigoRespuesta === "001") {
             Utils.AlertaUsuarioNoEncontrado();
           }
         })
@@ -58,10 +58,10 @@ class Consultar extends Component {
   };
 
   //Permite ir al componente actualizar
-  irActualizar = data => {
+  irActualizar = (NumeroDocumento,data) => {
     this.props.history.push({
       pathname: "/actualizar",
-      state: { data }
+      state: { data, NumeroDocumento }
     });
   };
 

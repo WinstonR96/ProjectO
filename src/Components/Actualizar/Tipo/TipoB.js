@@ -14,6 +14,8 @@ class TipoB extends Component {
 
     this.state = {
       ciudades: [],
+      data:[],
+      NumeroDocumento: "",
       codigoCiudad: "",
       inputName: "nombres",
       layoutName: "default",
@@ -25,9 +27,12 @@ class TipoB extends Component {
   }
 
   componentDidMount = () => {
+    const { data, NumeroDocumento } = this.props;
     this.setState({
       ciudades,
-      codigoCiudad: this.props.datos.ciudad
+      codigoCiudad: data.ciudad,
+      data,
+      NumeroDocumento
     });
   };
 
@@ -85,7 +90,7 @@ class TipoB extends Component {
         </option>
       )
     );
-    const { codigoCiudad } = this.state;
+    const { NumeroDocumento, data: { nombres, primerApellido, ciudad, direccion, celular, email } } = this.state;
     return (
       <div className={"contenedor-tipoa"}>
         <AvisoPrivacidad isOpen={this.state.isOpenAvisoPrivacidad} />
@@ -99,8 +104,9 @@ class TipoB extends Component {
                   name="numeroCedula"
                   id="numeroCedula"
                   onFocus={() => this.setActiveInput("numeroCedula")}
-                  value={this.state.input["numeroCedula"] || ""}
+                  value={NumeroDocumento}
                   onChange={e => this.onChangeInput(e)}
+                  disabled
                 />
               </FormGroup>
             </Col>
@@ -112,7 +118,7 @@ class TipoB extends Component {
                   name="nombres"
                   id="nombres"
                   onFocus={() => this.setActiveInput("nombres")}
-                  value={this.state.input["nombres"] || ""}
+                  value={this.state.input["nombres"] || nombres}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
@@ -125,7 +131,7 @@ class TipoB extends Component {
                   name="primerApellido"
                   id="primerApellido"
                   onFocus={() => this.setActiveInput("primerApellido")}
-                  value={this.state.input["primerApellido"] || ""}
+                  value={this.state.input["primerApellido"] || primerApellido}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
@@ -136,7 +142,7 @@ class TipoB extends Component {
             <FormGroup className={"formgroup"}>
                 <Label for="ciudad">CIUDAD</Label>
                 <Input
-                  value={codigoCiudad}
+                  value={ciudad}
                   type="select"
                   name="ciudad"
                   id="ciudad"
@@ -154,7 +160,7 @@ class TipoB extends Component {
                   name="direccion"
                   id="direccion"
                   onFocus={() => this.setActiveInput("direccion")}
-                  value={this.state.input["direccion"] || ""}
+                  value={this.state.input["direccion"] || direccion}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
@@ -167,7 +173,7 @@ class TipoB extends Component {
                   name="celular"
                   id="celular"
                   onFocus={() => this.setActiveInput("celular")}
-                  value={this.state.input["celular"] || ""}
+                  value={this.state.input["celular"] || celular}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
@@ -183,7 +189,7 @@ class TipoB extends Component {
                   name="correo"
                   id="correo"
                   onFocus={() => this.setActiveInput("correo")}
-                  value={this.state.input["correo"] || ""}
+                  value={this.state.input["correo"] || email}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
