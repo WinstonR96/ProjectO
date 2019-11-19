@@ -137,14 +137,46 @@ label {
 }
 
 canvas{
-  background-image: url("./mano.jpg");
+  /* background-image: url("./mano.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-position-x: center; */
+  background-size: 30%;
 }
 
 .contenedor-firma {
   border: 1px solid #999999;
   width: 70%;
   text-align: center;
+  height: 250px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.trash-firma {
+  margin: 15px;
+  text-align: right;
+  height: 30px;
+}
+
+.icon-trash {
+  color: #999999;
+  cursor: pointer;
+}
+
+.form-button-firma {
+  text-align: center;
+}
+
+.form-button-firma button {
+  margin: 1%;
+  width: 10%;
+  border-radius: 15px;
+}
+
+.firma {
+  background-image: url("./mano.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
