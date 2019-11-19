@@ -14,6 +14,7 @@ import ciudades from "./../codigopostal.json";
 import "./../../../App.css";
 import layout from "simple-keyboard-layouts/build/layouts/spanish";
 import AvisoPrivacidad from "./../../Global/Modal/AvisoPrivacidad";
+import { withRouter} from 'react-router-dom';
 
 class TipoA extends Component {
   constructor(props) {
@@ -44,14 +45,52 @@ class TipoA extends Component {
     });
   };
 
+  HandleActualizar = () => {
+    //TODO: validar campos vacios
+    //Capturo los datos del formulario
+    const { data, NumeroDocumento } = this.props;
+    const { input, codigoGenero, codigoCiudad } = this.state;
+    let nombres = input["nombres"] || data.nombres;
+    let primerApellido = input["primerApellido"] || data.primerApellido;
+    let segundoApellido = input["segundoApellido"] || data.segundoApellido;
+    let sexo = codigoGenero || data.sexo;
+    let ciudad = codigoCiudad || data.ciudad;
+    let direccion = input["direccion"] || data.direccion;
+    let celular = input["celular"] || data.celular;
+    let telefono = input["telefono"] || data.telefono;
+    let email = input["email"] || data.email;
+    //Hago un arreglo con los datos suministrados
+    let datos = {
+      NumeroDocumento,
+      nombres,
+      primerApellido,
+      segundoApellido,
+      sexo,
+      ciudad,
+      direccion,
+      celular,
+      telefono,
+      email
+    };
+    this.irFirma(datos);
+  }
+
+  //Permite ir al componente firma
+  irFirma = (data) => {
+    this.props.history.push({
+      pathname: "/firma",
+      state: { data }
+    });
+  };
+
   //Captura de datos del formulario
-  handleChangeGenero(event) {
+  handleChangeGenero = (event) => {
     this.setState({
       codigoGenero: event.target.value
     });
   }
 
-  handleChangeCiudad(event) {
+  handleChangeCiudad = (event) => {
     this.setState({
       codigoCiudad: event.target.value
     });
@@ -103,7 +142,7 @@ class TipoA extends Component {
         </option>
       )
     );
-    const { NumeroDocumento, data: { nombres, primerApellido, segundoApellido, sexo, ciudad, direccion, celular, telefono, email } } = this.state;
+    const {codigoCiudad, codigoGenero, NumeroDocumento, data: { nombres, primerApellido, segundoApellido, direccion, celular, telefono, email } } = this.state;
     return (
       <div className={"contenedor-tipoa"}>
         <AvisoPrivacidad isOpen={this.state.isOpenAvisoPrivacidad} />
@@ -168,7 +207,7 @@ class TipoA extends Component {
               <FormGroup className={"formgroup"}>
                 <Label for="genero">GENERO</Label>
                 <Input
-                  value={sexo}
+                  value={codigoGenero}
                   type="select"
                   name="genero"
                   id="genero"
@@ -185,7 +224,7 @@ class TipoA extends Component {
               <FormGroup className={"formgroup"}>
                 <Label for="ciudad">CIUDAD</Label>
                 <Input
-                  value={ciudad}
+                  value={codigoCiudad}
                   type="select"
                   name="ciudad"
                   id="ciudad"
@@ -286,7 +325,7 @@ class TipoA extends Component {
                   </span>
                 </Label>
                 {this.state.checkAviso && this.state.checkPolitica ? (
-                <Button className={"btn-actualizar"} color="success">Guardar</Button>
+                <Button className={"btn-actualizar"} onClick={this.HandleActualizar} color="success">Guardar</Button>
               ) : (
                 <Button className={"btn-actualizar"} color="secondary">Guardar</Button>
               )}{" "}
@@ -320,4 +359,4 @@ class TipoA extends Component {
   }
 }
 
-export default TipoA;
+export default withRouter(TipoA);

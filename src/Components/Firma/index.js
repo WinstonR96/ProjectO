@@ -4,6 +4,7 @@ import "./../../App.css";
 import { FormGroup, Button } from 'reactstrap'
 import Header from "./../Global/Header";
 import{ FaTrash } from "react-icons/fa";
+import { withRouter} from 'react-router-dom';
 
 class Firma extends Component {
   constructor(props){
@@ -24,6 +25,60 @@ class Firma extends Component {
     this.signaturePad.clear();
   }
 
+  handleActualizar = () => {
+    let data;
+    let firma = this.signaturePad.toDataURL();
+    //Obtenemos datos del props
+    if(window.config.REACT_APP_TIPOFORM === "a"){
+      const {
+        NumeroDocumento,
+        nombres,
+        primerApellido,
+        segundoApellido,
+        sexo,
+        ciudad,
+        direccion,
+        celular,
+        telefono,
+        email
+      } = this.props.location.state.data;
+      // Asignamos los datos en un arreglo
+      data = {
+      NumeroDocumento,
+      nombres,
+      primerApellido,
+      segundoApellido,
+      sexo,
+      ciudad,
+      direccion,
+      celular,
+      telefono,
+      email
+    };
+  }else{
+    const {
+      NumeroDocumento,
+      nombres,
+      primerApellido,
+      ciudad,
+      direccion,
+      celular,
+      email
+    } = this.props.location.state.data;
+    // Asignamos los datos en un arreglo
+    data = {
+      NumeroDocumento,
+      nombres,
+      primerApellido,
+      ciudad,
+      direccion,
+      celular,
+      email
+    };
+  }
+  console.log("Data",data);
+
+}
 
   //Manejo de la firma
   handleFirma = () => {
@@ -53,14 +108,14 @@ class Firma extends Component {
               <SignaturePad
                 ref={ref => this.signaturePad = ref}
                 width={800}
-                height={400}
+                height={200}
                 penColor={"#000"}
               />
             </div>
         </div>
         <p className={"leyenda-firma"}>Al presionar aceptar, estás aceptando nuestra Política de manejo de datos personales</p>
         <FormGroup className={"form-button-firma"}>
-         {this.state.estaFirmando ? <Button color={"success"}>Aceptar</Button> : <Button disabled>Aceptar</Button> }
+         {this.state.estaFirmando ? <Button color={"success"} onClick={this.handleActualizar}>Aceptar</Button> : <Button disabled>Aceptar</Button> }
           <Button>Cancelar</Button>
         </FormGroup>
       </div>
@@ -68,4 +123,4 @@ class Firma extends Component {
   }
 }
 
-export default Firma;
+export default withRouter(Firma);

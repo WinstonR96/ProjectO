@@ -14,6 +14,7 @@ import "react-simple-keyboard/build/css/index.css";
 import Service from "./../../Services/Service";
 import Utils from "./../../Helpers/Utils";
 import Header from "./../Global/Header";
+import { withRouter} from 'react-router-dom';
 
 class Consultar extends Component {
   constructor(props) {
@@ -51,7 +52,6 @@ class Consultar extends Component {
           }
         })
         .catch(error => {
-          console.log(error);
           Utils.AlertaOcurrioUnError(error);
         });
     }
@@ -154,4 +154,4 @@ class Consultar extends Component {
   }
 }
 
-export default Consultar;
+export default withRouter(Consultar);

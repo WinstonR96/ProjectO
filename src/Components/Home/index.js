@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./../../App.css";
 import { Button } from "reactstrap";
+import { withRouter} from 'react-router-dom';
 
 class Home extends Component {
   irConsultar = () => {
@@ -23,4 +24,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default withRouter(Home);

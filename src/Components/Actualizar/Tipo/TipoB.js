@@ -6,7 +6,7 @@ import ciudades from "./../codigopostal.json";
 import "./../../../App.css";
 import layout from "simple-keyboard-layouts/build/layouts/spanish";
 import AvisoPrivacidad from "./../../Global/Modal/AvisoPrivacidad";
-
+import { withRouter} from 'react-router-dom';
 
 class TipoB extends Component {
   constructor(props){
@@ -262,4 +262,4 @@ class TipoB extends Component {
   }
 }
 
-export default TipoB;
+export default withRouter(TipoB);

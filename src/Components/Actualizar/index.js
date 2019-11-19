@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import TipoA from "./Tipo/TipoA";
 import TipoB from "./Tipo/TipoB";
 import Header from "./../Global/Header";
+import { withRouter} from 'react-router-dom';
 
 class Actualizar extends Component {
   render() {
@@ -21,4 +22,4 @@ class Actualizar extends Component {
   }
 }
 
-export default Actualizar;
+export default withRouter(Actualizar);
