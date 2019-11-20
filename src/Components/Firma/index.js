@@ -7,6 +7,7 @@ import { FaTrash } from "react-icons/fa";
 import { withRouter } from "react-router-dom";
 import Utils from "./../../Helpers/Utils";
 import Service from "./../../Services/Service";
+import Loading from "./../Global/Loading";
 
 class Firma extends Component {
   constructor(props) {
@@ -15,7 +16,8 @@ class Firma extends Component {
     this.state = {
       firma: "",
       estaFirmando: false,
-      clase: ""
+      clase: "",
+      loading: false
     };
   }
 
@@ -27,7 +29,15 @@ class Firma extends Component {
     this.signaturePad.clear();
   };
 
+  //Funciones
+  HandleSpinner = () => {
+    this.setState({
+      loading: !this.state.loading
+    });
+  };
+
   handleActualizar = () => {
+    this.HandleSpinner();
     let data;
     let firma = this.signaturePad.toDataURL();
     console.log(firma);
@@ -84,10 +94,12 @@ class Firma extends Component {
     Service.post(url, data)
       .then(response => {
         if (response.codigoRespuesta === "000") {
+          this.HandleSpinner();
           Utils.AlertaUsuarioActualizado();
         }
       })
       .catch(error => {
+        this.HandleSpinner();
         Utils.AlertaOcurrioUnError(error);
       });
     this.props.history.push({
@@ -121,6 +133,9 @@ class Firma extends Component {
     return (
       <div>
         <Header />
+        <div className="loading">
+          {this.state.loading ? <Loading /> : null}
+        </div>
         <h3 className={"title"}>Actualización de datos personales</h3>
         <p className={"leyenda-firma"}>
           Firma en el recuadro para terminar el proceso de actualización

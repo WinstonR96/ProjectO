@@ -14,7 +14,7 @@ const Service = {
    */
   post: (params, data) =>
     new Promise((resolve, reject) => {
-      API.post(params, data)
+      API.post(params, data, {timeout: window.config.REACT_APP_TIMEOUT_AXIOS})
         .then(response => response.data)
         .then(data => resolve(data))
         .catch(err => reject(err));

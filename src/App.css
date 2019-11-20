@@ -3,6 +3,11 @@ body {
   overflow-y: hidden;
 }
 
+.loading {
+  margin: 0 auto;
+  text-align: center;
+}
+
 .leyenda-firma {
   text-align: center;
   color: #999999;

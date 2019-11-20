@@ -15,6 +15,8 @@ import Service from "./../../Services/Service";
 import Utils from "./../../Helpers/Utils";
 import Header from "./../Global/Header";
 import { withRouter } from "react-router-dom";
+import Loading from "./../Global/Loading";
+
 
 class Consultar extends Component {
   constructor(props) {
@@ -23,12 +25,20 @@ class Consultar extends Component {
     this.state = {
       inputName: "numCedula",
       layoutName: "default",
-      input: {}
+      input: {},
+      loading:false
     };
   }
 
   //Funciones
+  HandleSpinner = () => {
+    this.setState({
+      loading: !this.state.loading
+    });
+  };
+
   consultarDatos = () => {
+    this.HandleSpinner();
     let NumeroDocumento = this.state.input["numCedula"];
     if (NumeroDocumento === undefined || NumeroDocumento === "") {
       Utils.AlertaDatosIncompletos();
@@ -48,10 +58,12 @@ class Consultar extends Component {
           }
           // Si no se encuentra, se muestra el modal de información
           if (response.codigoRespuesta === "001") {
+            this.HandleSpinner();
             Utils.AlertaUsuarioNoEncontrado();
           }
         })
         .catch(error => {
+          this.HandleSpinner();
           Utils.AlertaOcurrioUnError(error);
         });
     }
@@ -101,6 +113,9 @@ class Consultar extends Component {
     return (
       <div>
         <Header />
+        <div className="loading">
+          {this.state.loading ? <Loading /> : null}
+        </div>
         <Container>
           <Row>
             <Col>

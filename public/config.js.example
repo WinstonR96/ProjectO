@@ -15,6 +15,8 @@ var config = {
   REACT_APP_URL_TELEMETRIA: "",
   // Tiempo estimado para llenar el formulario *Entero
   REACT_APP_TIMEOUT: 10,
+  // Tiempo de timeout para las consultas http
+  REACT_APP_TIMEOUT_AXIOS: 15000,
   // Tiempo estimado en que se enviaran los datos de metricas a la API *Entero
   REACT_APP_TIME_ENVIOMETRICAS: 540000,
   // Dato proporcionado por el cliente, necesario para la autorizacion
