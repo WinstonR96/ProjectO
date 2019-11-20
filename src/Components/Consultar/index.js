@@ -14,7 +14,7 @@ import "react-simple-keyboard/build/css/index.css";
 import Service from "./../../Services/Service";
 import Utils from "./../../Helpers/Utils";
 import Header from "./../Global/Header";
-import { withRouter} from 'react-router-dom';
+import { withRouter } from "react-router-dom";
 
 class Consultar extends Component {
   constructor(props) {
@@ -44,7 +44,7 @@ class Consultar extends Component {
         .then(response => {
           // Si se encuentra el usuario se pasa a actualizar
           if (response.codigoRespuesta === "000") {
-            this.irActualizar(NumeroDocumento,response.data);
+            this.irActualizar(NumeroDocumento, response.data);
           }
           // Si no se encuentra, se muestra el modal de información
           if (response.codigoRespuesta === "001") {
@@ -58,7 +58,7 @@ class Consultar extends Component {
   };
 
   //Permite ir al componente actualizar
-  irActualizar = (NumeroDocumento,data) => {
+  irActualizar = (NumeroDocumento, data) => {
     this.props.history.push({
       pathname: "/actualizar",
       state: { data, NumeroDocumento }
@@ -100,7 +100,7 @@ class Consultar extends Component {
   render() {
     return (
       <div>
-        <Header/>
+        <Header />
         <Container>
           <Row>
             <Col>

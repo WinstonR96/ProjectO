@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./../../App.css";
 import { Button } from "reactstrap";
-import { withRouter} from 'react-router-dom';
+import { withRouter } from "react-router-dom";
 
 class Home extends Component {
   irConsultar = () => {

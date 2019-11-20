@@ -1,20 +1,28 @@
 import React, { Component } from "react";
-import { Container, Row, Col, FormGroup, Label, Input, Button } from "reactstrap";
+import {
+  Container,
+  Row,
+  Col,
+  FormGroup,
+  Label,
+  Input,
+  Button
+} from "reactstrap";
 import Keyboard from "react-simple-keyboard";
 import "react-simple-keyboard/build/css/index.css";
 import ciudades from "./../codigopostal.json";
 import "./../../../App.css";
 import layout from "simple-keyboard-layouts/build/layouts/spanish";
 import AvisoPrivacidad from "./../../Global/Modal/AvisoPrivacidad";
-import { withRouter} from 'react-router-dom';
+import { withRouter } from "react-router-dom";
 
 class TipoB extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
 
     this.state = {
       ciudades: [],
-      data:[],
+      data: [],
       NumeroDocumento: "",
       codigoCiudad: "",
       inputName: "nombres",
@@ -90,7 +98,10 @@ class TipoB extends Component {
         </option>
       )
     );
-    const { NumeroDocumento, data: { nombres, primerApellido, ciudad, direccion, celular, email } } = this.state;
+    const {
+      NumeroDocumento,
+      data: { nombres, primerApellido, ciudad, direccion, celular, email }
+    } = this.state;
     return (
       <div className={"contenedor-tipoa"}>
         <AvisoPrivacidad isOpen={this.state.isOpenAvisoPrivacidad} />
@@ -139,7 +150,7 @@ class TipoB extends Component {
           </Row>
           <Row>
             <Col xs="6" sm="4">
-            <FormGroup className={"formgroup"}>
+              <FormGroup className={"formgroup"}>
                 <Label for="ciudad">CIUDAD</Label>
                 <Input
                   value={ciudad}
@@ -153,7 +164,7 @@ class TipoB extends Component {
               </FormGroup>
             </Col>
             <Col xs="6" sm="4">
-            <FormGroup className={"formgroup"}>
+              <FormGroup className={"formgroup"}>
                 <Label for="direccion">DIRECCIÓN</Label>
                 <Input
                   type="text"
@@ -166,7 +177,7 @@ class TipoB extends Component {
               </FormGroup>
             </Col>
             <Col sm="4">
-            <FormGroup className={"formgroup"}>
+              <FormGroup className={"formgroup"}>
                 <Label for="celular">CELULAR</Label>
                 <Input
                   type="number"
@@ -182,7 +193,7 @@ class TipoB extends Component {
           <Row>
             <Col xs="6" sm="4"></Col>
             <Col xs="6" sm="4">
-            <FormGroup className={"formgroup"}>
+              <FormGroup className={"formgroup"}>
                 <Label for="correo">CORREO</Label>
                 <Input
                   type="email"
@@ -228,11 +239,17 @@ class TipoB extends Component {
                   </span>
                 </Label>
                 {this.state.checkAviso && this.state.checkPolitica ? (
-                <Button className={"btn-actualizar"} color="success">Guardar</Button>
-              ) : (
-                <Button className={"btn-actualizar"} color="secondary">Guardar</Button>
-              )}{" "}
-              <Button className={"btn-actualizar"} color="secondary">Cancelar</Button>{" "}
+                  <Button className={"btn-actualizar"} color="success">
+                    Guardar
+                  </Button>
+                ) : (
+                  <Button className={"btn-actualizar"} color="secondary">
+                    Guardar
+                  </Button>
+                )}{" "}
+                <Button className={"btn-actualizar"} color="secondary">
+                  Cancelar
+                </Button>{" "}
               </FormGroup>
             </Col>
             <Col sm="4"></Col>
