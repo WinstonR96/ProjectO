@@ -5,6 +5,8 @@ import { FormGroup, Button } from "reactstrap";
 import Header from "./../Global/Header";
 import { FaTrash } from "react-icons/fa";
 import { withRouter } from "react-router-dom";
+import Utils from "./../../Helpers/Utils";
+import Service from "./../../Services/Service";
 
 class Firma extends Component {
   constructor(props) {
@@ -28,6 +30,7 @@ class Firma extends Component {
   handleActualizar = () => {
     let data;
     let firma = this.signaturePad.toDataURL();
+    console.log(firma);
     //Obtenemos datos del props
     if (window.config.REACT_APP_TIPOFORM === "a") {
       const {
@@ -77,6 +80,19 @@ class Firma extends Component {
       };
     }
     console.log("Data", data);
+    let url = window.config.REACT_APP_URL_ACTUALIZAR;
+    Service.post(url, data)
+      .then(response => {
+        if (response.codigoRespuesta === "000") {
+          Utils.AlertaUsuarioActualizado();
+        }
+      })
+      .catch(error => {
+        Utils.AlertaOcurrioUnError(error);
+      });
+    this.props.history.push({
+      pathname: "/"
+    });
   };
 
   //Manejo de la firma
@@ -92,6 +108,12 @@ class Firma extends Component {
     this.setState({
       estaFirmando: false,
       clase: "firma"
+    });
+  };
+
+  handleCancelar = () => {
+    this.props.history.push({
+      pathname: "/"
     });
   };
 
@@ -134,7 +156,7 @@ class Firma extends Component {
           ) : (
             <Button disabled>Aceptar</Button>
           )}
-          <Button>Cancelar</Button>
+          <Button onClick={this.handleCancelar}>Cancelar</Button>
         </FormGroup>
       </div>
     );

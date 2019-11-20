@@ -83,6 +83,12 @@ class TipoA extends Component {
     });
   };
 
+  handleCancelar = () => {
+    this.props.history.push({
+      pathname: "/"
+    });
+  };
+
   //Captura de datos del formulario
   handleChangeGenero = (event) => {
     this.setState({
@@ -329,7 +335,7 @@ class TipoA extends Component {
               ) : (
                 <Button className={"btn-actualizar"} color="secondary">Guardar</Button>
               )}{" "}
-              <Button className={"btn-actualizar"} color="secondary">Cancelar</Button>{" "}
+              <Button className={"btn-actualizar"} onClick={this.handleCancelar} color="secondary">Cancelar</Button>{" "}
               </FormGroup>
             </Col>
             <Col sm="4"></Col>

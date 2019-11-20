@@ -26,6 +26,14 @@ const Utils = {
       confirmButtonText: "Volver",
       confirmButtonColor: "#d33"
     });
+  },
+  AlertaUsuarioActualizado: () => {
+    Swal.fire({
+      icon: 'success',
+      text: 'Datos actualizados correctamente',
+      confirmButtonText: "Ok",
+      confirmButtonColor: "#0C7DED"
+    })
   }
 };
 

@@ -44,8 +44,44 @@ class TipoB extends Component {
     });
   };
 
+  handleCancelar = () => {
+    this.props.history.push({
+      pathname: "/"
+    });
+  };
+
+  handleActualizar = () => {
+    const { data, NumeroDocumento } = this.props;
+    const { input, codigoCiudad } = this.state;
+    let nombres = input["nombres"] || data.nombres;
+    let primerApellido = input["primerApellido"] || data.primerApellido;
+    let ciudad = codigoCiudad || data.ciudad;
+    let direccion = input["direccion"] || data.direccion;
+    let celular = input["celular"] || data.celular;
+    let email = input["email"] || data.email;
+    //Hago un arreglo con los datos suministrados
+    let datos = {
+      NumeroDocumento,
+      nombres,
+      primerApellido,
+      ciudad,
+      direccion,
+      celular,
+      email
+    };
+    this.irFirma(datos);
+  };
+
+  //Permite ir al componente firma
+  irFirma = data => {
+    this.props.history.push({
+      pathname: "/firma",
+      state: { data }
+    });
+  };
+
   //Captura de datos del formulario
-  handleChangeCiudad(event) {
+  handleChangeCiudad = (event) => {
     this.setState({
       codigoCiudad: event.target.value
     });
@@ -99,8 +135,8 @@ class TipoB extends Component {
       )
     );
     const {
-      NumeroDocumento,
-      data: { nombres, primerApellido, ciudad, direccion, celular, email }
+      NumeroDocumento, codigoCiudad,
+      data: { nombres, primerApellido, direccion, celular, email }
     } = this.state;
     return (
       <div className={"contenedor-tipoa"}>
@@ -153,7 +189,7 @@ class TipoB extends Component {
               <FormGroup className={"formgroup"}>
                 <Label for="ciudad">CIUDAD</Label>
                 <Input
-                  value={ciudad}
+                  value={codigoCiudad}
                   type="select"
                   name="ciudad"
                   id="ciudad"
@@ -239,7 +275,11 @@ class TipoB extends Component {
                   </span>
                 </Label>
                 {this.state.checkAviso && this.state.checkPolitica ? (
-                  <Button className={"btn-actualizar"} color="success">
+                  <Button
+                    className={"btn-actualizar"}
+                    onClick={this.handleActualizar}
+                    color="success"
+                  >
                     Guardar
                   </Button>
                 ) : (
@@ -247,7 +287,11 @@ class TipoB extends Component {
                     Guardar
                   </Button>
                 )}{" "}
-                <Button className={"btn-actualizar"} color="secondary">
+                <Button
+                  onClick={this.handleCancelar}
+                  className={"btn-actualizar"}
+                  color="secondary"
+                >
                   Cancelar
                 </Button>{" "}
               </FormGroup>

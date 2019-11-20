@@ -89,6 +89,9 @@ yard add nombre_paquete
 
 > [simple-keyboard-layouts](https://franciscohodge.com/projects/simple-keyboard/getting-started/)
 
-6. Pad Firma
+6. Pad Firma:
 > [react-signature-pad-wrapper](https://github.com/szimek/signature_pad)
+
+7. Iconos:
+> ["react-icons"](https://react-icons.netlify.com/)
 
