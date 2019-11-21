@@ -303,8 +303,9 @@ class TipoA extends Component {
           <Row>
             <Col xs="6" sm="4"></Col>
             <Col xs="6" sm="4">
-              <FormGroup check className={"formgroup"}>
-                <Label check>
+              <FormGroup className={"formgroup"}>
+
+              <Label check>
                   <Input
                     onChange={e =>
                       this.setState({ checkAviso: e.target.checked })
@@ -312,10 +313,11 @@ class TipoA extends Component {
                     type="checkbox"
                   />{" "}
                   He leído y acepto el{" "}
+                  </Label>
                   <span className={"link"} onClick={this.toggleModalAviso}>
-                    aviso de privacidad
+                  {" "}aviso de privacidad
                   </span>
-                </Label>
+                  <br/>
                 <Label check>
                   <Input
                     onChange={e =>
@@ -324,13 +326,14 @@ class TipoA extends Component {
                     type="checkbox"
                   />{" "}
                   Conozco y acepto la{" "}
+                  </Label>
                   <span
                     className={"link"}
-                    onClick={() => console.log("prueba")}
+                    onClick={() => console.log("prueba "+this.state.isOpenAvisoPrivacidad)}
                   >
-                    politica de privacidad
+                    {" "}politica de privacidad
                   </span>
-                </Label>
+                <br/>
                 {this.state.checkAviso && this.state.checkPolitica ? (
                 <Button className={"btn-actualizar"} onClick={this.HandleActualizar} color="success">Guardar</Button>
               ) : (
