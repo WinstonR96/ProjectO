@@ -2,32 +2,15 @@ import React, { Component } from "react";
 import { Modal, ModalHeader, ModalBody, ModalFooter, Button } from "reactstrap";
 
 class AvisoPrivacidad extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      isOpen: false
-    };
-  }
-
-  componentDidMount = () => {
-    console.log("Entre en el modal");
-    const { isOpen } = this.props;
-    this.setState({
-      isOpen
-    });
-  };
 
   toggleModal = () => {
-    this.setState(prevState => ({
-      isOpen: !prevState.isOpen
-    }));
+    this.props.ocultarModal();
   };
 
   render() {
     return (
       <Modal
-        isOpen={this.state.isOpen}
+        isOpen={true}
         toggle={this.toggleModal}
         className={"modal_noencontrado"}
       >

@@ -15,6 +15,7 @@ import "./../../../App.css";
 import layout from "simple-keyboard-layouts/build/layouts/spanish";
 import AvisoPrivacidad from "./../../Global/Modal/AvisoPrivacidad";
 import { withRouter} from 'react-router-dom';
+import PoliticaPrivacidad from "./../../Global/Modal/PoliticaPrivacidad";
 
 class TipoA extends Component {
   constructor(props) {
@@ -72,7 +73,7 @@ class TipoA extends Component {
       telefono,
       email
     };
-    this.irFirma(datos);
+    //this.irFirma(datos);
   }
 
   //Permite ir al componente firma
@@ -104,9 +105,9 @@ class TipoA extends Component {
 
   // Modales
   toggleModalAviso = () => {
-    this.setState({
-      isOpenAvisoPrivacidad: true
-    });
+    this.setState(prevState => ({
+      isOpenAvisoPrivacidad: !prevState.isOpenAvisoPrivacidad
+    }));
   };
 
   //Funciones para el buen funcionamiento del teclado
@@ -149,10 +150,10 @@ class TipoA extends Component {
       )
     );
     const {codigoCiudad, codigoGenero, NumeroDocumento, data: { nombres, primerApellido, segundoApellido, direccion, celular, telefono, email } } = this.state;
-    console.log(codigoGenero);
     return (
       <div className={"contenedor-tipoa"}>
-        <AvisoPrivacidad isOpen={this.state.isOpenAvisoPrivacidad} />
+        {/* <PoliticaPrivacidad/> */}
+       {this.state.isOpenAvisoPrivacidad ? <AvisoPrivacidad ocultarModal={this.toggleModalAviso}/> : null}
         <Container>
           <Row>
             <Col xs="6" sm="4">
