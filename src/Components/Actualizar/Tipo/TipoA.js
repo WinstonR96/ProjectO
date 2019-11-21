@@ -38,6 +38,7 @@ class TipoA extends Component {
   componentDidMount = () => {
     const { data, NumeroDocumento } = this.props;
     this.setState({
+      codigoGenero: data.sexo,
       ciudades,
       codigoCiudad: data.ciudad,
       data,
@@ -46,7 +47,6 @@ class TipoA extends Component {
   };
 
   HandleActualizar = () => {
-    //TODO: validar campos vacios
     //Capturo los datos del formulario
     const { data, NumeroDocumento } = this.props;
     const { input, codigoGenero, codigoCiudad } = this.state;
@@ -149,6 +149,7 @@ class TipoA extends Component {
       )
     );
     const {codigoCiudad, codigoGenero, NumeroDocumento, data: { nombres, primerApellido, segundoApellido, direccion, celular, telefono, email } } = this.state;
+    console.log(codigoGenero);
     return (
       <div className={"contenedor-tipoa"}>
         <AvisoPrivacidad isOpen={this.state.isOpenAvisoPrivacidad} />
