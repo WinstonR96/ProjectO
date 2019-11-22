@@ -32,7 +32,8 @@ class TipoA extends Component {
       input: {},
       checkPolitica: false,
       checkAviso: false,
-      isOpenAvisoPrivacidad: false
+      isOpenAvisoPrivacidad: false,
+      isOpenPoliticaPrivacidad: false
     };
   }
 
@@ -73,7 +74,7 @@ class TipoA extends Component {
       telefono,
       email
     };
-    //this.irFirma(datos);
+    this.irFirma(datos);
   }
 
   //Permite ir al componente firma
@@ -109,6 +110,12 @@ class TipoA extends Component {
       isOpenAvisoPrivacidad: !prevState.isOpenAvisoPrivacidad
     }));
   };
+
+  toggleModalPolitica = () => {
+    this.setState(prevState => ({
+      isOpenPoliticaPrivacidad: !prevState.isOpenPoliticaPrivacidad
+    }));
+  }
 
   //Funciones para el buen funcionamiento del teclado
   onChangeAll = inputObj => {
@@ -154,6 +161,7 @@ class TipoA extends Component {
       <div className={"contenedor-tipoa"}>
         {/* <PoliticaPrivacidad/> */}
        {this.state.isOpenAvisoPrivacidad ? <AvisoPrivacidad ocultarModal={this.toggleModalAviso}/> : null}
+       {this.state.isOpenPoliticaPrivacidad ? <PoliticaPrivacidad ocultarModal={this.toggleModalPolitica}/> : null}
         <Container>
           <Row>
             <Col xs="6" sm="4">
@@ -330,7 +338,7 @@ class TipoA extends Component {
                   </Label>
                   <span
                     className={"link"}
-                    onClick={() => console.log("prueba "+this.state.isOpenAvisoPrivacidad)}
+                    onClick={this.toggleModalPolitica}
                   >
                     {" "}politica de privacidad
                   </span>

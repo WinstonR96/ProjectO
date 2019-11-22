@@ -12,9 +12,8 @@ class AvisoPrivacidad extends Component {
       <Modal
         isOpen={true}
         toggle={this.toggleModal}
-        className={"modal_noencontrado"}
       >
-        <ModalHeader toggle={this.toggle}>
+        <ModalHeader toggle={this.toggleModal}>
           Política de tratamiento de datos
         </ModalHeader>
         <ModalBody>
