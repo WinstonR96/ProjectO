@@ -15,6 +15,7 @@ import "./../../../App.css";
 import layout from "simple-keyboard-layouts/build/layouts/spanish";
 import AvisoPrivacidad from "./../../Global/Modal/AvisoPrivacidad";
 import { withRouter } from "react-router-dom";
+import NumericInput from "react-numeric-input";
 
 class TipoB extends Component {
   constructor(props) {
@@ -81,11 +82,11 @@ class TipoB extends Component {
   };
 
   //Captura de datos del formulario
-  handleChangeCiudad = (event) => {
+  handleChangeCiudad = event => {
     this.setState({
       codigoCiudad: event.target.value
     });
-  }
+  };
 
   // Modales
   toggleModalAviso = () => {
@@ -135,7 +136,8 @@ class TipoB extends Component {
       )
     );
     const {
-      NumeroDocumento, codigoCiudad,
+      NumeroDocumento,
+      codigoCiudad,
       data: { nombres, primerApellido, direccion, celular, email }
     } = this.state;
     return (
@@ -215,10 +217,17 @@ class TipoB extends Component {
             <Col sm="4">
               <FormGroup className={"formgroup"}>
                 <Label for="celular">CELULAR</Label>
-                <Input
-                  type="number"
+                <NumericInput
                   name="celular"
                   id="celular"
+                  min={0}
+                  max={100}
+                  step={1}
+                  precision={0}
+                  size={30}
+                  strict={true}
+                  snap
+                  className="form-control"
                   onFocus={() => this.setActiveInput("celular")}
                   value={this.state.input["celular"] || celular}
                   onChange={e => this.onChangeInput(e)}
@@ -283,7 +292,11 @@ class TipoB extends Component {
                     Guardar
                   </Button>
                 ) : (
-                  <Button className={"btn-actualizar"} color="secondary">
+                  <Button
+                    disabled
+                    className={"btn-actualizar"}
+                    color="secondary"
+                  >
                     Guardar
                   </Button>
                 )}{" "}

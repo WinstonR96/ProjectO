@@ -17,7 +17,6 @@ import Header from "./../Global/Header";
 import { withRouter } from "react-router-dom";
 import Loading from "./../Global/Loading";
 
-
 class Consultar extends Component {
   constructor(props) {
     super(props);
@@ -26,7 +25,7 @@ class Consultar extends Component {
       inputName: "numCedula",
       layoutName: "default",
       input: {},
-      loading:false
+      loading: false
     };
   }
 
@@ -113,9 +112,7 @@ class Consultar extends Component {
     return (
       <div>
         <Header />
-        <div className="loading">
-          {this.state.loading ? <Loading /> : null}
-        </div>
+        <div className="loading">{this.state.loading ? <Loading /> : null}</div>
         <Container>
           <Row>
             <Col>

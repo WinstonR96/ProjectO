@@ -14,7 +14,9 @@ import ciudades from "./../codigopostal.json";
 import "./../../../App.css";
 import layout from "simple-keyboard-layouts/build/layouts/spanish";
 import AvisoPrivacidad from "./../../Global/Modal/AvisoPrivacidad";
-import { withRouter} from 'react-router-dom';
+import { withRouter } from "react-router-dom";
+import PoliticaPrivacidad from "./../../Global/Modal/PoliticaPrivacidad";
+import NumericInput from "react-numeric-input";
 
 class TipoA extends Component {
   constructor(props) {
@@ -22,7 +24,7 @@ class TipoA extends Component {
 
     this.state = {
       ciudades: [],
-      data:[],
+      data: [],
       NumeroDocumento: "",
       codigoCiudad: "",
       codigoGenero: "",
@@ -31,7 +33,8 @@ class TipoA extends Component {
       input: {},
       checkPolitica: false,
       checkAviso: false,
-      isOpenAvisoPrivacidad: false
+      isOpenAvisoPrivacidad: false,
+      isOpenPoliticaPrivacidad: false
     };
   }
 
@@ -56,7 +59,7 @@ class TipoA extends Component {
     let sexo = codigoGenero || data.sexo;
     let ciudad = codigoCiudad || data.ciudad;
     let direccion = input["direccion"] || data.direccion;
-    let celular = input["celular"] || data.celular;
+    let celular = input["celular"].replace(/\D/g, "") || data.celular;
     let telefono = input["telefono"] || data.telefono;
     let email = input["email"] || data.email;
     //Hago un arreglo con los datos suministrados
@@ -73,10 +76,10 @@ class TipoA extends Component {
       email
     };
     this.irFirma(datos);
-  }
+  };
 
   //Permite ir al componente firma
-  irFirma = (data) => {
+  irFirma = data => {
     this.props.history.push({
       pathname: "/firma",
       state: { data }
@@ -90,23 +93,29 @@ class TipoA extends Component {
   };
 
   //Captura de datos del formulario
-  handleChangeGenero = (event) => {
+  handleChangeGenero = event => {
     this.setState({
       codigoGenero: event.target.value
     });
-  }
+  };
 
-  handleChangeCiudad = (event) => {
+  handleChangeCiudad = event => {
     this.setState({
       codigoCiudad: event.target.value
     });
-  }
+  };
 
   // Modales
   toggleModalAviso = () => {
-    this.setState({
-      isOpenAvisoPrivacidad: true
-    });
+    this.setState(prevState => ({
+      isOpenAvisoPrivacidad: !prevState.isOpenAvisoPrivacidad
+    }));
+  };
+
+  toggleModalPolitica = () => {
+    this.setState(prevState => ({
+      isOpenPoliticaPrivacidad: !prevState.isOpenPoliticaPrivacidad
+    }));
   };
 
   //Funciones para el buen funcionamiento del teclado
@@ -148,11 +157,29 @@ class TipoA extends Component {
         </option>
       )
     );
-    const {codigoCiudad, codigoGenero, NumeroDocumento, data: { nombres, primerApellido, segundoApellido, direccion, celular, telefono, email } } = this.state;
-    console.log(codigoGenero);
+    const {
+      codigoCiudad,
+      codigoGenero,
+      NumeroDocumento,
+      data: {
+        nombres,
+        primerApellido,
+        segundoApellido,
+        direccion,
+        celular,
+        telefono,
+        email
+      }
+    } = this.state;
     return (
       <div className={"contenedor-tipoa"}>
-        <AvisoPrivacidad isOpen={this.state.isOpenAvisoPrivacidad} />
+        {/* <PoliticaPrivacidad/> */}
+        {this.state.isOpenAvisoPrivacidad ? (
+          <AvisoPrivacidad ocultarModal={this.toggleModalAviso} />
+        ) : null}
+        {this.state.isOpenPoliticaPrivacidad ? (
+          <PoliticaPrivacidad ocultarModal={this.toggleModalPolitica} />
+        ) : null}
         <Container>
           <Row>
             <Col xs="6" sm="4">
@@ -259,10 +286,17 @@ class TipoA extends Component {
             <Col xs="6" sm="4">
               <FormGroup className={"formgroup"}>
                 <Label for="celular">CELULAR</Label>
-                <Input
-                  type="number"
+                <NumericInput
                   name="celular"
                   id="celular"
+                  min={0}
+                  max={100}
+                  step={1}
+                  precision={0}
+                  size={30}
+                  strict={true}
+                  snap
+                  className="form-control"
                   onFocus={() => this.setActiveInput("celular")}
                   value={this.state.input["celular"] || celular}
                   onChange={e => this.onChangeInput(e)}
@@ -272,10 +306,17 @@ class TipoA extends Component {
             <Col sm="4">
               <FormGroup className={"formgroup"}>
                 <Label for="telefono">TELEFONO</Label>
-                <Input
-                  type="number"
+                <NumericInput
                   name="telefono"
                   id="telefono"
+                  min={0}
+                  max={100}
+                  step={1}
+                  precision={0}
+                  size={30}
+                  strict={true}
+                  snap
+                  className="form-control"
                   onFocus={() => this.setActiveInput("telefono")}
                   value={this.state.input["telefono"] || telefono}
                   onChange={e => this.onChangeInput(e)}
@@ -303,7 +344,7 @@ class TipoA extends Component {
           <Row>
             <Col xs="6" sm="4"></Col>
             <Col xs="6" sm="4">
-              <FormGroup check className={"formgroup"}>
+              <FormGroup className={"formgroup"}>
                 <Label check>
                   <Input
                     onChange={e =>
@@ -312,10 +353,12 @@ class TipoA extends Component {
                     type="checkbox"
                   />{" "}
                   He leído y acepto el{" "}
-                  <span className={"link"} onClick={this.toggleModalAviso}>
-                    aviso de privacidad
-                  </span>
                 </Label>
+                <span className={"link"} onClick={this.toggleModalAviso}>
+                  {" "}
+                  aviso de privacidad
+                </span>
+                <br />
                 <Label check>
                   <Input
                     onChange={e =>
@@ -324,19 +367,36 @@ class TipoA extends Component {
                     type="checkbox"
                   />{" "}
                   Conozco y acepto la{" "}
-                  <span
-                    className={"link"}
-                    onClick={() => console.log("prueba")}
-                  >
-                    politica de privacidad
-                  </span>
                 </Label>
+                <span className={"link"} onClick={this.toggleModalPolitica}>
+                  {" "}
+                  politica de privacidad
+                </span>
+                <br />
                 {this.state.checkAviso && this.state.checkPolitica ? (
-                <Button className={"btn-actualizar"} onClick={this.HandleActualizar} color="success">Guardar</Button>
-              ) : (
-                <Button className={"btn-actualizar"} color="secondary">Guardar</Button>
-              )}{" "}
-              <Button className={"btn-actualizar"} onClick={this.handleCancelar} color="secondary">Cancelar</Button>{" "}
+                  <Button
+                    className={"btn-actualizar"}
+                    onClick={this.HandleActualizar}
+                    color="success"
+                  >
+                    Guardar
+                  </Button>
+                ) : (
+                  <Button
+                    disabled
+                    className={"btn-actualizar"}
+                    color="secondary"
+                  >
+                    Guardar
+                  </Button>
+                )}{" "}
+                <Button
+                  className={"btn-actualizar"}
+                  onClick={this.handleCancelar}
+                  color="secondary"
+                >
+                  Cancelar
+                </Button>{" "}
               </FormGroup>
             </Col>
             <Col sm="4"></Col>
