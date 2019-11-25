@@ -1,26 +1,75 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import "./App.css";
+import Contenido from "./Components/Global/Contenido";
+import { withRouter } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  static propTypes = {
+    children: PropTypes.object.isRequired
+  };
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      idleTime: 0
+    };
+  }
+
+  componentDidMount = () => {
+    this.timeOut();
+  };
+
+  //Funciones para controlar la actividad
+  onMouseMove = () => {
+    this.setState({
+      idleTime: 0
+    });
+  };
+
+  onKeyPress = () => {
+    this.setState({
+      idleTime: 0
+    });
+  };
+
+  //Funcion de timeout
+  timeOut = () => {
+    setInterval(this.timerIncrement, 60000); // 1 minute
+  };
+
+  //Funcion que permite recargar el formulario luego de que se cumpla el timeout establecido
+  timerIncrement = () => {
+    const { pathname } = this.props.location;
+    const { idleTime } = this.state;
+    var timeAux = idleTime + 1;
+    this.setState({
+      idleTime: timeAux
+    });
+    console.log("Antes de validar", idleTime);
+    if (pathname !== "/") {
+      console.log("despues de validar", idleTime);
+      if (idleTime >= window.config.REACT_APP_TIMEOUT) {
+        this.props.history.push({
+          pathname: "/"
+        });
+      }
+    }
+  };
+
+  render() {
+    const { children } = this.props;
+    return (
+      <div
+        className="App"
+        onMouseMove={this.onMouseMove}
+        onKeyPress={this.onKeyPress}
+      >
+        <Contenido body={children} />
+      </div>
+    );
+  }
 }
 
-export default App;
+export default withRouter(App);

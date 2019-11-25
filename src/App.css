@@ -1,5 +1,140 @@
-.App {
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+.loading {
+  margin: 0 auto;
   text-align: center;
+}
+
+.leyenda-firma {
+  text-align: center;
+  color: #999999;
+  font-weight: 500;
+}
+
+.header {
+  width: 100%;
+  height: 45px;
+  background: #e0001a;
+  border: 1px solid black;
+}
+
+.contenedor-tipoa {
+  width: 100%;
+  height: 80%;
+}
+
+.logo {
+  color: white;
+  float: left;
+  width: 75%;
+  height: 40px;
+  background-size: 250px 35px;
+  background-image: url("./logo.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.menu {
+  color: white;
+  float: left;
+  margin: 0 auto;
+}
+
+.title {
+  color: #999999 !important;
+  text-align: center;
+  margin: 1%;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.formgroup {
+  text-align: center;
+}
+
+label {
+  font-size: 12px;
+}
+
+.form-check-label, .link{
+  font-size: 12 !important;
+}
+
+.btn-actualizar {
+  border-radius: 15px;
+  width: 35%;
+  margin: 0 auto;
+  height: 20% !important;
+}
+
+#numeroCedula, #nombres,
+#primerApellido, #segundoApellido, #genero,
+#ciudad, #direccion, #celular, #telefono,
+#correo {
+  width: 80% !important;
+  height: 20% !important;
+}
+
+#numeroCedula, #nombres,
+#primerApellido, #segundoApellido, #genero,
+#ciudad, #direccion, #celular, #telefono,
+#numCedula, #correo {
+  margin: 0 auto;
+  border: 1px solid #999999;
+  border-radius: 20px;
+}
+
+#numCedula {
+  width: 30% !important;
+
+}
+
+
+.home {
+  text-align: center;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  background-image: url("./home.jpg");
+  background-repeat: no-repeat;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+.button-app {
+  border-radius: 20px !important;
+  float: left;
+  margin-top: 26%;
+  margin-left: 6%;
+  width: 25%;
+  height: 50% !important;
+  background: #e0001a !important;
+  border: none !important;
+}
+
+.btnConsultar {
+  background: #e0001a !important;
+  border: none !important;
+  border-radius: 15px !important;
+  width: 10% !important;
+  margin: 2% !important;
+}
+
+.teclado-numerico {
+  margin: 2% !important;
 }
 
 .App-logo {
@@ -19,4 +154,59 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.Content {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.link {
+  color: #3509d3;
+  font-size: 12px;
+}
+
+canvas{
+  /* background-image: url("./mano.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center; */
+  background-size: 30%;
+}
+
+.contenedor-firma {
+  border: 1px solid #999999;
+  width: 70%;
+  text-align: center;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.trash-firma {
+  margin: 15px;
+  text-align: right;
+  height: 30px;
+}
+
+.icon-trash {
+  color: #999999;
+  cursor: pointer;
+}
+
+.form-button-firma {
+  text-align: center;
+}
+
+.form-button-firma button {
+  margin: 1%;
+  width: 10%;
+  border-radius: 15px;
+}
+
+.firma {
+  background-image: url("./mano.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
