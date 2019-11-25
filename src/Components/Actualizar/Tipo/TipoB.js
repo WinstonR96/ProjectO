@@ -14,6 +14,7 @@ import ciudades from "./../codigopostal.json";
 import "./../../../App.css";
 import layout from "simple-keyboard-layouts/build/layouts/spanish";
 import AvisoPrivacidad from "./../../Global/Modal/AvisoPrivacidad";
+import PoliticaPrivacidad from "./../../Global/Modal/PoliticaPrivacidad";
 import { withRouter } from "react-router-dom";
 import NumericInput from "react-numeric-input";
 
@@ -31,7 +32,8 @@ class TipoB extends Component {
       input: {},
       checkPolitica: false,
       checkAviso: false,
-      isOpenAvisoPrivacidad: false
+      isOpenAvisoPrivacidad: false,
+      isOpenPoliticaPrivacidad: false
     };
   }
 
@@ -90,9 +92,26 @@ class TipoB extends Component {
 
   // Modales
   toggleModalAviso = () => {
-    console.log("Avidso");
+    this.setState(prevState => ({
+      isOpenAvisoPrivacidad: !prevState.isOpenAvisoPrivacidad
+    }));
+  };
+
+  toggleModalPolitica = () => {
+    this.setState(prevState => ({
+      isOpenPoliticaPrivacidad: !prevState.isOpenPoliticaPrivacidad
+    }));
+  };
+
+  checkModalPrivacidad = value => {
     this.setState({
-      isOpenAvisoPrivacidad: true
+      checkPolitica: value
+    });
+  };
+
+  checkModalAviso = value => {
+    this.setState({
+      checkAviso: value
     });
   };
 
@@ -142,7 +161,20 @@ class TipoB extends Component {
     } = this.state;
     return (
       <div className={"contenedor-tipoa"}>
-        <AvisoPrivacidad isOpen={this.state.isOpenAvisoPrivacidad} />
+        {this.state.isOpenAvisoPrivacidad ? (
+          <AvisoPrivacidad
+            checkAviso={this.state.checkAviso}
+            checkModalAviso={this.checkModalAviso}
+            ocultarModal={this.toggleModalAviso}
+          />
+        ) : null}
+        {this.state.isOpenPoliticaPrivacidad ? (
+          <PoliticaPrivacidad
+            checkPolitica={this.state.checkPolitica}
+            checkModalPrivacidad={this.checkModalPrivacidad}
+            ocultarModal={this.toggleModalPolitica}
+          />
+        ) : null}
         <Container>
           <Row>
             <Col xs="6" sm="4">
@@ -255,34 +287,37 @@ class TipoB extends Component {
           <Row>
             <Col xs="6" sm="4"></Col>
             <Col xs="6" sm="4">
-              <FormGroup check className={"formgroup"}>
+              <FormGroup className={"formgroup"}>
                 <Label check>
                   <Input
+                    checked={this.state.checkAviso}
                     onChange={e =>
                       this.setState({ checkAviso: e.target.checked })
                     }
                     type="checkbox"
                   />{" "}
                   He leído y acepto el{" "}
-                  <span className={"link"} onClick={this.toggleModalAviso}>
-                    aviso de privacidad
-                  </span>
                 </Label>
+                <span className={"link"} onClick={this.toggleModalAviso}>
+                  {" "}
+                  aviso de privacidad
+                </span>
+                <br />
                 <Label check>
                   <Input
+                    checked={this.state.checkPolitica}
                     onChange={e =>
                       this.setState({ checkPolitica: e.target.checked })
                     }
                     type="checkbox"
                   />{" "}
                   Conozco y acepto la{" "}
-                  <span
-                    className={"link"}
-                    onClick={() => console.log("prueba")}
-                  >
-                    politica de privacidad
-                  </span>
                 </Label>
+                <span className={"link"} onClick={this.toggleModalPolitica}>
+                  {" "}
+                  politica de privacidad
+                </span>
+                <br />
                 {this.state.checkAviso && this.state.checkPolitica ? (
                   <Button
                     className={"btn-actualizar"}

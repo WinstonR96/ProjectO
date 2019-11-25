@@ -118,6 +118,18 @@ class TipoA extends Component {
     }));
   };
 
+  checkModalPrivacidad = value => {
+    this.setState({
+      checkPolitica: value
+    });
+  };
+
+  checkModalAviso = value => {
+    this.setState({
+      checkAviso: value
+    });
+  };
+
   //Funciones para el buen funcionamiento del teclado
   onChangeAll = inputObj => {
     this.setState({
@@ -175,10 +187,18 @@ class TipoA extends Component {
       <div className={"contenedor-tipoa"}>
         {/* <PoliticaPrivacidad/> */}
         {this.state.isOpenAvisoPrivacidad ? (
-          <AvisoPrivacidad ocultarModal={this.toggleModalAviso} />
+          <AvisoPrivacidad
+            checkAviso={this.state.checkAviso}
+            checkModalAviso={this.checkModalAviso}
+            ocultarModal={this.toggleModalAviso}
+          />
         ) : null}
         {this.state.isOpenPoliticaPrivacidad ? (
-          <PoliticaPrivacidad ocultarModal={this.toggleModalPolitica} />
+          <PoliticaPrivacidad
+            checkPolitica={this.state.checkPolitica}
+            checkModalPrivacidad={this.checkModalPrivacidad}
+            ocultarModal={this.toggleModalPolitica}
+          />
         ) : null}
         <Container>
           <Row>
@@ -347,6 +367,7 @@ class TipoA extends Component {
               <FormGroup className={"formgroup"}>
                 <Label check>
                   <Input
+                    checked={this.state.checkAviso}
                     onChange={e =>
                       this.setState({ checkAviso: e.target.checked })
                     }
@@ -361,6 +382,7 @@ class TipoA extends Component {
                 <br />
                 <Label check>
                   <Input
+                    checked={this.state.checkPolitica}
                     onChange={e =>
                       this.setState({ checkPolitica: e.target.checked })
                     }
