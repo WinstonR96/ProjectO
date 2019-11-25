@@ -1,9 +1,33 @@
 import React, { Component } from "react";
-import { Modal, ModalHeader, ModalBody, ModalFooter, Button } from "reactstrap";
+import {
+  Modal,
+  ModalHeader,
+  ModalBody,
+  ModalFooter,
+  Button,
+  FormGroup,
+  Label,
+  Input
+} from "reactstrap";
 
 class PoliticaPrivacidad extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      isChecked: false
+    };
+  }
   toggleModal = () => {
     this.props.ocultarModal();
+  };
+
+  handleChecked = () => {
+    const { isChecked } = this.state;
+    this.setState(prevState => ({
+      isChecked: !prevState.isChecked
+    }));
+    this.props.checkModalPrivacidad(isChecked);
   };
 
   render() {
@@ -23,11 +47,23 @@ class PoliticaPrivacidad extends Component {
             with the release of Letraset sheets containing Lorem Ipsum passages,
             and more recently with desktop publishing software like Aldus
             PageMaker including versions of Lorem Ipsum.
+            <FormGroup check>
+              <Label check>
+                <Input type="checkbox" onChange={this.handleChecked} /> HE LEÍDO
+                Y ACEPTO LOS TÉRMINOS Y CONDICIONES
+              </Label>
+            </FormGroup>
           </ModalBody>
           <ModalFooter>
-            <Button color="primary" onClick={this.toggleModal}>
-              Ok
-            </Button>
+            {this.state.isChecked ? (
+              <Button className={"btnModalOK"} onClick={this.toggleModal}>
+                Ok
+              </Button>
+            ) : (
+              <Button color={"secondary"} disabled>
+                Ok
+              </Button>
+            )}
           </ModalFooter>
         </Modal>
       </div>

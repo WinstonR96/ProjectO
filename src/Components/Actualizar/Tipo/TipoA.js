@@ -118,6 +118,12 @@ class TipoA extends Component {
     }));
   };
 
+  checkModalPrivacidad = value => {
+    this.setState({
+      checkPolitica: value
+    });
+  };
+
   //Funciones para el buen funcionamiento del teclado
   onChangeAll = inputObj => {
     this.setState({
@@ -178,7 +184,10 @@ class TipoA extends Component {
           <AvisoPrivacidad ocultarModal={this.toggleModalAviso} />
         ) : null}
         {this.state.isOpenPoliticaPrivacidad ? (
-          <PoliticaPrivacidad ocultarModal={this.toggleModalPolitica} />
+          <PoliticaPrivacidad
+            checkModalPrivacidad={this.checkModalPrivacidad}
+            ocultarModal={this.toggleModalPolitica}
+          />
         ) : null}
         <Container>
           <Row>
@@ -361,6 +370,7 @@ class TipoA extends Component {
                 <br />
                 <Label check>
                   <Input
+                    checked={this.state.checkPolitica}
                     onChange={e =>
                       this.setState({ checkPolitica: e.target.checked })
                     }

@@ -210,3 +210,25 @@ canvas{
   background-repeat: no-repeat;
   background-position-x: center;
 }
+
+b
+{
+  display: none !important;
+}
+
+.close{
+  color:#e0001a !important;
+}
+
+.modal-dialog{
+  max-width: 800px !important;
+}
+
+.modal-footer{
+  justify-content: center !important;
+}
+
+.btnModalOK{
+  background: #01C853;
+  border: none;
+}

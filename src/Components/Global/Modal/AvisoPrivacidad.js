@@ -9,9 +9,7 @@ class AvisoPrivacidad extends Component {
   render() {
     return (
       <Modal isOpen={true} toggle={this.toggleModal}>
-        <ModalHeader toggle={this.toggleModal}>
-          Política de tratamiento de datos
-        </ModalHeader>
+        <ModalHeader toggle={this.toggleModal}>Aviso de privacidad</ModalHeader>
         <ModalBody>
           <p style={{ fontSize: 10 }}>
             SUPERTIENDAS Y DROGUERÍAS OLÍMPICA S.A. informa, que los datos
@@ -88,7 +86,11 @@ class AvisoPrivacidad extends Component {
           </p>
         </ModalBody>
         <ModalFooter>
-          <Button color="primary" onClick={this.toggleModal}>
+          <Button
+            className={"btnModalOK"}
+            color="secondary"
+            onClick={this.toggleModal}
+          >
             Ok
           </Button>
         </ModalFooter>
