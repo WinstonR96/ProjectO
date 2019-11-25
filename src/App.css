@@ -105,7 +105,7 @@ label {
   text-align: center;
   background-size: 100% 100%;
   min-height: 100vh;
-  background-image: url("./home.jpg");
+  background-image: url("./home.png");
   background-repeat: no-repeat;
 }
 
@@ -117,10 +117,11 @@ label {
 .button-app {
   border-radius: 20px !important;
   float: left;
-  margin-top: 26%;
-  margin-left: 6%;
-  width: 25%;
-  height: 50% !important;
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 15%;
+  font-weight: bold;
+  height: 55% !important;
   background: #e0001a !important;
   border: none !important;
 }
@@ -233,3 +234,14 @@ b
   border: none;
 }
 
+.tituloHome{
+  color: white;
+  padding-top: 15%;
+  padding-right: 40%;
+}
+
+
+.tituloHome h1{
+  font-size: 60px;
+  font-weight: bold;
+}
