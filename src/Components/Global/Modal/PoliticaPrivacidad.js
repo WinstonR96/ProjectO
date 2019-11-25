@@ -18,6 +18,13 @@ class PoliticaPrivacidad extends Component {
       isChecked: false
     };
   }
+
+  componentDidMount = () => {
+    this.setState({
+      isChecked: this.props.checkPolitica
+    });
+  };
+
   toggleModal = () => {
     this.props.ocultarModal();
   };
@@ -27,7 +34,7 @@ class PoliticaPrivacidad extends Component {
     this.setState(prevState => ({
       isChecked: !prevState.isChecked
     }));
-    this.props.checkModalPrivacidad(isChecked);
+    this.props.checkModalPrivacidad(!isChecked);
   };
 
   render() {
@@ -49,8 +56,12 @@ class PoliticaPrivacidad extends Component {
             PageMaker including versions of Lorem Ipsum.
             <FormGroup check>
               <Label check>
-                <Input type="checkbox" onChange={this.handleChecked} /> HE LEÍDO
-                Y ACEPTO LOS TÉRMINOS Y CONDICIONES
+                <Input
+                  type="checkbox"
+                  onChange={this.handleChecked}
+                  checked={this.state.isChecked}
+                />{" "}
+                HE LEÍDO Y ACEPTO LOS TÉRMINOS Y CONDICIONES
               </Label>
             </FormGroup>
           </ModalBody>

@@ -1,9 +1,40 @@
 import React, { Component } from "react";
-import { Modal, ModalHeader, ModalBody, ModalFooter, Button } from "reactstrap";
+import {
+  Modal,
+  ModalHeader,
+  ModalBody,
+  ModalFooter,
+  Button,
+  FormGroup,
+  Label,
+  Input
+} from "reactstrap";
 
 class AvisoPrivacidad extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      isChecked: false
+    };
+  }
+
+  componentDidMount = () => {
+    this.setState({
+      isChecked: this.props.checkAviso
+    });
+  };
+
   toggleModal = () => {
     this.props.ocultarModal();
+  };
+
+  handleChecked = () => {
+    const { isChecked } = this.state;
+    this.setState(prevState => ({
+      isChecked: !prevState.isChecked
+    }));
+    this.props.checkModalAviso(!isChecked);
   };
 
   render() {
@@ -84,15 +115,27 @@ class AvisoPrivacidad extends Component {
             DROGUERÍAS OLIMPICA S.A, a la siguiente dirección: calle 53 Nº. 46 -
             192 piso 3, Barranquilla.
           </p>
+          <FormGroup check>
+            <Label check>
+              <Input
+                type="checkbox"
+                onChange={this.handleChecked}
+                checked={this.state.isChecked}
+              />{" "}
+              HE LEÍDO Y ACEPTO LOS TÉRMINOS Y CONDICIONES
+            </Label>
+          </FormGroup>
         </ModalBody>
         <ModalFooter>
-          <Button
-            className={"btnModalOK"}
-            color="secondary"
-            onClick={this.toggleModal}
-          >
-            Ok
-          </Button>
+          {this.state.isChecked ? (
+            <Button className={"btnModalOK"} onClick={this.toggleModal}>
+              Ok
+            </Button>
+          ) : (
+            <Button color={"secondary"} disabled>
+              Ok
+            </Button>
+          )}
         </ModalFooter>
       </Modal>
     );

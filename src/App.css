@@ -228,7 +228,8 @@ b
   justify-content: center !important;
 }
 
-.btnModalOK{
+.btnModalOK, .btnModalOK:hover{
   background: #01C853;
   border: none;
 }
+

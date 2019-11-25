@@ -124,6 +124,12 @@ class TipoA extends Component {
     });
   };
 
+  checkModalAviso = value => {
+    this.setState({
+      checkAviso: value
+    });
+  };
+
   //Funciones para el buen funcionamiento del teclado
   onChangeAll = inputObj => {
     this.setState({
@@ -181,10 +187,15 @@ class TipoA extends Component {
       <div className={"contenedor-tipoa"}>
         {/* <PoliticaPrivacidad/> */}
         {this.state.isOpenAvisoPrivacidad ? (
-          <AvisoPrivacidad ocultarModal={this.toggleModalAviso} />
+          <AvisoPrivacidad
+            checkAviso={this.state.checkAviso}
+            checkModalAviso={this.checkModalAviso}
+            ocultarModal={this.toggleModalAviso}
+          />
         ) : null}
         {this.state.isOpenPoliticaPrivacidad ? (
           <PoliticaPrivacidad
+            checkPolitica={this.state.checkPolitica}
             checkModalPrivacidad={this.checkModalPrivacidad}
             ocultarModal={this.toggleModalPolitica}
           />
@@ -356,6 +367,7 @@ class TipoA extends Component {
               <FormGroup className={"formgroup"}>
                 <Label check>
                   <Input
+                    checked={this.state.checkAviso}
                     onChange={e =>
                       this.setState({ checkAviso: e.target.checked })
                     }
