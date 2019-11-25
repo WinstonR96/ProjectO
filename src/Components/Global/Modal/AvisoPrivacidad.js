@@ -2,17 +2,13 @@ import React, { Component } from "react";
 import { Modal, ModalHeader, ModalBody, ModalFooter, Button } from "reactstrap";
 
 class AvisoPrivacidad extends Component {
-
   toggleModal = () => {
     this.props.ocultarModal();
   };
 
   render() {
     return (
-      <Modal
-        isOpen={true}
-        toggle={this.toggleModal}
-      >
+      <Modal isOpen={true} toggle={this.toggleModal}>
         <ModalHeader toggle={this.toggleModal}>
           Política de tratamiento de datos
         </ModalHeader>

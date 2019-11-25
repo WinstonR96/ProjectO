@@ -133,9 +133,7 @@ class Firma extends Component {
     return (
       <div>
         <Header />
-        <div className="loading">
-          {this.state.loading ? <Loading /> : null}
-        </div>
+        <div className="loading">{this.state.loading ? <Loading /> : null}</div>
         <h3 className={"title"}>Actualización de datos personales</h3>
         <p className={"leyenda-firma"}>
           Firma en el recuadro para terminar el proceso de actualización

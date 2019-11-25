@@ -7,7 +7,10 @@ class Header extends Component {
     return (
       <div className={"header"}>
         <div className={"logo"}></div>
-        <div className={"menu"}><IoIosMenu/>Menu</div>
+        <div className={"menu"}>
+          <IoIosMenu />
+          Menu
+        </div>
       </div>
     );
   }

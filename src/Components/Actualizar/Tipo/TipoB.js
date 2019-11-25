@@ -81,11 +81,11 @@ class TipoB extends Component {
   };
 
   //Captura de datos del formulario
-  handleChangeCiudad = (event) => {
+  handleChangeCiudad = event => {
     this.setState({
       codigoCiudad: event.target.value
     });
-  }
+  };
 
   // Modales
   toggleModalAviso = () => {
@@ -135,7 +135,8 @@ class TipoB extends Component {
       )
     );
     const {
-      NumeroDocumento, codigoCiudad,
+      NumeroDocumento,
+      codigoCiudad,
       data: { nombres, primerApellido, direccion, celular, email }
     } = this.state;
     return (
