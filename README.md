@@ -97,3 +97,6 @@ yard add nombre_paquete
 7. Iconos:
 > ["react-icons"](https://react-icons.netlify.com/)
 
+8. Validación Numeros:
+> ["React Numeric Input"](https://github.com/vlad-ignatov/react-numeric-input)
+
