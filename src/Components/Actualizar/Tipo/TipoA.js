@@ -59,8 +59,8 @@ class TipoA extends Component {
     let sexo = codigoGenero || data.sexo;
     let ciudad = codigoCiudad || data.ciudad;
     let direccion = input["direccion"] || data.direccion;
-    let celular = input["celular"].replace(/\D/g, "") || data.celular;
-    let telefono = input["telefono"] || data.telefono;
+    let celular = (input["celular"] || data.celular).replace(/\D/g, "");
+    let telefono = (input["telefono"] || data.telefono).replace(/\D/g, "");
     let email = input["email"] || data.email;
     //Hago un arreglo con los datos suministrados
     let datos = {
@@ -149,6 +149,24 @@ class TipoA extends Component {
     });
   };
 
+  onChangeInput = event => {
+    let inputVal = event.target.value;
+
+    let updatedInputObj = {
+      ...this.state.input,
+      [this.state.inputName]: inputVal
+    };
+
+    this.setState(
+      {
+        input: updatedInputObj
+      },
+      () => {
+        this.keyboard.setInput(inputVal);
+      }
+    );
+  };
+
   setActiveInput = inputName => {
     this.setState(
       {
@@ -207,9 +225,8 @@ class TipoA extends Component {
                   type="number"
                   name="numeroCedula"
                   id="numeroCedula"
-                  onFocus={() => this.setActiveInput("numeroCedula")}
                   value={NumeroDocumento}
-                  onChange={e => this.onChangeInput(e)}
+                  readOnly
                   disabled
                 />
               </FormGroup>
@@ -222,8 +239,9 @@ class TipoA extends Component {
                   name="nombres"
                   id="nombres"
                   onFocus={() => this.setActiveInput("nombres")}
-                  value={this.state.input["nombres"] || nombres}
+                  placeholder={nombres}
                   onChange={e => this.onChangeInput(e)}
+                  value={this.state.input["nombres"]}
                 />
               </FormGroup>
             </Col>
@@ -235,8 +253,9 @@ class TipoA extends Component {
                   name="primerApellido"
                   id="primerApellido"
                   onFocus={() => this.setActiveInput("primerApellido")}
-                  value={this.state.input["primerApellido"] || primerApellido}
+                  placeholder={primerApellido}
                   onChange={e => this.onChangeInput(e)}
+                  value={this.state.input["primerApellido"]}
                 />
               </FormGroup>
             </Col>
@@ -250,8 +269,9 @@ class TipoA extends Component {
                   name="segundoApellido"
                   id="segundoApellido"
                   onFocus={() => this.setActiveInput("segundoApellido")}
-                  value={this.state.input["segundoApellido"] || segundoApellido}
+                  placeholder={segundoApellido}
                   onChange={e => this.onChangeInput(e)}
+                  value={this.state.input["segundoApellido"]}
                 />
               </FormGroup>
             </Col>
@@ -296,8 +316,9 @@ class TipoA extends Component {
                   name="direccion"
                   id="direccion"
                   onFocus={() => this.setActiveInput("direccion")}
-                  value={this.state.input["direccion"] || direccion}
+                  placeholder={direccion}
                   onChange={e => this.onChangeInput(e)}
+                  value={this.state.input["direccion"]}
                 />
               </FormGroup>
             </Col>
@@ -316,8 +337,9 @@ class TipoA extends Component {
                   snap
                   className="form-control"
                   onFocus={() => this.setActiveInput("celular")}
-                  value={this.state.input["celular"] || celular}
+                  placeholder={celular}
                   onChange={e => this.onChangeInput(e)}
+                  value={this.state.input["celular"]}
                 />
               </FormGroup>
             </Col>
@@ -336,8 +358,9 @@ class TipoA extends Component {
                   snap
                   className="form-control"
                   onFocus={() => this.setActiveInput("telefono")}
-                  value={this.state.input["telefono"] || telefono}
+                  placeholder={telefono}
                   onChange={e => this.onChangeInput(e)}
+                  value={this.state.input["telefono"]}
                 />
               </FormGroup>
             </Col>
@@ -352,8 +375,9 @@ class TipoA extends Component {
                   name="correo"
                   id="correo"
                   onFocus={() => this.setActiveInput("correo")}
-                  value={this.state.input["correo"] || email}
+                  placeholder={email}
                   onChange={e => this.onChangeInput(e)}
+                  value={this.state.input["correo"]}
                 />
               </FormGroup>
             </Col>
