@@ -139,9 +139,7 @@ class TipoB extends Component {
       {
         inputName: inputName
       },
-      () => {
-        console.log("Active input", inputName);
-      }
+      () => {}
     );
   };
 
