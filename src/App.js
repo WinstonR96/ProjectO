@@ -47,9 +47,7 @@ class App extends Component {
     this.setState({
       idleTime: timeAux
     });
-    console.log("Antes de validar", idleTime);
     if (pathname !== "/") {
-      console.log("despues de validar", idleTime);
       if (idleTime >= window.config.REACT_APP_TIMEOUT) {
         this.props.history.push({
           pathname: "/"

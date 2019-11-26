@@ -40,7 +40,6 @@ class Firma extends Component {
     this.HandleSpinner();
     let data;
     let firma = this.signaturePad.toDataURL();
-    console.log(firma);
     //Obtenemos datos del props
     if (window.config.REACT_APP_TIPOFORM === "a") {
       const {
@@ -89,7 +88,6 @@ class Firma extends Component {
         email
       };
     }
-    console.log("Data", data);
     let url = window.config.REACT_APP_URL_ACTUALIZAR;
     Service.post(url, data)
       .then(response => {
