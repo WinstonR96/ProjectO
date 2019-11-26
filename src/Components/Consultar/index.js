@@ -100,9 +100,7 @@ class Consultar extends Component {
       {
         inputName: inputName
       },
-      () => {
-        console.log("Active input", inputName);
-      }
+      () => {}
     );
   };
 

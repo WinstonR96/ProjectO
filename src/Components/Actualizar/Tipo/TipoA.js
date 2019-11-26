@@ -154,9 +154,7 @@ class TipoA extends Component {
       {
         inputName: inputName
       },
-      () => {
-        console.log("Active input", inputName);
-      }
+      () => {}
     );
   };
 
