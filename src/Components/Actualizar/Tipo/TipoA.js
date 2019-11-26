@@ -59,8 +59,8 @@ class TipoA extends Component {
     let sexo = codigoGenero || data.sexo;
     let ciudad = codigoCiudad || data.ciudad;
     let direccion = input["direccion"] || data.direccion;
-    let celular = input["celular"].replace(/\D/g, "") || data.celular;
-    let telefono = input["telefono"] || data.telefono;
+    let celular = (input["celular"] || data.celular).replace(/\D/g, "");
+    let telefono = (input["telefono"] || data.telefono).replace(/\D/g, "");
     let email = input["email"] || data.email;
     //Hago un arreglo con los datos suministrados
     let datos = {

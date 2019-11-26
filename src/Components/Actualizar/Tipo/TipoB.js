@@ -60,7 +60,7 @@ class TipoB extends Component {
     let primerApellido = input["primerApellido"] || data.primerApellido;
     let ciudad = codigoCiudad || data.ciudad;
     let direccion = input["direccion"] || data.direccion;
-    let celular = input["celular"] || data.celular;
+    let celular = (input["celular"] || data.celular).replace(/\D/g, "");
     let email = input["email"] || data.email;
     //Hago un arreglo con los datos suministrados
     let datos = {
