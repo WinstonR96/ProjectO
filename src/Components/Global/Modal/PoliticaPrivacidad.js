@@ -40,20 +40,24 @@ class PoliticaPrivacidad extends Component {
   render() {
     return (
       <div>
-        <Modal isOpen={true} toggle={this.toggleModal}>
-          <ModalHeader toggle={this.toggleModal}>
-            Política de tratamiento de datos
+        <Modal isOpen={true} toggle={this.toggleModal} scrollable={true}>
+          <ModalHeader
+            cssModule={{ "modal-title": "w-100 text-center" }}
+            toggle={this.toggleModal}
+          >
+            {window.POLITICA[0].Text}
           </ModalHeader>
           <ModalBody>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            {window.POLITICA.map(function(item, key) {
+              if (item === window.POLITICA[0]) {
+                return <p></p>;
+              }
+              return item.Title ? (
+                <p style={{ fontSize: 14 }}>{item.Text}</p>
+              ) : (
+                <p style={{ fontSize: 11 }}>{item.Text}</p>
+              );
+            })}
             <FormGroup check>
               <Label check>
                 <Input
