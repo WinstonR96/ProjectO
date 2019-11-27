@@ -134,6 +134,24 @@ class TipoB extends Component {
     });
   };
 
+  onChangeInput = event => {
+    let inputVal = event.target.value;
+
+    let updatedInputObj = {
+      ...this.state.input,
+      [this.state.inputName]: inputVal
+    };
+
+    this.setState(
+      {
+        input: updatedInputObj
+      },
+      () => {
+        this.keyboard.setInput(inputVal);
+      }
+    );
+  };
+
   setActiveInput = inputName => {
     this.setState(
       {
@@ -182,10 +200,9 @@ class TipoB extends Component {
                   type="number"
                   name="numeroCedula"
                   id="numeroCedula"
-                  onFocus={() => this.setActiveInput("numeroCedula")}
                   value={NumeroDocumento}
-                  onChange={e => this.onChangeInput(e)}
                   disabled
+                  readOnly
                 />
               </FormGroup>
             </Col>
@@ -197,7 +214,8 @@ class TipoB extends Component {
                   name="nombres"
                   id="nombres"
                   onFocus={() => this.setActiveInput("nombres")}
-                  value={this.state.input["nombres"] || nombres}
+                  value={this.state.input["nombres"]}
+                  placeholder={nombres}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
@@ -210,7 +228,8 @@ class TipoB extends Component {
                   name="primerApellido"
                   id="primerApellido"
                   onFocus={() => this.setActiveInput("primerApellido")}
-                  value={this.state.input["primerApellido"] || primerApellido}
+                  value={this.state.input["primerApellido"]}
+                  placeholder={primerApellido}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
@@ -239,7 +258,8 @@ class TipoB extends Component {
                   name="direccion"
                   id="direccion"
                   onFocus={() => this.setActiveInput("direccion")}
-                  value={this.state.input["direccion"] || direccion}
+                  value={this.state.input["direccion"]}
+                  placeholder={direccion}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
@@ -259,7 +279,8 @@ class TipoB extends Component {
                   snap
                   className="form-control"
                   onFocus={() => this.setActiveInput("celular")}
-                  value={this.state.input["celular"] || celular}
+                  value={this.state.input["celular"]}
+                  placeholder={celular}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
@@ -275,7 +296,8 @@ class TipoB extends Component {
                   name="correo"
                   id="correo"
                   onFocus={() => this.setActiveInput("correo")}
-                  value={this.state.input["correo"] || email}
+                  value={this.state.input["correo"]}
+                  placeholder={email}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
