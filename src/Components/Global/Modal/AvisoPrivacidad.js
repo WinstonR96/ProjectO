@@ -56,11 +56,7 @@ class AvisoPrivacidad extends Component {
             ) : (
               <p style={{ fontSize: 11 }}>{item.Text}</p>
             );
-          })
-          // window.AVISO.forEach(dato=>
-
-          // )
-          }
+          })}
           <FormGroup check>
             <Label check>
               <Input
