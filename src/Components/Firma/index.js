@@ -65,7 +65,8 @@ class Firma extends Component {
         direccion,
         celular,
         telefono,
-        email
+        email,
+        firma
       };
     } else {
       const {
@@ -85,7 +86,8 @@ class Firma extends Component {
         ciudad,
         direccion,
         celular,
-        email
+        email,
+        firma
       };
     }
     let url = window.config.REACT_APP_URL_ACTUALIZAR;
@@ -98,7 +100,8 @@ class Firma extends Component {
       })
       .catch(error => {
         this.HandleSpinner();
-        Utils.AlertaOcurrioUnError(error);
+        console.log(error);
+        Utils.AlertaOcurrioUnError("Error procesando. Intente de nuevo.");
       });
     this.props.history.push({
       pathname: "/"

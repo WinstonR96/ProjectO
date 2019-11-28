@@ -54,7 +54,7 @@ class AvisoPrivacidad extends Component {
             return item.IsTitle ? (
               <p style={{ fontSize: 14 }}>{item.Text}</p>
             ) : (
-              <p style={{ fontSize: 11 }}>{item.Text}</p>
+              <p style={{ fontSize: 12 }}>{item.Text}</p>
             );
           })}
           <FormGroup check>

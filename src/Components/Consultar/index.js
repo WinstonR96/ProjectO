@@ -63,7 +63,8 @@ class Consultar extends Component {
         })
         .catch(error => {
           this.HandleSpinner();
-          Utils.AlertaOcurrioUnError(error);
+          console.log(error);
+          Utils.AlertaOcurrioUnError("Error consultando. Intente de nuevo.");
         });
     }
   };

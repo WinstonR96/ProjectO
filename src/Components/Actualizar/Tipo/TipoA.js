@@ -17,6 +17,7 @@ import AvisoPrivacidad from "./../../Global/Modal/AvisoPrivacidad";
 import { withRouter } from "react-router-dom";
 import PoliticaPrivacidad from "./../../Global/Modal/PoliticaPrivacidad";
 import NumericInput from "react-numeric-input";
+import Utils from "../../../Helpers/Utils.js";
 
 class TipoA extends Component {
   constructor(props) {
@@ -61,21 +62,34 @@ class TipoA extends Component {
     let direccion = input["direccion"] || data.direccion;
     let celular = (input["celular"] || data.celular).replace(/\D/g, "");
     let telefono = (input["telefono"] || data.telefono).replace(/\D/g, "");
-    let email = input["email"] || data.email;
-    //Hago un arreglo con los datos suministrados
-    let datos = {
-      NumeroDocumento,
-      nombres,
-      primerApellido,
-      segundoApellido,
-      sexo,
-      ciudad,
-      direccion,
-      celular,
-      telefono,
-      email
-    };
-    this.irFirma(datos);
+    let email = input["correo"] || data.email;
+
+    if (sexo === 0 || ciudad === 0 || ciudad === "0" || sexo === "0") {
+      Utils.AlertaDatosIncompletos();
+    } else if (
+      celular === 0 ||
+      telefono === 0 ||
+      Number(celular) === 0 ||
+      celular === "0" ||
+      telefono === "0"
+    ) {
+      Utils.AlertaDatosIncorrectos();
+    } else {
+      //Hago un arreglo con los datos suministrados
+      let datos = {
+        NumeroDocumento,
+        nombres,
+        primerApellido,
+        segundoApellido,
+        sexo,
+        ciudad,
+        direccion,
+        celular,
+        telefono,
+        email
+      };
+      this.irFirma(datos);
+    }
   };
 
   //Permite ir al componente firma

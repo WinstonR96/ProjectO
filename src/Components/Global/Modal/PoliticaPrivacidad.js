@@ -55,7 +55,7 @@ class PoliticaPrivacidad extends Component {
               return item.Title ? (
                 <p style={{ fontSize: 14 }}>{item.Text}</p>
               ) : (
-                <p style={{ fontSize: 11 }}>{item.Text}</p>
+                <p style={{ fontSize: 12 }}>{item.Text}</p>
               );
             })}
             <FormGroup check>

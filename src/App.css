@@ -1,6 +1,10 @@
 body {
   overflow-x: hidden;
   overflow-y: hidden;
+  -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select:none; 
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -177,7 +181,7 @@ canvas{
 
 .contenedor-firma {
   border: 1px solid #999999;
-  width: 70%;
+  width: 60%;
   text-align: center;
   height: 250px;
   margin: 0 auto;
@@ -224,6 +228,7 @@ b
 
 .modal-dialog{
   max-width: 800px !important;
+  -webkit-overflow-scrolling: touch;
 }
 
 .modal-footer{
@@ -260,4 +265,6 @@ b
   -webkit-transform: scale(1.5); /* Safari and Chrome */
   transform: scale(1.5);
   padding: 10px!important;
+  border: 0px!important;
+  color:#fff!important;
 }
