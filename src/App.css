@@ -245,3 +245,11 @@ b
   font-size: 60px;
   font-weight: bold;
 }
+
+.not-found-contenedor {
+  text-align: center;
+}
+
+.not-found-contenedor ul{
+  list-style: none;
+}
