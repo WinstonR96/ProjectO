@@ -389,6 +389,7 @@ class TipoA extends Component {
               <FormGroup className={"formgroup"}>
                 <Label check>
                   <Input
+                    className={"checkGrande"}
                     checked={this.state.checkAviso}
                     onChange={e =>
                       this.setState({ checkAviso: e.target.checked })
@@ -404,6 +405,7 @@ class TipoA extends Component {
                 <br />
                 <Label check>
                   <Input
+                    className={"checkGrande"}
                     checked={this.state.checkPolitica}
                     onChange={e =>
                       this.setState({ checkPolitica: e.target.checked })

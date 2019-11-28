@@ -61,6 +61,7 @@ class PoliticaPrivacidad extends Component {
             <FormGroup check>
               <Label check>
                 <Input
+                  className={"checkGrande"}
                   type="checkbox"
                   onChange={this.handleChecked}
                   checked={this.state.isChecked}

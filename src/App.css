@@ -69,6 +69,7 @@ label {
 
 .form-check-label, .link{
   font-size: 12 !important;
+  margin-bottom: 5px!important;
 }
 
 .btn-actualizar {
@@ -252,4 +253,11 @@ b
 
 .not-found-contenedor ul{
   list-style: none;
+}
+
+.checkGrande{
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  transform: scale(1.5);
+  padding: 10px!important;
 }
