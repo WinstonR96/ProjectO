@@ -60,11 +60,42 @@ class TipoA extends Component {
     let sexo = codigoGenero || data.sexo;
     let ciudad = codigoCiudad || data.ciudad;
     let direccion = input["direccion"] || data.direccion;
-    let celular = (input["celular"] || data.celular).replace(/\D/g, "");
-    let telefono = (input["telefono"] || data.telefono).replace(/\D/g, "");
+    let celular = input["celular"] || data.celular;
+    let telefono = input["telefono"] || data.telefono;
     let email = input["correo"] || data.email;
 
-    if (sexo === 0 || ciudad === 0 || ciudad === "0" || sexo === "0") {
+    //validaciones
+    if (celular !== undefined && celular !== null) {
+      celular = celular.replace(/\D/g, "");
+    }
+    if (telefono !== undefined && telefono !== null) {
+      telefono = telefono.replace(/\D/g, "");
+    }
+
+    if (
+      sexo === 0 ||
+      ciudad === 0 ||
+      sexo === "0" ||
+      ciudad === "0" ||
+      sexo === undefined ||
+      sexo === null ||
+      telefono === undefined ||
+      telefono === null ||
+      celular === undefined ||
+      celular === null ||
+      nombres === undefined ||
+      nombres === null ||
+      primerApellido === undefined ||
+      primerApellido === null ||
+      segundoApellido === undefined ||
+      segundoApellido === null ||
+      ciudad === undefined ||
+      ciudad === null ||
+      direccion === undefined ||
+      direccion === null ||
+      email === undefined ||
+      email === null
+    ) {
       Utils.AlertaDatosIncompletos();
     } else if (
       celular === 0 ||

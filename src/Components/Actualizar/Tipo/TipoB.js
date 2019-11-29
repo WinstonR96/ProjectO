@@ -61,9 +61,31 @@ class TipoB extends Component {
     let primerApellido = input["primerApellido"] || data.primerApellido;
     let ciudad = codigoCiudad || data.ciudad;
     let direccion = input["direccion"] || data.direccion;
-    let celular = (input["celular"] || data.celular).replace(/\D/g, "");
+    let celular = input["celular"] || data.celular;
     let email = input["correo"] || data.email;
-    if (ciudad === 0 || ciudad === "0") {
+
+    //VALIDACIONES null/undefined
+    if (celular !== undefined && celular !== null) {
+      celular = celular.replace(/\D/g, "");
+    }
+
+    //validaciones vacío
+    if (
+      ciudad === 0 ||
+      ciudad === "0" ||
+      celular === undefined ||
+      celular === null ||
+      nombres === undefined ||
+      nombres === null ||
+      primerApellido === undefined ||
+      primerApellido === null ||
+      ciudad === undefined ||
+      ciudad === null ||
+      direccion === undefined ||
+      direccion === null ||
+      email === undefined ||
+      email === null
+    ) {
       Utils.AlertaDatosIncompletos();
     } else if (celular === 0 || celular === "0" || Number(celular) === 0) {
       Utils.AlertaDatosIncorrectos();
