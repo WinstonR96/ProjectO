@@ -12,8 +12,16 @@ const Utils = {
   },
   AlertaDatosIncompletos: () => {
     Swal.fire({
-      title: "Información incorrecta",
+      title: "Información incompleta",
       text: "Digite Campo vacio",
+      icon: "error",
+      confirmButtonText: "Ok"
+    });
+  },
+  AlertaDatosIncorrectos: () => {
+    Swal.fire({
+      title: "Información incorrecta",
+      text: "Digite datos válidos",
       icon: "error",
       confirmButtonText: "Ok"
     });

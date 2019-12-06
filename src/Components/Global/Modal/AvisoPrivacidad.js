@@ -54,12 +54,13 @@ class AvisoPrivacidad extends Component {
             return item.IsTitle ? (
               <p style={{ fontSize: 14 }}>{item.Text}</p>
             ) : (
-              <p style={{ fontSize: 11 }}>{item.Text}</p>
+              <p style={{ fontSize: 12 }}>{item.Text}</p>
             );
           })}
           <FormGroup check>
             <Label check>
               <Input
+                className={"checkGrande"}
                 type="checkbox"
                 onChange={this.handleChecked}
                 checked={this.state.isChecked}
