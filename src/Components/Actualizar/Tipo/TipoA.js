@@ -63,6 +63,7 @@ class TipoA extends Component {
     let celular = input["celular"] || data.celular;
     let telefono = input["telefono"] || data.telefono;
     let email = input["correo"] || data.email;
+    let token = window.config.REACT_APP_TOKEN;
 
     //validaciones
     if (celular !== undefined && celular !== null) {
@@ -117,7 +118,8 @@ class TipoA extends Component {
         direccion,
         celular,
         telefono,
-        email
+        email,
+        token
       };
       this.irFirma(datos);
     }

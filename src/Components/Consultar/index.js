@@ -46,7 +46,7 @@ class Consultar extends Component {
       let data = {
         tipoDocumento: "ced",
         numeroDocumento: NumeroDocumento,
-        token: "khj<dhjdfklfdsf"
+        token: window.config.REACT_APP_TOKEN
       };
       // Se hace la peticion al Servicio Web
       Service.post(urlConsultar, data)
