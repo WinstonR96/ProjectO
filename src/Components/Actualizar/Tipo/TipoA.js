@@ -17,6 +17,7 @@ import AvisoPrivacidad from "./../../Global/Modal/AvisoPrivacidad";
 import { withRouter } from "react-router-dom";
 import PoliticaPrivacidad from "./../../Global/Modal/PoliticaPrivacidad";
 import NumericInput from "react-numeric-input";
+import Utils from "../../../Helpers/Utils.js";
 
 class TipoA extends Component {
   constructor(props) {
@@ -59,23 +60,69 @@ class TipoA extends Component {
     let sexo = codigoGenero || data.sexo;
     let ciudad = codigoCiudad || data.ciudad;
     let direccion = input["direccion"] || data.direccion;
-    let celular = (input["celular"] || data.celular).replace(/\D/g, "");
-    let telefono = (input["telefono"] || data.telefono).replace(/\D/g, "");
-    let email = input["email"] || data.email;
-    //Hago un arreglo con los datos suministrados
-    let datos = {
-      NumeroDocumento,
-      nombres,
-      primerApellido,
-      segundoApellido,
-      sexo,
-      ciudad,
-      direccion,
-      celular,
-      telefono,
-      email
-    };
-    this.irFirma(datos);
+    let celular = input["celular"] || data.celular;
+    let telefono = input["telefono"] || data.telefono;
+    let email = input["correo"] || data.email;
+    let token = window.config.REACT_APP_TOKEN;
+
+    //validaciones
+    if (celular !== undefined && celular !== null) {
+      celular = celular.replace(/\D/g, "");
+    }
+    if (telefono !== undefined && telefono !== null) {
+      telefono = telefono.replace(/\D/g, "");
+    }
+
+    if (
+      sexo === 0 ||
+      ciudad === 0 ||
+      sexo === "0" ||
+      ciudad === "0" ||
+      sexo === undefined ||
+      sexo === null ||
+      telefono === undefined ||
+      telefono === null ||
+      celular === undefined ||
+      celular === null ||
+      nombres === undefined ||
+      nombres === null ||
+      primerApellido === undefined ||
+      primerApellido === null ||
+      segundoApellido === undefined ||
+      segundoApellido === null ||
+      ciudad === undefined ||
+      ciudad === null ||
+      direccion === undefined ||
+      direccion === null ||
+      email === undefined ||
+      email === null
+    ) {
+      Utils.AlertaDatosIncompletos();
+    } else if (
+      celular === 0 ||
+      telefono === 0 ||
+      Number(celular) === 0 ||
+      celular === "0" ||
+      telefono === "0"
+    ) {
+      Utils.AlertaDatosIncorrectos();
+    } else {
+      //Hago un arreglo con los datos suministrados
+      let datos = {
+        NumeroDocumento,
+        nombres,
+        primerApellido,
+        segundoApellido,
+        sexo,
+        ciudad,
+        direccion,
+        celular,
+        telefono,
+        email,
+        token
+      };
+      this.irFirma(datos);
+    }
   };
 
   //Permite ir al componente firma
@@ -389,6 +436,7 @@ class TipoA extends Component {
               <FormGroup className={"formgroup"}>
                 <Label check>
                   <Input
+                    className={"checkGrande"}
                     checked={this.state.checkAviso}
                     onChange={e =>
                       this.setState({ checkAviso: e.target.checked })
@@ -404,6 +452,7 @@ class TipoA extends Component {
                 <br />
                 <Label check>
                   <Input
+                    className={"checkGrande"}
                     checked={this.state.checkPolitica}
                     onChange={e =>
                       this.setState({ checkPolitica: e.target.checked })

@@ -1,6 +1,10 @@
 body {
   overflow-x: hidden;
   overflow-y: hidden;
+  -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select:none; 
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -69,6 +73,7 @@ label {
 
 .form-check-label, .link{
   font-size: 12 !important;
+  margin-bottom: 5px!important;
 }
 
 .btn-actualizar {
@@ -176,7 +181,7 @@ canvas{
 
 .contenedor-firma {
   border: 1px solid #999999;
-  width: 70%;
+  width: 60%;
   text-align: center;
   height: 250px;
   margin: 0 auto;
@@ -223,6 +228,7 @@ b
 
 .modal-dialog{
   max-width: 800px !important;
+  -webkit-overflow-scrolling: touch;
 }
 
 .modal-footer{
@@ -244,4 +250,21 @@ b
 .tituloHome h1{
   font-size: 60px;
   font-weight: bold;
+}
+
+.not-found-contenedor {
+  text-align: center;
+}
+
+.not-found-contenedor ul{
+  list-style: none;
+}
+
+.checkGrande{
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  transform: scale(1.5);
+  padding: 10px!important;
+  border: 0px!important;
+  color:#fff!important;
 }

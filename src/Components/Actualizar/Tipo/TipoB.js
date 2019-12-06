@@ -17,6 +17,7 @@ import AvisoPrivacidad from "./../../Global/Modal/AvisoPrivacidad";
 import PoliticaPrivacidad from "./../../Global/Modal/PoliticaPrivacidad";
 import { withRouter } from "react-router-dom";
 import NumericInput from "react-numeric-input";
+import Utils from "../../../Helpers/Utils.js";
 
 class TipoB extends Component {
   constructor(props) {
@@ -60,19 +61,48 @@ class TipoB extends Component {
     let primerApellido = input["primerApellido"] || data.primerApellido;
     let ciudad = codigoCiudad || data.ciudad;
     let direccion = input["direccion"] || data.direccion;
-    let celular = (input["celular"] || data.celular).replace(/\D/g, "");
-    let email = input["email"] || data.email;
-    //Hago un arreglo con los datos suministrados
-    let datos = {
-      NumeroDocumento,
-      nombres,
-      primerApellido,
-      ciudad,
-      direccion,
-      celular,
-      email
-    };
-    this.irFirma(datos);
+    let celular = input["celular"] || data.celular;
+    let email = input["correo"] || data.email;
+    let token = window.config.REACT_APP_TOKEN;
+    //VALIDACIONES null/undefined
+    if (celular !== undefined && celular !== null) {
+      celular = celular.replace(/\D/g, "");
+    }
+
+    //validaciones vacío
+    if (
+      ciudad === 0 ||
+      ciudad === "0" ||
+      celular === undefined ||
+      celular === null ||
+      nombres === undefined ||
+      nombres === null ||
+      primerApellido === undefined ||
+      primerApellido === null ||
+      ciudad === undefined ||
+      ciudad === null ||
+      direccion === undefined ||
+      direccion === null ||
+      email === undefined ||
+      email === null
+    ) {
+      Utils.AlertaDatosIncompletos();
+    } else if (celular === 0 || celular === "0" || Number(celular) === 0) {
+      Utils.AlertaDatosIncorrectos();
+    } else {
+      //Hago un arreglo con los datos suministrados
+      let datos = {
+        NumeroDocumento,
+        nombres,
+        primerApellido,
+        ciudad,
+        direccion,
+        celular,
+        email,
+        token
+      };
+      this.irFirma(datos);
+    }
   };
 
   //Permite ir al componente firma
@@ -310,6 +340,7 @@ class TipoB extends Component {
               <FormGroup className={"formgroup"}>
                 <Label check>
                   <Input
+                    className={"checkGrande"}
                     checked={this.state.checkAviso}
                     onChange={e =>
                       this.setState({ checkAviso: e.target.checked })
@@ -325,6 +356,7 @@ class TipoB extends Component {
                 <br />
                 <Label check>
                   <Input
+                    className={"checkGrande"}
                     checked={this.state.checkPolitica}
                     onChange={e =>
                       this.setState({ checkPolitica: e.target.checked })
