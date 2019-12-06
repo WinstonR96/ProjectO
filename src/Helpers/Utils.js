@@ -1,6 +1,18 @@
 import Swal from "sweetalert2";
 
 const Utils = {
+  EstaVacio: campo => {
+    if (
+      campo === null ||
+      campo === undefined ||
+      campo === "" ||
+      campo === "0"
+    ) {
+      return true;
+    } else {
+      return false;
+    }
+  },
   AlertaUsuarioNoEncontrado: () => {
     Swal.fire({
       title: "No encontrado",
