@@ -11,6 +11,10 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
+        <div className={"tituloHome"}>
+          <h1>Actualiza tus datos.</h1>
+        </div>
+
         <Button
           color="danger"
           size="lg"

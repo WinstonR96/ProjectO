@@ -14,7 +14,10 @@ import ciudades from "./../codigopostal.json";
 import "./../../../App.css";
 import layout from "simple-keyboard-layouts/build/layouts/spanish";
 import AvisoPrivacidad from "./../../Global/Modal/AvisoPrivacidad";
+import PoliticaPrivacidad from "./../../Global/Modal/PoliticaPrivacidad";
 import { withRouter } from "react-router-dom";
+import NumericInput from "react-numeric-input";
+import Utils from "../../../Helpers/Utils.js";
 
 class TipoB extends Component {
   constructor(props) {
@@ -30,7 +33,8 @@ class TipoB extends Component {
       input: {},
       checkPolitica: false,
       checkAviso: false,
-      isOpenAvisoPrivacidad: false
+      isOpenAvisoPrivacidad: false,
+      isOpenPoliticaPrivacidad: false
     };
   }
 
@@ -112,17 +116,34 @@ class TipoB extends Component {
   };
 
   //Captura de datos del formulario
-  handleChangeCiudad = (event) => {
+  handleChangeCiudad = event => {
     this.setState({
       codigoCiudad: event.target.value
     });
-  }
+  };
 
   // Modales
   toggleModalAviso = () => {
-    console.log("Avidso");
+    this.setState(prevState => ({
+      isOpenAvisoPrivacidad: !prevState.isOpenAvisoPrivacidad
+    }));
+  };
+
+  toggleModalPolitica = () => {
+    this.setState(prevState => ({
+      isOpenPoliticaPrivacidad: !prevState.isOpenPoliticaPrivacidad
+    }));
+  };
+
+  checkModalPrivacidad = value => {
     this.setState({
-      isOpenAvisoPrivacidad: true
+      checkPolitica: value
+    });
+  };
+
+  checkModalAviso = value => {
+    this.setState({
+      checkAviso: value
     });
   };
 
@@ -145,14 +166,30 @@ class TipoB extends Component {
     });
   };
 
+  onChangeInput = event => {
+    let inputVal = event.target.value;
+
+    let updatedInputObj = {
+      ...this.state.input,
+      [this.state.inputName]: inputVal
+    };
+
+    this.setState(
+      {
+        input: updatedInputObj
+      },
+      () => {
+        this.keyboard.setInput(inputVal);
+      }
+    );
+  };
+
   setActiveInput = inputName => {
     this.setState(
       {
         inputName: inputName
       },
-      () => {
-        console.log("Active input", inputName);
-      }
+      () => {}
     );
   };
 
@@ -166,12 +203,26 @@ class TipoB extends Component {
       )
     );
     const {
-      NumeroDocumento, codigoCiudad,
+      NumeroDocumento,
+      codigoCiudad,
       data: { nombres, primerApellido, direccion, celular, email }
     } = this.state;
     return (
       <div className={"contenedor-tipoa"}>
-        <AvisoPrivacidad isOpen={this.state.isOpenAvisoPrivacidad} />
+        {this.state.isOpenAvisoPrivacidad ? (
+          <AvisoPrivacidad
+            checkAviso={this.state.checkAviso}
+            checkModalAviso={this.checkModalAviso}
+            ocultarModal={this.toggleModalAviso}
+          />
+        ) : null}
+        {this.state.isOpenPoliticaPrivacidad ? (
+          <PoliticaPrivacidad
+            checkPolitica={this.state.checkPolitica}
+            checkModalPrivacidad={this.checkModalPrivacidad}
+            ocultarModal={this.toggleModalPolitica}
+          />
+        ) : null}
         <Container>
           <Row>
             <Col xs="6" sm="4">
@@ -181,10 +232,9 @@ class TipoB extends Component {
                   type="number"
                   name="numeroCedula"
                   id="numeroCedula"
-                  onFocus={() => this.setActiveInput("numeroCedula")}
                   value={NumeroDocumento}
-                  onChange={e => this.onChangeInput(e)}
                   disabled
+                  readOnly
                 />
               </FormGroup>
             </Col>
@@ -196,7 +246,8 @@ class TipoB extends Component {
                   name="nombres"
                   id="nombres"
                   onFocus={() => this.setActiveInput("nombres")}
-                  value={this.state.input["nombres"] || nombres}
+                  value={this.state.input["nombres"]}
+                  placeholder={nombres}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
@@ -209,7 +260,8 @@ class TipoB extends Component {
                   name="primerApellido"
                   id="primerApellido"
                   onFocus={() => this.setActiveInput("primerApellido")}
-                  value={this.state.input["primerApellido"] || primerApellido}
+                  value={this.state.input["primerApellido"]}
+                  placeholder={primerApellido}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
@@ -238,7 +290,8 @@ class TipoB extends Component {
                   name="direccion"
                   id="direccion"
                   onFocus={() => this.setActiveInput("direccion")}
-                  value={this.state.input["direccion"] || direccion}
+                  value={this.state.input["direccion"]}
+                  placeholder={direccion}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
@@ -246,12 +299,20 @@ class TipoB extends Component {
             <Col sm="4">
               <FormGroup className={"formgroup"}>
                 <Label for="celular">CELULAR</Label>
-                <Input
-                  type="number"
+                <NumericInput
                   name="celular"
                   id="celular"
+                  min={0}
+                  max={100}
+                  step={1}
+                  precision={0}
+                  size={30}
+                  strict={true}
+                  snap
+                  className="form-control"
                   onFocus={() => this.setActiveInput("celular")}
-                  value={this.state.input["celular"] || celular}
+                  value={this.state.input["celular"]}
+                  placeholder={celular}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
@@ -267,7 +328,8 @@ class TipoB extends Component {
                   name="correo"
                   id="correo"
                   onFocus={() => this.setActiveInput("correo")}
-                  value={this.state.input["correo"] || email}
+                  value={this.state.input["correo"]}
+                  placeholder={email}
                   onChange={e => this.onChangeInput(e)}
                 />
               </FormGroup>
@@ -277,34 +339,39 @@ class TipoB extends Component {
           <Row>
             <Col xs="6" sm="4"></Col>
             <Col xs="6" sm="4">
-              <FormGroup check className={"formgroup"}>
+              <FormGroup className={"formgroup"}>
                 <Label check>
                   <Input
+                    className={"checkGrande"}
+                    checked={this.state.checkAviso}
                     onChange={e =>
                       this.setState({ checkAviso: e.target.checked })
                     }
                     type="checkbox"
                   />{" "}
                   He leído y acepto el{" "}
-                  <span className={"link"} onClick={this.toggleModalAviso}>
-                    aviso de privacidad
-                  </span>
                 </Label>
+                <span className={"link"} onClick={this.toggleModalAviso}>
+                  {" "}
+                  aviso de privacidad
+                </span>
+                <br />
                 <Label check>
                   <Input
+                    className={"checkGrande"}
+                    checked={this.state.checkPolitica}
                     onChange={e =>
                       this.setState({ checkPolitica: e.target.checked })
                     }
                     type="checkbox"
                   />{" "}
                   Conozco y acepto la{" "}
-                  <span
-                    className={"link"}
-                    onClick={() => console.log("prueba")}
-                  >
-                    politica de privacidad
-                  </span>
                 </Label>
+                <span className={"link"} onClick={this.toggleModalPolitica}>
+                  {" "}
+                  politica de privacidad
+                </span>
+                <br />
                 {this.state.checkAviso && this.state.checkPolitica ? (
                   <Button
                     className={"btn-actualizar"}
@@ -314,7 +381,11 @@ class TipoB extends Component {
                     Guardar
                   </Button>
                 ) : (
-                  <Button className={"btn-actualizar"} color="secondary">
+                  <Button
+                    disabled
+                    className={"btn-actualizar"}
+                    color="secondary"
+                  >
                     Guardar
                   </Button>
                 )}{" "}

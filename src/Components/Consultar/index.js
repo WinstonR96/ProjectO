@@ -17,7 +17,6 @@ import Header from "./../Global/Header";
 import { withRouter } from "react-router-dom";
 import Loading from "./../Global/Loading";
 
-
 class Consultar extends Component {
   constructor(props) {
     super(props);
@@ -26,7 +25,7 @@ class Consultar extends Component {
       inputName: "numCedula",
       layoutName: "default",
       input: {},
-      loading:false
+      loading: false
     };
   }
 
@@ -47,7 +46,7 @@ class Consultar extends Component {
       let data = {
         tipoDocumento: "ced",
         numeroDocumento: NumeroDocumento,
-        token: "khj<dhjdfklfdsf"
+        token: window.config.REACT_APP_TOKEN
       };
       // Se hace la peticion al Servicio Web
       Service.post(urlConsultar, data)
@@ -64,7 +63,8 @@ class Consultar extends Component {
         })
         .catch(error => {
           this.HandleSpinner();
-          Utils.AlertaOcurrioUnError(error);
+          console.log(error);
+          Utils.AlertaOcurrioUnError("Error consultando. Intente de nuevo.");
         });
     }
   };
@@ -101,9 +101,7 @@ class Consultar extends Component {
       {
         inputName: inputName
       },
-      () => {
-        console.log("Active input", inputName);
-      }
+      () => {}
     );
   };
 
@@ -113,9 +111,7 @@ class Consultar extends Component {
     return (
       <div>
         <Header />
-        <div className="loading">
-          {this.state.loading ? <Loading /> : null}
-        </div>
+        <div className="loading">{this.state.loading ? <Loading /> : null}</div>
         <Container>
           <Row>
             <Col>

@@ -40,7 +40,6 @@ class Firma extends Component {
     this.HandleSpinner();
     let data;
     let firma = this.signaturePad.toDataURL();
-    console.log(firma);
     //Obtenemos datos del props
     if (window.config.REACT_APP_TIPOFORM === "a") {
       const {
@@ -99,7 +98,6 @@ class Firma extends Component {
         funcionario
       };
     }
-    console.log("Data", data);
     let url = window.config.REACT_APP_URL_ACTUALIZAR;
     Service.post(url, data)
       .then(response => {
@@ -110,7 +108,8 @@ class Firma extends Component {
       })
       .catch(error => {
         this.HandleSpinner();
-        Utils.AlertaOcurrioUnError(error);
+        console.log(error);
+        Utils.AlertaOcurrioUnError("Error procesando. Intente de nuevo.");
       });
     this.props.history.push({
       pathname: "/"
@@ -143,9 +142,7 @@ class Firma extends Component {
     return (
       <div>
         <Header />
-        <div className="loading">
-          {this.state.loading ? <Loading /> : null}
-        </div>
+        <div className="loading">{this.state.loading ? <Loading /> : null}</div>
         <h3 className={"title"}>Actualización de datos personales</h3>
         <p className={"leyenda-firma"}>
           Firma en el recuadro para terminar el proceso de actualización

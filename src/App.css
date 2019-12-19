@@ -1,7 +1,19 @@
 body {
   overflow-x: hidden;
   overflow-y: hidden;
+  -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select:none; 
 }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] { -moz-appearance:textfield; }
 
 .loading {
   margin: 0 auto;
@@ -59,6 +71,11 @@ label {
   font-size: 12px;
 }
 
+.form-check-label, .link{
+  font-size: 12 !important;
+  margin-bottom: 5px!important;
+}
+
 .btn-actualizar {
   border-radius: 15px;
   width: 35%;
@@ -93,7 +110,7 @@ label {
   text-align: center;
   background-size: 100% 100%;
   min-height: 100vh;
-  background-image: url("./home.jpg");
+  background-image: url("./home.png");
   background-repeat: no-repeat;
 }
 
@@ -105,10 +122,11 @@ label {
 .button-app {
   border-radius: 20px !important;
   float: left;
-  margin-top: 26%;
-  margin-left: 6%;
-  width: 25%;
-  height: 50% !important;
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 15%;
+  font-weight: bold;
+  height: 55% !important;
   background: #e0001a !important;
   border: none !important;
 }
@@ -151,6 +169,7 @@ label {
 
 .link {
   color: #3509d3;
+  font-size: 12px;
 }
 
 canvas{
@@ -162,7 +181,7 @@ canvas{
 
 .contenedor-firma {
   border: 1px solid #999999;
-  width: 70%;
+  width: 60%;
   text-align: center;
   height: 250px;
   margin: 0 auto;
@@ -196,4 +215,56 @@ canvas{
   background-image: url("./mano.jpg");
   background-repeat: no-repeat;
   background-position-x: center;
+}
+
+b
+{
+  display: none !important;
+}
+
+.close{
+  color:#e0001a !important;
+}
+
+.modal-dialog{
+  max-width: 800px !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+.modal-footer{
+  justify-content: center !important;
+}
+
+.btnModalOK, .btnModalOK:hover{
+  background: #01C853;
+  border: none;
+}
+
+.tituloHome{
+  color: white;
+  padding-top: 15%;
+  padding-right: 40%;
+}
+
+
+.tituloHome h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.not-found-contenedor {
+  text-align: center;
+}
+
+.not-found-contenedor ul{
+  list-style: none;
+}
+
+.checkGrande{
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  transform: scale(1.5);
+  padding: 10px!important;
+  border: 0px!important;
+  color:#fff!important;
 }

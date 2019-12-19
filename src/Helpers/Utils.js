@@ -1,6 +1,18 @@
 import Swal from "sweetalert2";
 
 const Utils = {
+  EstaVacio: campo => {
+    if (
+      campo === null ||
+      campo === undefined ||
+      campo === "" ||
+      campo === "0"
+    ) {
+      return true;
+    } else {
+      return false;
+    }
+  },
   AlertaUsuarioNoEncontrado: () => {
     Swal.fire({
       title: "No encontrado",
@@ -12,8 +24,16 @@ const Utils = {
   },
   AlertaDatosIncompletos: () => {
     Swal.fire({
-      title: "Información incorrecta",
+      title: "Información incompleta",
       text: "Digite Campo vacio",
+      icon: "error",
+      confirmButtonText: "Ok"
+    });
+  },
+  AlertaDatosIncorrectos: () => {
+    Swal.fire({
+      title: "Información incorrecta",
+      text: "Digite datos válidos",
       icon: "error",
       confirmButtonText: "Ok"
     });
@@ -29,11 +49,11 @@ const Utils = {
   },
   AlertaUsuarioActualizado: () => {
     Swal.fire({
-      icon: 'success',
-      text: 'Datos actualizados correctamente',
+      icon: "success",
+      text: "Datos actualizados correctamente",
       confirmButtonText: "Ok",
       confirmButtonColor: "#0C7DED"
-    })
+    });
   }
 };
 
