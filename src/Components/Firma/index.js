@@ -53,7 +53,9 @@ class Firma extends Component {
         direccion,
         celular,
         telefono,
-        email
+        email,
+        token,
+        funcionario
       } = this.props.location.state.data;
       // Asignamos los datos en un arreglo
       data = {
@@ -66,7 +68,10 @@ class Firma extends Component {
         direccion,
         celular,
         telefono,
-        email
+        email,
+        firma,
+        token,
+        funcionario
       };
     } else {
       const {
@@ -76,7 +81,9 @@ class Firma extends Component {
         ciudad,
         direccion,
         celular,
-        email
+        email,
+        token,
+        funcionario
       } = this.props.location.state.data;
       // Asignamos los datos en un arreglo
       data = {
@@ -86,7 +93,10 @@ class Firma extends Component {
         ciudad,
         direccion,
         celular,
-        email
+        email,
+        firma,
+        token,
+        funcionario
       };
     }
     console.log("Data", data);

@@ -58,18 +58,49 @@ class TipoB extends Component {
     let ciudad = codigoCiudad || data.ciudad;
     let direccion = input["direccion"] || data.direccion;
     let celular = input["celular"] || data.celular;
-    let email = input["email"] || data.email;
-    //Hago un arreglo con los datos suministrados
-    let datos = {
-      NumeroDocumento,
-      nombres,
-      primerApellido,
-      ciudad,
-      direccion,
-      celular,
-      email
-    };
-    this.irFirma(datos);
+    let email = input["correo"] || data.email;
+    let token = window.config.REACT_APP_TOKEN;
+    let funcionario = window.config.REACT_APP_FUNCIONARIO;
+    //VALIDACIONES null/undefined
+    if (celular !== undefined && celular !== null) {
+      celular = celular.replace(/\D/g, "");
+    }
+
+    //validaciones vacío
+    if (
+      ciudad === 0 ||
+      ciudad === "0" ||
+      celular === undefined ||
+      celular === null ||
+      nombres === undefined ||
+      nombres === null ||
+      primerApellido === undefined ||
+      primerApellido === null ||
+      ciudad === undefined ||
+      ciudad === null ||
+      direccion === undefined ||
+      direccion === null ||
+      email === undefined ||
+      email === null
+    ) {
+      Utils.AlertaDatosIncompletos();
+    } else if (celular === 0 || celular === "0" || Number(celular) === 0) {
+      Utils.AlertaDatosIncorrectos();
+    } else {
+      //Hago un arreglo con los datos suministrados
+      let datos = {
+        NumeroDocumento,
+        nombres,
+        primerApellido,
+        ciudad,
+        direccion,
+        celular,
+        email,
+        token,
+        funcionario
+      };
+      this.irFirma(datos);
+    }
   };
 
   //Permite ir al componente firma

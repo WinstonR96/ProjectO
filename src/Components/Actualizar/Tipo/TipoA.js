@@ -58,22 +58,70 @@ class TipoA extends Component {
     let direccion = input["direccion"] || data.direccion;
     let celular = input["celular"] || data.celular;
     let telefono = input["telefono"] || data.telefono;
-    let email = input["email"] || data.email;
-    //Hago un arreglo con los datos suministrados
-    let datos = {
-      NumeroDocumento,
-      nombres,
-      primerApellido,
-      segundoApellido,
-      sexo,
-      ciudad,
-      direccion,
-      celular,
-      telefono,
-      email
-    };
-    this.irFirma(datos);
-  }
+    let email = input["correo"] || data.email;
+    let token = window.config.REACT_APP_TOKEN;
+    let funcionario = window.config.REACT_APP_FUNCIONARIO;
+
+    //validaciones
+    if (celular !== undefined && celular !== null) {
+      celular = celular.replace(/\D/g, "");
+    }
+    if (telefono !== undefined && telefono !== null) {
+      telefono = telefono.replace(/\D/g, "");
+    }
+
+    if (
+      sexo === 0 ||
+      ciudad === 0 ||
+      sexo === "0" ||
+      ciudad === "0" ||
+      sexo === undefined ||
+      sexo === null ||
+      telefono === undefined ||
+      telefono === null ||
+      celular === undefined ||
+      celular === null ||
+      nombres === undefined ||
+      nombres === null ||
+      primerApellido === undefined ||
+      primerApellido === null ||
+      segundoApellido === undefined ||
+      segundoApellido === null ||
+      ciudad === undefined ||
+      ciudad === null ||
+      direccion === undefined ||
+      direccion === null ||
+      email === undefined ||
+      email === null
+    ) {
+      Utils.AlertaDatosIncompletos();
+    } else if (
+      celular === 0 ||
+      telefono === 0 ||
+      Number(celular) === 0 ||
+      celular === "0" ||
+      telefono === "0"
+    ) {
+      Utils.AlertaDatosIncorrectos();
+    } else {
+      //Hago un arreglo con los datos suministrados
+      let datos = {
+        NumeroDocumento,
+        nombres,
+        primerApellido,
+        segundoApellido,
+        sexo,
+        ciudad,
+        direccion,
+        celular,
+        telefono,
+        email,
+        token,
+        funcionario
+      };
+      this.irFirma(datos);
+    }
+  };
 
   //Permite ir al componente firma
   irFirma = (data) => {
