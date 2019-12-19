@@ -64,6 +64,8 @@ class TipoB extends Component {
     let celular = input["celular"] || data.celular;
     let email = input["correo"] || data.email;
     let token = window.config.REACT_APP_TOKEN;
+    let funcionario = window.config.REACT_APP_FUNCIONARIO;
+
     //VALIDACIONES null/undefined
     if (celular !== undefined && celular !== null) {
       celular = celular.replace(/\D/g, "");
@@ -99,7 +101,8 @@ class TipoB extends Component {
         direccion,
         celular,
         email,
-        token
+        token,
+        funcionario
       };
       this.irFirma(datos);
     }

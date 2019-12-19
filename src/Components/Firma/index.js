@@ -52,7 +52,9 @@ class Firma extends Component {
         direccion,
         celular,
         telefono,
-        email
+        email,
+        token,
+        funcionario
       } = this.props.location.state.data;
       // Asignamos los datos en un arreglo
       data = {
@@ -66,7 +68,9 @@ class Firma extends Component {
         celular,
         telefono,
         email,
-        firma
+        firma,
+        token,
+        funcionario
       };
     } else {
       const {
@@ -76,7 +80,9 @@ class Firma extends Component {
         ciudad,
         direccion,
         celular,
-        email
+        email,
+        token,
+        funcionario
       } = this.props.location.state.data;
       // Asignamos los datos en un arreglo
       data = {
@@ -87,7 +93,9 @@ class Firma extends Component {
         direccion,
         celular,
         email,
-        firma
+        firma,
+        token,
+        funcionario
       };
     }
     let url = window.config.REACT_APP_URL_ACTUALIZAR;
