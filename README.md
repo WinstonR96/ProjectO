@@ -4,8 +4,9 @@
 2. Entrar en la ruta del proyecto
 3. Cambiar el nombre del archivo **config.js.example** (ubicado dentro del directorio **public**) a **config.js**.
 4. Asignar el valor a las variables de configuración en el archivo de config.js
-5. Instalar los paquetes necesarios ejecutando: `yarn` o `yarn install`
-6. Para inicializar el servidor:
+5. El texto de Aviso de privacidad se parametriza en el archivo **avisotexto.js** y el texto de Politica de privacidad se parametriza en el archivo **politicatexto.js**. Ambos ubicados en el directorio **public**
+6. Instalar los paquetes necesarios ejecutando: `yarn` o `yarn install`
+7. Para inicializar el servidor:
    `yarn start`
 
 ---
